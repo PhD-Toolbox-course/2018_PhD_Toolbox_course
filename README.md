@@ -1,6 +1,6 @@
 # PhD Toolbox 2017
 
-### BASIC MODULE   - 5 credits
+### BASIC MODULE: Unix, R and reproducible research - 5 credits
 
 27-30 March 2017
 
