@@ -10,7 +10,7 @@
 
 
    - Day1 
-	   - 9-11: 			Course introduction
+	   - 9-11: 		Course introduction
 	   - 11-12:30: 		UNIX
 	   - 12:30-13:30: 	Lunch break
 	   - 13:30-18: 		UNIX
@@ -31,3 +31,5 @@
    - Day4
 	   - 10:30-12:30: 	Version control
 	   - 12:30-14:30: 	Reproducible research
+
+Etherpad for the course: https://public.etherpad-mozilla.org/p/PhD_Toolbox_2017
