@@ -28,8 +28,8 @@
 	   - 13:30-18: 		Data visualization with ggplot2
 
 
-   - Day4
-	   - 10:30-12:30: 	Version control  [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/mchiapello/2017_PhD_Toolbox_course/tmp?grs=github&t=white)
+   - Day4 [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/mchiapello/2017_PhD_Toolbox_course/tmp?grs=github&t=white)
+	   - 10:30-12:30: 	Version control  
 	   - 12:30-14:30: 	Reproducible research
 
 
