@@ -2,6 +2,6 @@
 
 Hello, World!
 
-#HSLIDE
+#VSLIDE
 
 The End :)
