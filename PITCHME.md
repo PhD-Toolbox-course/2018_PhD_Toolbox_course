@@ -16,7 +16,15 @@ Hello, World!
 
 #VSLIDE
 
-4
+// R
+library(ggplot2)
+
+centre <- function(x, type, ...) {
+  switch(type,
+         mean = mean(x),
+         median = median(x),
+         trimmed = mean(x, trim = .1))
+}
 
 #HSLIDE
 
