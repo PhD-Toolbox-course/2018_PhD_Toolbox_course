@@ -32,4 +32,6 @@
 	   - 10:30-12:30: 	Version control
 	   - 12:30-14:30: 	Reproducible research
 
+----
+
 Etherpad for the course: https://public.etherpad-mozilla.org/p/PhD_Toolbox_2017
