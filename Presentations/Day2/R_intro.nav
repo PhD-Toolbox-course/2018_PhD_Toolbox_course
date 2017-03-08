@@ -1,0 +1,267 @@
+\beamer@endinputifotherversion {3.36pt}
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\slideentry {0}{0}{3}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\sectionentry {1}{Introduction}{4}{Introduction}{0}}
+\headcommand {\beamer@sectionpages {1}{3}}
+\headcommand {\beamer@subsectionpages {1}{3}}
+\headcommand {\slideentry {1}{0}{1}{4/4}{}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\slideentry {1}{0}{2}{5/5}{}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\slideentry {1}{0}{3}{6/6}{}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\slideentry {1}{0}{4}{7/7}{}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {1}{0}{5}{8/8}{}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {1}{0}{6}{9/9}{}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\slideentry {1}{0}{7}{10/10}{}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\slideentry {1}{0}{8}{11/11}{}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {1}{0}{9}{12/12}{}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {1}{0}{10}{13/13}{}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\slideentry {1}{0}{11}{14/14}{}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {1}{0}{12}{15/15}{}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\sectionentry {2}{Basic concepts in R}{16}{Basic concepts in R}{0}}
+\headcommand {\beamer@sectionpages {4}{15}}
+\headcommand {\beamer@subsectionpages {4}{15}}
+\headcommand {\slideentry {2}{0}{0}{16/16}{}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\slideentry {2}{0}{1}{17/17}{}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\slideentry {2}{0}{2}{18/18}{}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\slideentry {2}{0}{3}{19/19}{}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\slideentry {2}{0}{4}{20/20}{}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\slideentry {2}{0}{5}{21/21}{}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {2}{0}{6}{22/22}{}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\slideentry {2}{0}{7}{23/23}{}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{24}{Vector}}\headcommand {\beamer@subsectionpages {4}{23}}
+\headcommand {\slideentry {2}{1}{1}{24/24}{Vector}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\slideentry {2}{1}{2}{25/25}{Vector}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\slideentry {2}{1}{3}{26/26}{Vector}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\slideentry {2}{1}{4}{27/28}{Vector}{0}}
+\headcommand {\beamer@framepages {27}{28}}
+\headcommand {\slideentry {2}{1}{5}{29/29}{Vector}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\slideentry {2}{1}{6}{30/31}{Vector}{0}}
+\headcommand {\beamer@framepages {30}{31}}
+\headcommand {\slideentry {2}{1}{7}{32/33}{Vector}{0}}
+\headcommand {\beamer@framepages {32}{33}}
+\headcommand {\slideentry {2}{1}{8}{34/35}{Vector}{0}}
+\headcommand {\beamer@framepages {34}{35}}
+\headcommand {\slideentry {2}{1}{9}{36/37}{Vector}{0}}
+\headcommand {\beamer@framepages {36}{37}}
+\headcommand {\slideentry {2}{1}{10}{38/39}{Vector}{0}}
+\headcommand {\beamer@framepages {38}{39}}
+\headcommand {\slideentry {2}{1}{11}{40/40}{Vector}{0}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\slideentry {2}{1}{12}{41/41}{Vector}{0}}
+\headcommand {\beamer@framepages {41}{41}}
+\headcommand {\slideentry {2}{1}{13}{42/43}{Vector}{0}}
+\headcommand {\beamer@framepages {42}{43}}
+\headcommand {\slideentry {2}{1}{14}{44/45}{Vector}{0}}
+\headcommand {\beamer@framepages {44}{45}}
+\headcommand {\slideentry {2}{1}{15}{46/47}{Vector}{0}}
+\headcommand {\beamer@framepages {46}{47}}
+\headcommand {\slideentry {2}{1}{16}{48/49}{Vector}{0}}
+\headcommand {\beamer@framepages {48}{49}}
+\headcommand {\slideentry {2}{1}{17}{50/51}{Vector}{0}}
+\headcommand {\beamer@framepages {50}{51}}
+\headcommand {\slideentry {2}{1}{18}{52/53}{Vector}{0}}
+\headcommand {\beamer@framepages {52}{53}}
+\headcommand {\slideentry {2}{1}{19}{54/54}{Vector}{0}}
+\headcommand {\beamer@framepages {54}{54}}
+\headcommand {\slideentry {2}{1}{20}{55/55}{Vector}{0}}
+\headcommand {\beamer@framepages {55}{55}}
+\headcommand {\slideentry {2}{1}{21}{56/56}{Vector}{0}}
+\headcommand {\beamer@framepages {56}{56}}
+\headcommand {\slideentry {2}{1}{22}{57/57}{Vector}{0}}
+\headcommand {\beamer@framepages {57}{57}}
+\headcommand {\slideentry {2}{1}{23}{58/58}{Vector}{0}}
+\headcommand {\beamer@framepages {58}{58}}
+\headcommand {\slideentry {2}{1}{24}{59/60}{Vector}{0}}
+\headcommand {\beamer@framepages {59}{60}}
+\headcommand {\slideentry {2}{1}{25}{61/62}{Vector}{0}}
+\headcommand {\beamer@framepages {61}{62}}
+\headcommand {\slideentry {2}{1}{26}{63/63}{Vector}{0}}
+\headcommand {\beamer@framepages {63}{63}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{64}{R packages}}\headcommand {\beamer@subsectionpages {24}{63}}
+\headcommand {\slideentry {2}{2}{1}{64/64}{R packages}{0}}
+\headcommand {\beamer@framepages {64}{64}}
+\headcommand {\slideentry {2}{2}{2}{65/69}{R packages}{0}}
+\headcommand {\beamer@framepages {65}{69}}
+\headcommand {\slideentry {2}{2}{3}{70/70}{R packages}{0}}
+\headcommand {\beamer@framepages {70}{70}}
+\headcommand {\slideentry {2}{2}{4}{71/71}{R packages}{0}}
+\headcommand {\beamer@framepages {71}{71}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{72}{Data structures}}\headcommand {\beamer@subsectionpages {64}{71}}
+\headcommand {\slideentry {2}{3}{1}{72/72}{Data structures}{0}}
+\headcommand {\beamer@framepages {72}{72}}
+\headcommand {\slideentry {2}{3}{2}{73/73}{Data structures}{0}}
+\headcommand {\beamer@framepages {73}{73}}
+\headcommand {\slideentry {2}{3}{3}{74/75}{Data structures}{0}}
+\headcommand {\beamer@framepages {74}{75}}
+\headcommand {\slideentry {2}{3}{4}{76/79}{Data structures}{0}}
+\headcommand {\beamer@framepages {76}{79}}
+\headcommand {\slideentry {2}{3}{5}{80/80}{Data structures}{0}}
+\headcommand {\beamer@framepages {80}{80}}
+\headcommand {\slideentry {2}{3}{6}{81/85}{Data structures}{0}}
+\headcommand {\beamer@framepages {81}{85}}
+\headcommand {\slideentry {2}{3}{7}{86/86}{Data structures}{0}}
+\headcommand {\beamer@framepages {86}{86}}
+\headcommand {\slideentry {2}{3}{8}{87/87}{Data structures}{0}}
+\headcommand {\beamer@framepages {87}{87}}
+\headcommand {\slideentry {2}{3}{9}{88/88}{Data structures}{0}}
+\headcommand {\beamer@framepages {88}{88}}
+\headcommand {\slideentry {2}{3}{10}{89/89}{Data structures}{0}}
+\headcommand {\beamer@framepages {89}{89}}
+\headcommand {\slideentry {2}{3}{11}{90/91}{Data structures}{0}}
+\headcommand {\beamer@framepages {90}{91}}
+\headcommand {\slideentry {2}{3}{12}{92/92}{Data structures}{0}}
+\headcommand {\beamer@framepages {92}{92}}
+\headcommand {\slideentry {2}{3}{13}{93/95}{Data structures}{0}}
+\headcommand {\beamer@framepages {93}{95}}
+\headcommand {\slideentry {2}{3}{14}{96/96}{Data structures}{0}}
+\headcommand {\beamer@framepages {96}{96}}
+\headcommand {\slideentry {2}{3}{15}{97/97}{Data structures}{0}}
+\headcommand {\beamer@framepages {97}{97}}
+\headcommand {\slideentry {2}{3}{16}{98/98}{Data structures}{0}}
+\headcommand {\beamer@framepages {98}{98}}
+\headcommand {\slideentry {2}{3}{17}{99/99}{Data structures}{0}}
+\headcommand {\beamer@framepages {99}{99}}
+\headcommand {\slideentry {2}{3}{18}{100/100}{Data structures}{0}}
+\headcommand {\beamer@framepages {100}{100}}
+\headcommand {\slideentry {2}{3}{19}{101/101}{Data structures}{0}}
+\headcommand {\beamer@framepages {101}{101}}
+\headcommand {\slideentry {2}{3}{20}{102/102}{Data structures}{0}}
+\headcommand {\beamer@framepages {102}{102}}
+\headcommand {\slideentry {2}{3}{21}{103/103}{Data structures}{0}}
+\headcommand {\beamer@framepages {103}{103}}
+\headcommand {\slideentry {2}{3}{22}{104/104}{Data structures}{0}}
+\headcommand {\beamer@framepages {104}{104}}
+\headcommand {\slideentry {2}{3}{23}{105/105}{Data structures}{0}}
+\headcommand {\beamer@framepages {105}{105}}
+\headcommand {\slideentry {2}{3}{24}{106/106}{Data structures}{0}}
+\headcommand {\beamer@framepages {106}{106}}
+\headcommand {\slideentry {2}{3}{25}{107/107}{Data structures}{0}}
+\headcommand {\beamer@framepages {107}{107}}
+\headcommand {\slideentry {2}{3}{26}{108/108}{Data structures}{0}}
+\headcommand {\beamer@framepages {108}{108}}
+\headcommand {\slideentry {2}{3}{27}{109/113}{Data structures}{0}}
+\headcommand {\beamer@framepages {109}{113}}
+\headcommand {\slideentry {2}{3}{28}{114/119}{Data structures}{0}}
+\headcommand {\beamer@framepages {114}{119}}
+\headcommand {\slideentry {2}{3}{29}{120/123}{Data structures}{0}}
+\headcommand {\beamer@framepages {120}{123}}
+\headcommand {\sectionentry {3}{R for data analysis}{124}{R for data analysis}{0}}
+\headcommand {\beamer@sectionpages {4}{123}}
+\headcommand {\beamer@subsectionpages {72}{123}}
+\headcommand {\slideentry {3}{0}{1}{124/124}{}{0}}
+\headcommand {\beamer@framepages {124}{124}}
+\headcommand {\slideentry {3}{0}{2}{125/125}{}{0}}
+\headcommand {\beamer@framepages {125}{125}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{126}{Reading in data}}\headcommand {\beamer@subsectionpages {124}{125}}
+\headcommand {\slideentry {3}{1}{1}{126/126}{Reading in data}{0}}
+\headcommand {\beamer@framepages {126}{126}}
+\headcommand {\slideentry {3}{1}{2}{127/127}{Reading in data}{0}}
+\headcommand {\beamer@framepages {127}{127}}
+\headcommand {\slideentry {3}{1}{3}{128/128}{Reading in data}{0}}
+\headcommand {\beamer@framepages {128}{128}}
+\headcommand {\slideentry {3}{1}{4}{129/129}{Reading in data}{0}}
+\headcommand {\beamer@framepages {129}{129}}
+\headcommand {\slideentry {3}{1}{5}{130/130}{Reading in data}{0}}
+\headcommand {\beamer@framepages {130}{130}}
+\headcommand {\slideentry {3}{1}{6}{131/131}{Reading in data}{0}}
+\headcommand {\beamer@framepages {131}{131}}
+\headcommand {\slideentry {3}{1}{7}{132/133}{Reading in data}{0}}
+\headcommand {\beamer@framepages {132}{133}}
+\headcommand {\slideentry {3}{1}{8}{134/134}{Reading in data}{0}}
+\headcommand {\beamer@framepages {134}{134}}
+\headcommand {\slideentry {3}{1}{9}{135/135}{Reading in data}{0}}
+\headcommand {\beamer@framepages {135}{135}}
+\headcommand {\slideentry {3}{1}{10}{136/136}{Reading in data}{0}}
+\headcommand {\beamer@framepages {136}{136}}
+\headcommand {\slideentry {3}{1}{11}{137/138}{Reading in data}{0}}
+\headcommand {\beamer@framepages {137}{138}}
+\headcommand {\slideentry {3}{1}{12}{139/139}{Reading in data}{0}}
+\headcommand {\beamer@framepages {139}{139}}
+\headcommand {\slideentry {3}{1}{13}{140/140}{Reading in data}{0}}
+\headcommand {\beamer@framepages {140}{140}}
+\headcommand {\slideentry {3}{1}{14}{141/141}{Reading in data}{0}}
+\headcommand {\beamer@framepages {141}{141}}
+\headcommand {\slideentry {3}{1}{15}{142/142}{Reading in data}{0}}
+\headcommand {\beamer@framepages {142}{142}}
+\headcommand {\slideentry {3}{1}{16}{143/143}{Reading in data}{0}}
+\headcommand {\beamer@framepages {143}{143}}
+\headcommand {\slideentry {3}{1}{17}{144/144}{Reading in data}{0}}
+\headcommand {\beamer@framepages {144}{144}}
+\headcommand {\slideentry {3}{1}{18}{145/145}{Reading in data}{0}}
+\headcommand {\beamer@framepages {145}{145}}
+\headcommand {\slideentry {3}{1}{19}{146/146}{Reading in data}{0}}
+\headcommand {\beamer@framepages {146}{146}}
+\headcommand {\slideentry {3}{1}{20}{147/147}{Reading in data}{0}}
+\headcommand {\beamer@framepages {147}{147}}
+\headcommand {\slideentry {3}{1}{21}{148/148}{Reading in data}{0}}
+\headcommand {\beamer@framepages {148}{148}}
+\headcommand {\slideentry {3}{1}{22}{149/149}{Reading in data}{0}}
+\headcommand {\beamer@framepages {149}{149}}
+\headcommand {\slideentry {3}{1}{23}{150/150}{Reading in data}{0}}
+\headcommand {\beamer@framepages {150}{150}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{151}{Analysis}}\headcommand {\beamer@subsectionpages {126}{150}}
+\headcommand {\slideentry {3}{2}{1}{151/151}{Analysis}{0}}
+\headcommand {\beamer@framepages {151}{151}}
+\headcommand {\slideentry {3}{2}{2}{152/152}{Analysis}{0}}
+\headcommand {\beamer@framepages {152}{152}}
+\headcommand {\slideentry {3}{2}{3}{153/153}{Analysis}{0}}
+\headcommand {\beamer@framepages {153}{153}}
+\headcommand {\slideentry {3}{2}{4}{154/154}{Analysis}{0}}
+\headcommand {\beamer@framepages {154}{154}}
+\headcommand {\slideentry {3}{2}{5}{155/155}{Analysis}{0}}
+\headcommand {\beamer@framepages {155}{155}}
+\headcommand {\slideentry {3}{2}{6}{156/156}{Analysis}{0}}
+\headcommand {\beamer@framepages {156}{156}}
+\headcommand {\slideentry {3}{2}{7}{157/159}{Analysis}{0}}
+\headcommand {\beamer@framepages {157}{159}}
+\headcommand {\slideentry {3}{2}{8}{160/161}{Analysis}{0}}
+\headcommand {\beamer@framepages {160}{161}}
+\headcommand {\slideentry {3}{2}{9}{162/165}{Analysis}{0}}
+\headcommand {\beamer@framepages {162}{165}}
+\headcommand {\slideentry {3}{2}{10}{166/168}{Analysis}{0}}
+\headcommand {\beamer@framepages {166}{168}}
+\headcommand {\slideentry {3}{2}{11}{169/173}{Analysis}{0}}
+\headcommand {\beamer@framepages {169}{173}}
+\headcommand {\slideentry {3}{2}{12}{174/176}{Analysis}{0}}
+\headcommand {\beamer@framepages {174}{176}}
+\headcommand {\slideentry {3}{2}{13}{177/177}{Analysis}{0}}
+\headcommand {\beamer@framepages {177}{177}}
+\headcommand {\beamer@subsectionentry {0}{3}{3}{178}{Write data}}\headcommand {\beamer@subsectionpages {151}{177}}
+\headcommand {\slideentry {3}{3}{1}{178/179}{Write data}{0}}
+\headcommand {\beamer@framepages {178}{179}}
+\headcommand {\slideentry {3}{3}{2}{180/180}{Write data}{0}}
+\headcommand {\beamer@framepages {180}{180}}
+\headcommand {\slideentry {3}{3}{3}{181/181}{Write data}{0}}
+\headcommand {\beamer@framepages {181}{181}}
+\headcommand {\beamer@partpages {1}{181}}
+\headcommand {\beamer@subsectionpages {178}{181}}
+\headcommand {\beamer@sectionpages {124}{181}}
+\headcommand {\beamer@documentpages {181}}
+\headcommand {\def \inserttotalframenumber {121}}

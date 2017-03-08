@@ -1,0 +1,11 @@
+\frametitle{Useful resources}
+	\begin{itemize}
+		\item \url{https://github.com/lgatto/TeachingMaterial}
+		\item swirl package
+		\item www.coursera.org
+		\item Official documentation on: \url{http://cran.r-project.org/manuals.html}
+		\item A good repository of R recipes: \url{http://www.statmethods.net/}
+		\item R forums (stackoverflow \& official): \url{http://stackoverflow.com/questions/tagged/r}
+		\item Textbooks: \url{http://www.r-project.org/doc/bib/R-books.html}
+		\item \ldots
+	\end{itemize}

@@ -1,0 +1,10 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Introduction}{4}{0}{1}
+\beamer@sectionintoc {2}{Basic concepts in R}{16}{0}{2}
+\beamer@subsectionintoc {2}{1}{Vector}{24}{0}{2}
+\beamer@subsectionintoc {2}{2}{R packages}{64}{0}{2}
+\beamer@subsectionintoc {2}{3}{Data structures}{72}{0}{2}
+\beamer@sectionintoc {3}{R for data analysis}{124}{0}{3}
+\beamer@subsectionintoc {3}{1}{Reading in data}{126}{0}{3}
+\beamer@subsectionintoc {3}{2}{Analysis}{151}{0}{3}
+\beamer@subsectionintoc {3}{3}{Write data}{178}{0}{3}

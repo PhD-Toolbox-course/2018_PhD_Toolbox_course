@@ -164,14 +164,14 @@ University of Cambridge \\
 
 %%%%%%% 
 \begin{frame}
-	\frametitle{RStudio}
+	\frametitle{RStudio presentation}
 	Since we will use RStudio in this course, let's have a look of the program\\
 	\centering \includegraphics[scale=1.4]{figures/Rstudio_overview.png}
 \end{frame}
 
 %%%%%%% 
 \begin{frame}
-	\frametitle{RStudio}
+	\frametitle{RStudio presentation}
 	\textbf{R console}\\
 	\vspace{20pt}
 	\centering \includegraphics[width=11cm]{figures/RStudio_console.png}\\
@@ -180,7 +180,7 @@ University of Cambridge \\
 
 %%%%%%% 
 \begin{frame}
-	\frametitle{RStudio}
+	\frametitle{RStudio presentation}
 	\textbf{Source editor for R scripts}\\
 	\vspace{20pt}
 	\centering \includegraphics[width=10cm]{figures/RStudio_script.png}\\
@@ -189,7 +189,7 @@ University of Cambridge \\
 
 %%%%%%% 
 \begin{frame}
-	\frametitle{RStudio}
+	\frametitle{RStudio presentation}
 	\textbf{Workspace}\\
 	\vspace{16pt}
 	\centering \includegraphics[width=10cm]{figures/RStudio_environment.png}\\
@@ -198,7 +198,7 @@ University of Cambridge \\
 
 %%%%%%% 
 \begin{frame}
-	\frametitle{RStudio}
+	\frametitle{RStudio presentation}
 	\textbf{Plot pannel}\\
 	\vspace{20pt}
 	\centering \includegraphics[width=10cm]{figures/RStudio_plot.png}\\
@@ -207,7 +207,7 @@ University of Cambridge \\
 
 %%%%%%% 
 \begin{frame}
-	\frametitle{RStudio}
+	\frametitle{RStudio presentation}
 	\textbf{R help}\\
 	\vspace{20pt}
 	\centering \includegraphics[width=10cm]{figures/RStudio_help.png}\\
@@ -216,7 +216,7 @@ University of Cambridge \\
 
 %%%%%%% 
 \begin{frame}
-	\frametitle{RStudio}
+	\frametitle{RStudio presentation}
 	The GUI is divided into 4 main sub-windows\\
 	These sub-windows are customizable\\
 	\vspace{10pt}
@@ -231,6 +231,37 @@ University of Cambridge \\
 \scriptsize
 \begin{flushright}  Based on \url{https://github.com/lgatto/TeachingMaterial/tree/master/\_basicr} \end{flushright}
 \end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]{prova}
+	\frametitle{The R syntax}
+	\begin{center} \includegraphics[scale=0.25]{figures/R_syntax.png} \end{center}
+	
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]{prova}
+	\frametitle{Numbers}
+	Element to notice:
+	\begin{itemize}
+		\item functions
+		\item the assignment operator <-
+		\item the = for arguments
+		\item the comments # and how they are used to document function and its content
+		\item the \$ operator
+		\item Point to indentation and consistency in spacing to improve clarity
+	\end{itemize}
+	\end{frame}
+
+
+
+
+
+
+
+
+
+
 %%%%%%% 
 \begin{frame}[fragile]{prova}
 	\frametitle{Numbers}
