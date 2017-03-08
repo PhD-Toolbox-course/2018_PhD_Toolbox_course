@@ -1,9 +1,12 @@
 #HSLIDE
 
 Hello, *World*!
+
 Hello, **World**!
+
 Hello, **_World_**!
-Some Markdown text with <span style="color:blue">some *blue* text</span>.
+
+Some Markdown text with <span style="color:red">some text</span>.
 
 
 #VSLIDE
