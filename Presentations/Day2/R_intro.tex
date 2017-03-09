@@ -241,7 +241,7 @@ University of Cambridge \\
 
 %%%%%%% 
 \begin{frame}[fragile]{prova}
-	\frametitle{Numbers}
+	\frametitle{The R syntax}
 	Element to notice:
 	\begin{itemize}
 		\item functions
@@ -252,6 +252,87 @@ University of Cambridge \\
 		\item Point to indentation and consistency in spacing to improve clarity
 	\end{itemize}
 \end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]{prova}
+	\frametitle{The R syntax}
+	{\bf Functions and their arguments}
+	\begin{itemize}
+		\item Functions are scripts that automate something complicated or convenient or both.
+		\item Many functions are predefined, or can be made available by importing R packages.
+		\item A function is always followed by brachets that contain the arguments.
+	\end{itemize}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]{prova}
+	\frametitle{The R syntax}
+	Function examples:
+	\vspace{10pt}
+	
+\begin{Schunk}
+\begin{Sinput}
+> round(3.14159)
+\end{Sinput}
+\begin{Soutput}
+[1] 3
+\end{Soutput}
+\begin{Sinput}
+> args(round)
+\end{Sinput}
+\begin{Soutput}
+function (x, digits = 0) 
+NULL
+\end{Soutput}
+\begin{Sinput}
+> round(3.14159, digits=2)
+\end{Sinput}
+\begin{Soutput}
+[1] 3.14
+\end{Soutput}
+\begin{Sinput}
+> round(3.14159, 2)
+\end{Sinput}
+\begin{Soutput}
+[1] 3.14
+\end{Soutput}
+\begin{Sinput}
+> round(digits=2, x=3.14159)
+\end{Sinput}
+\begin{Soutput}
+[1] 3.14
+\end{Soutput}
+\end{Schunk}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]{prova}
+	\frametitle{Seeking help}
+	\begin{enumerate}
+		\item I'm not sure how to use a function
+			\begin{itemize}
+				\item \small ?barplot
+			\end{itemize}
+\pause
+		\item I get an error message that I don't understand
+			\begin{itemize}
+				\item \small Googling the error message
+				\item \small Check Stack Overflow
+				\item \small Ask your friendly colleagues
+				\item \small Ask on R-help mailing list
+			\end{itemize}
+\pause
+		\item How I should ask help
+			\begin{itemize}
+				\item \small Make it as easy as possible to pinpoint where the issue might be
+				\item \small Use the correct words to describe your problem
+				\item \small Try to generalize what you are doing
+				\item \small Always include the output of sessionInfo()
+				\item \small[Write reproducible example](http://adv-r.had.co.nz/Reproducibility.html)
+			\end{itemize}
+	\end{enumerate}
+\end{frame}
+
 
 %%%%%%% 
 \begin{frame}[fragile]{prova}
