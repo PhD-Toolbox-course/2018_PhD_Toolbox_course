@@ -3,7 +3,7 @@
 % LaTeX Template
 
 \documentclass{beamer}
-\mode<presentation>{
+\mode<presentation> {
 % Theme
 \usetheme{metropolis}
 %\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
@@ -25,7 +25,8 @@
 % Prepare title and TOC
 \title[Short title]{Reproducible Research} 
 \author{Marco Chiapello} 
-\institute[Center for Proteomics]{
+\institute[Center for Proteomics] 
+{
 Center for Proteomics\\
 University of Cambridge \\ 
 \medskip
@@ -71,7 +72,7 @@ University of Cambridge \\
 \vspace{50px}
 \begin{flushright}
 \scriptsize {\bf Replication} is the ultimate standard by which scientific claims are judged \citep{Peng:2011et}\\
-\scriptsize The fact that an analysis is {\bf reproducible does not guarantee the quality, correctness, or validity} of the published results. 
+\scriptsize The fact that an analysis is reproducible does not guarantee the quality, correctness, or validity of the published results. 
 \end{flushright}
 \end{frame}
 %------------------------------------------------
@@ -98,6 +99,7 @@ University of Cambridge \\
 \end{frame}
 
 %------------------------------------------------
+
 \begin{frame}
 \frametitle{What reproducible research is}
 \Large\centering $DATA +  ANALYSIS \rightarrow RESULTS$\\
@@ -105,17 +107,19 @@ University of Cambridge \\
 Common practice of writing statistical reports: 
 \small\begin{itemize}
     \item We import a dataset into Excel
-    \item Run a procedure to get the results
-    \item Copy and paste selected pieces into a typesetting program (e.g. Word)
+    \item Run a procedure to get all results
+    \item Copy and paste selected pieces into a typesetting program
     \item Add a few descriptions
     \item Finish a report
 \end{itemize}
+
 \end{frame}
 
 
 %------------------------------------------------
 \begin{frame}
 \frametitle{What reproducible research is}
+
 \Large There are obvious dangers and disadvantages in this process:
 \small\begin{enumerate}
 	\item It is \textbf{error-prone} due to too much manual work;
@@ -378,32 +382,6 @@ If manual operations cannot be avoided, you should as a minimum note down which 
 \end{quote}
 \end{frame}
 %------------------------------------------------
-\begin{frame}
-\frametitle{Tools}
-\begin{center}\Large{\sc Folder organization}\end{center}
-+-- README\\
-+-- codeBook\\
-+== rawdata\\
-+== rscript\\
-+== analysis\\
-+== docs\\
-+== manuscript\\
-+== tmp
-\end{frame}
-
-%------------------------------------------------
-\begin{frame}
-\frametitle{Tools}
-\begin{center}\Large{\sc A freely available language and environment for programming, computing and graphics}\end{center}
-
-In this course we will use:
-\begin{itemize}
-	\item \texttt{UNIX}
-	\item \texttt{R}
-\end{itemize}
-\end{frame}
-
-%------------------------------------------------
 
 \begin{frame}
 \frametitle{Tools}
@@ -428,6 +406,20 @@ In this course we will use:
 \begin{center}\Large\texttt{R}Markdown\end{center}
 \begin{center}\includegraphics[scale=0.45]{figures/RMarkdown.png}\end{center}
 \end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Tools}
+\begin{center}\Large{\sc Folder organization}\end{center}
++-- README\\
++-- codeBook\\
++== rawdata\\
++== rscript\\
++== analysis\\
++== docs\\
++== manuscript\\
++== tmp
+\end{frame}
+
 %------------------------------------------------
 \begin{frame}
     \frametitle{Tools}

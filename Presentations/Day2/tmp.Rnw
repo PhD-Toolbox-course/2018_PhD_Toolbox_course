@@ -52,9 +52,8 @@ University of Cambridge \\
 %-------------------------------------------
 % MAIN DOCUMENT
 %-------------------------------------------
-\usepackage{Sweave}
 \begin{document}
-\input{R_intro-concordance}
+\SweaveOpts{concordance=TRUE}
 \newlength{\fancyvrbtopsep}
 \newlength{\fancyvrbpartopsep}
 \makeatletter
@@ -90,8 +89,6 @@ University of Cambridge \\
 		\item Fill free to \textbf{interrupt me} every time you need
 	\end{enumerate}
 \end{frame}
-
-
 %-------------------
 % INTRODUCTION
 %-------------------
@@ -127,12 +124,12 @@ University of Cambridge \\
         \Large The \texttt{R} Project for Statistical Computing\\
 	\begin{itemize}
 		\small
-		\item R version 3.3.3 (released 2017-03-06)
-		\item Currently, the CRAN {\tiny(Comprehensive R Archive Network)} package repository features 10241 available packages
+		\item R version 3.3.1 (released 2016-06-21)
+		\item Currently, the CRAN {\tiny(Comprehensive R Archive Network)} package repository features 8609 available packages
 			\begin{itemize}
 				\item \tiny \url{https://cran.r-project.org/web/packages/available_packages_by_name.html}
 			\end{itemize}
-		\item Currently, the Bioconductor repository features 1296 available packages
+		\item Currently, the Bioconductor repository features 1211 available packages
 			\begin{itemize}
 				\item \tiny \url{http://www.bioconductor.org}
 			\end{itemize}
@@ -141,23 +138,6 @@ University of Cambridge \\
 			\begin{itemize}
 				\item \tiny \url{www.rstudio.com}
 			\end{itemize}
-	\end{itemize}
-\end{frame}
-
-%%%%%%% 
-\begin{frame}
-	\frametitle{What R is?}
-        \Large Examples of \texttt{R} project\\
-	\begin{itemize}
-		\normalsize
-	\item Plot \tiny \url{https://figshare.com/articles/Slovenia_s_Gross_Domestic_Expenditure_on_R_amp_D_By_Sector_and_Field_2007_2013_/1564745}
-		\normalsize
-		\item Report \tiny \url{https://www.bioconductor.org/packages/release/bioc/vignettes/MSnbase/inst/doc/MSnbase-demo.pdf}
-		\normalsize
-		\item Flexdashboard \tiny \url{https://beta.rstudioconnect.com/llaire/htmlwidgets-ggplotly-geoms/htmlwidgets-ggplotly-geoms.html\#geom_point}
-		\normalsize
-		\item Application \tiny \url{http://shiny.rstudio.com/gallery/retirement-simulation.html}
-		\normalsize
 	\end{itemize}
 \end{frame}
 
@@ -243,14 +223,6 @@ University of Cambridge \\
 	\centering \includegraphics[width=7cm]{figures/RStudio_option.png}
 \end{frame}
 
-%%%%%%% 
-\begin{frame}
-	\frametitle{RStudio presentation}
-	{\textbf First challange}: Set up you RStudio as mine
-	\centering \includegraphics[scale=1.4]{figures/Rstudio_overview.png}
-\end{frame}
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
@@ -297,39 +269,13 @@ University of Cambridge \\
 	Function examples:
 	\vspace{10pt}
 	
-\begin{Schunk}
-\begin{Sinput}
-> round(3.14159)
-\end{Sinput}
-\begin{Soutput}
-[1] 3
-\end{Soutput}
-\begin{Sinput}
-> args(round)
-\end{Sinput}
-\begin{Soutput}
-function (x, digits = 0) 
-NULL
-\end{Soutput}
-\begin{Sinput}
-> round(3.14159, digits=2)
-\end{Sinput}
-\begin{Soutput}
-[1] 3.14
-\end{Soutput}
-\begin{Sinput}
-> round(3.14159, 2)
-\end{Sinput}
-\begin{Soutput}
-[1] 3.14
-\end{Soutput}
-\begin{Sinput}
-> round(digits=2, x=3.14159)
-\end{Sinput}
-\begin{Soutput}
-[1] 3.14
-\end{Soutput}
-\end{Schunk}
+<<functionExample>>=
+round(3.14159)
+args(round)
+round(3.14159, digits=2)
+round(3.14159, 2)
+round(digits=2, x=3.14159)
+@
 \end{frame}
 
 %%%%%%% 
@@ -366,32 +312,12 @@ NULL
 	\frametitle{Numbers}
 	The command line can be used as a calculator
 \rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> 5 + 7 
-\end{Sinput}
-\begin{Soutput}
-[1] 12
-\end{Soutput}
-\begin{Sinput}
-> 5 - 7
-\end{Sinput}
-\begin{Soutput}
-[1] -2
-\end{Soutput}
-\begin{Sinput}
-> 5 * 7
-\end{Sinput}
-\begin{Soutput}
-[1] 35
-\end{Soutput}
-\begin{Sinput}
-> 5 / 7
-\end{Sinput}
-\begin{Soutput}
-[1] 0.7142857
-\end{Soutput}
-\end{Schunk}
+<<numbers>>=
+5 + 7 
+5 - 7
+5 * 7
+5 / 7
+@
 \rule{\textwidth}{0.4pt}
 \vspace{5pt}
 \small Note: The number in the square brackets is an indicator of the position in the output
@@ -402,14 +328,9 @@ NULL
 	\frametitle{Numbers}
 	You can solve simple or complex calculations 
 	\rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> (((20/5)^2)-((5+1/3+4/5-10)*(2-34))-20)
-\end{Sinput}
-\begin{Soutput}
-[1] -127.7333
-\end{Soutput}
-\end{Schunk}
+<<number2>>=
+(((20/5)^2)-((5+1/3+4/5-10)*(2-34))-20)
+@
 \rule{\textwidth}{0.4pt}
 \vspace{20pt}
 \Large But, of course, \texttt{R} is not a calculator
@@ -422,27 +343,17 @@ NULL
 	\vspace{10pt}
 	- We can assign a number to a variable
 	\rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> x <- 5
-> x
-\end{Sinput}
-\begin{Soutput}
-[1] 5
-\end{Soutput}
-\end{Schunk}
+<<variables1>>=
+x <- 5
+x
+@
  \rule{\textwidth}{0.4pt}
  - We can assign the result of an operation to a variable
  \rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> y <- 5 + 7
-> y
-\end{Sinput}
-\begin{Soutput}
-[1] 12
-\end{Soutput}
-\end{Schunk}
+<<variable1>>=
+y <- 5 + 7
+y
+@
 \rule{\textwidth}{0.4pt}
 \end{frame}
 
@@ -451,32 +362,17 @@ NULL
 	\frametitle{Variables}
 	- We can assign use the variables to perform calculation
 	\rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> x + y
-\end{Sinput}
-\begin{Soutput}
-[1] 17
-\end{Soutput}
-\end{Schunk}
+<<variables1>>=
+x + y
+@
  \rule{\textwidth}{0.4pt}
  - We can assign the change the content of the variable
  \rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> x
-\end{Sinput}
-\begin{Soutput}
-[1] 5
-\end{Soutput}
-\begin{Sinput}
-> x <- x - y
-> x
-\end{Sinput}
-\begin{Soutput}
-[1] -7
-\end{Soutput}
-\end{Schunk}
+<<variable1>>=
+x
+x <- x - y
+x
+@
 \rule{\textwidth}{0.4pt}
 \end{frame}
 
@@ -486,26 +382,11 @@ NULL
 	\textbf{Functions} in \texttt{R} perform operations on arguments (the input(s) to the function). \\ Arguments are always contained in parentheses, i.e. curved brackets (), separated by commas.
 	\vspace{10pt}
 	
-\begin{Schunk}
-\begin{Sinput}
-> sum(3, 4, 5, 6)
-\end{Sinput}
-\begin{Soutput}
-[1] 18
-\end{Soutput}
-\begin{Sinput}
-> max(3, 4, 5, 6)
-\end{Sinput}
-\begin{Soutput}
-[1] 6
-\end{Soutput}
-\begin{Sinput}
-> min(3, 4, 5, 6)
-\end{Sinput}
-\begin{Soutput}
-[1] 3
-\end{Soutput}
-\end{Schunk}
+<<functions>>=
+sum(3, 4, 5, 6)
+max(3, 4, 5, 6)
+min(3, 4, 5, 6)
+@
 
 \end{frame}
 
@@ -515,15 +396,10 @@ NULL
 	\texttt{R} contains a lot of pre-builtin functions, but through the so called \textit{packages} is possible extend the \texttt{R} functionalities enormously.
 	\vspace{30pt}
 	Alternatevely, you can write your own function
-\begin{Schunk}
-\begin{Sinput}
-> summ <- function(a,b){ a + b }
-> summ(1,2)
-\end{Sinput}
-\begin{Soutput}
-[1] 3
-\end{Soutput}
-\end{Schunk}
+<<functions2>>=
+summ <- function(a,b){ a + b }
+summ(1,2)
+@
 \end{frame}
 
 
@@ -540,14 +416,9 @@ NULL
 	The basic data structure in \texttt{R} is a \textbf{vector}, an ordered collection of values. \texttt{R} even treats single values as 1-element vectors.\\
 	The simplest way to create a \textbf{vector} in \texttt{R} is by using the c() operator:
 	\rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> c(1,2,3,50)
-\end{Sinput}
-\begin{Soutput}
-[1]  1  2  3 50
-\end{Soutput}
-\end{Schunk}
+<<>>=
+c(1,2,3,50)
+@
 \rule{\textwidth}{0.4pt}
 \vspace{20pt}
 \end{frame}
@@ -557,14 +428,9 @@ NULL
 	\frametitle{Vector}
 	The simplest way to create a \textbf{sequence of numbers} is by using the `:` operator:
 	\rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> 1:10
-\end{Sinput}
-\begin{Soutput}
- [1]  1  2  3  4  5  6  7  8  9 10
-\end{Soutput}
-\end{Schunk}
+<<vec1>>=
+1:10
+@
 \rule{\textwidth}{0.4pt}
 \vspace{20pt}
 That gave us every integer between (and including) 1 and 10.
@@ -576,14 +442,9 @@ That gave us every integer between (and including) 1 and 10.
 	What happens if we do 15:1? Give it a try to find out.
 	\pause
 	\rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> 15:1
-\end{Sinput}
-\begin{Soutput}
- [1] 15 14 13 12 11 10  9  8  7  6  5  4  3  2  1
-\end{Soutput}
-\end{Schunk}
+<<vec2>>=
+15:1
+@
 \rule{\textwidth}{0.4pt}\\
 \vspace{20pt}
 It counted backwards in increments of 1!
@@ -605,14 +466,9 @@ It counted backwards in increments of 1!
 	\centering Try it: \small Remember what we said about the function arguments\\
 	\pause
 	\rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> seq(1,10)
-\end{Sinput}
-\begin{Soutput}
- [1]  1  2  3  4  5  6  7  8  9 10
-\end{Soutput}
-\end{Schunk}
+<<>>=
+seq(1,10)
+@	
 	\rule{\textwidth}{0.4pt}
 \end{frame}
 
@@ -623,14 +479,9 @@ It counted backwards in increments of 1!
 	\centering Try it out.\\
 	\pause
 	\rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> seq(0, 4, by = 0.5)
-\end{Sinput}
-\begin{Soutput}
-[1] 0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0
-\end{Soutput}
-\end{Schunk}
+<<>>=
+seq(0, 4, by = 0.5)
+@
 \rule{\textwidth}{0.4pt}
 \end{frame}
 
@@ -641,15 +492,10 @@ It counted backwards in increments of 1!
 	\centering Try it out.\\
 	\pause
 \rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> mySeq <- seq(5, 10, length=10)
-> round(mySeq,1)
-\end{Sinput}
-\begin{Soutput}
- [1]  5.0  5.6  6.1  6.7  7.2  7.8  8.3  8.9  9.4 10.0
-\end{Soutput}
-\end{Schunk}
+<<>>=
+mySeq <- seq(5, 10, length=10)
+round(mySeq,1)
+@
   \rule{\textwidth}{0.4pt}
 \end{frame}
 
@@ -660,14 +506,9 @@ To confirm that mySeq has length 10, we can use the length() function.\\
 \centering Try it now\\
 \pause
 \rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> length(mySeq)
-\end{Sinput}
-\begin{Soutput}
-[1] 10
-\end{Soutput}
-\end{Schunk}
+<<>>=
+length(mySeq)
+@
   \rule{\textwidth}{0.4pt}
 \end{frame}
 
@@ -683,14 +524,9 @@ To confirm that mySeq has length 10, we can use the length() function.\\
 	\centering Give that a try
 	\pause
 \rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> 1:length(mySeq)
-\end{Sinput}
-\begin{Soutput}
- [1]  1  2  3  4  5  6  7  8  9 10
-\end{Soutput}
-\end{Schunk}
+<<>>=
+1:length(mySeq)
+@
 \rule{\textwidth}{0.4pt}
 \end{frame}
 
@@ -699,26 +535,16 @@ To confirm that mySeq has length 10, we can use the length() function.\\
 	\frametitle{Vector}
 	Another option is to use seq(along.with = mySeq). Give that a try.
 \rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> seq(along.with = mySeq)
-\end{Sinput}
-\begin{Soutput}
- [1]  1  2  3  4  5  6  7  8  9 10
-\end{Soutput}
-\end{Schunk}
+<<>>=
+seq(along.with = mySeq)
+@
 \rule{\textwidth}{0.4pt}\\
 \vspace{20pt}
 R has a separate built-in function for this purpose
 \rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> seq_along(mySeq)
-\end{Sinput}
-\begin{Soutput}
- [1]  1  2  3  4  5  6  7  8  9 10
-\end{Soutput}
-\end{Schunk}
+<<>>=
+seq_along(mySeq)
+@
 \rule{\textwidth}{0.4pt}
 \end{frame}
 
@@ -730,15 +556,10 @@ R has a separate built-in function for this purpose
 	\item It is also important for your code to be \textbf{readable}, so that you and others can figure out what's going on without too much hassle
 	\end{itemize}
 \rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> # Create a sequence of 10 numbers
-> seq_along(mySeq)
-\end{Sinput}
-\begin{Soutput}
- [1]  1  2  3  4  5  6  7  8  9 10
-\end{Soutput}
-\end{Schunk}
+<<>>=
+# Create a sequence of 10 numbers
+seq_along(mySeq)
+@
 \rule{\textwidth}{0.4pt}
 \small The comments in \texttt{R} begin with \textbf{hash}. You should have about 1/3 of your code commented. 
 \end{frame}
@@ -751,15 +572,10 @@ R has a separate built-in function for this purpose
 	\centering Try it out
 	\pause
 	\rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> # Create a sequence of 1 and 0
-> rep(c(1,0), times = 5)
-\end{Sinput}
-\begin{Soutput}
- [1] 1 0 1 0 1 0 1 0 1 0
-\end{Soutput}
-\end{Schunk}
+<<>>=
+# Create a sequence of 1 and 0
+rep(c(1,0), times = 5)
+@
 \rule{\textwidth}{0.4pt}
 \end{frame}
 
@@ -770,24 +586,19 @@ If we want our vector to contain 5 ones and then 5 zeros, we can do this with th
   \centering Try it out\\
   \pause
   \rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> # Create a sequence of 1 and 0
-> rep(c(1,0), each = 5)
-\end{Sinput}
-\begin{Soutput}
- [1] 1 1 1 1 1 0 0 0 0 0
-\end{Soutput}
-\end{Schunk}
+<<>>=
+# Create a sequence of 1 and 0
+rep(c(1,0), each = 5)
+@
 \rule{\textwidth}{0.4pt}
 \end{frame}
 
 %%%%%%% 
 \begin{frame}[fragile]
-	\frametitle{Vector}
+	\frametitle{Vector subsetting}
 	\begin{itemize}
 	\item We'll see, now, how to \textbf{extract} elements from a vector (subset)
-	\item The square brackets \textbf{[]} indicate position within the vector
+	\item The square brackets \textbf{[ ]} indicate position within the vector
 	  \begin{itemize}
 	    \small
 	    \item \texttt{R} even treats single values as 1-element vectors
@@ -795,67 +606,112 @@ If we want our vector to contain 5 ones and then 5 zeros, we can do this with th
 	  \end{itemize}
 	\item We can extract individual elements by using the \textbf{[]} notation
   \end{itemize}
-  \centering Try mySeq[1:3]\\
-  \pause
   \rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> mySeq[1:3]
-\end{Sinput}
-\begin{Soutput}
-[1] 5.000000 5.555556 6.111111
-\end{Soutput}
-\end{Schunk}
+<<>>=
+animals <- c("mouse", "rat", "dog", "cat")
+animals[2]
+@  
 \rule{\textwidth}{0.4pt}
 \end{frame}
 
 %%%%%%% 
 \begin{frame}[fragile]
-	\frametitle{Vector}
-	If we want to 3th, 5th and 10th elements of the vector mySeq.\\
+	\frametitle{Vector subsetting}
+	If we want to 1th, 3th and 2th elements of the vector animals\\
 	\centering Try it out
 	\pause
 	\rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> round(mySeq,1)
-\end{Sinput}
-\begin{Soutput}
- [1]  5.0  5.6  6.1  6.7  7.2  7.8  8.3  8.9  9.4 10.0
-\end{Soutput}
-\begin{Sinput}
-> round(mySeq[c(3,5,10)],1)
-\end{Sinput}
-\begin{Soutput}
-[1]  6.1  7.2 10.0
-\end{Soutput}
-\end{Schunk}
+<<>>=
+animals[c(1, 3, 2)]
+@  
   \rule{\textwidth}{0.4pt}
 \end{frame}
 
 %%%%%%% 
 \begin{frame}[fragile]
-	\frametitle{Vector}
-	If we want all the elements bigger than 7.\\
-	\centering Try it out\\
-	\pause
-		\rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> round(mySeq,1)
-\end{Sinput}
-\begin{Soutput}
- [1]  5.0  5.6  6.1  6.7  7.2  7.8  8.3  8.9  9.4 10.0
-\end{Soutput}
-\begin{Sinput}
-> round(mySeq[mySeq > 7],1)
-\end{Sinput}
-\begin{Soutput}
-[1]  7.2  7.8  8.3  8.9  9.4 10.0
-\end{Soutput}
-\end{Schunk}
+	\frametitle{Vector subsetting}
+We can also repeat the indices to create an object with more elements than the original one:
+	\centering Try it out
+	\rule{\textwidth}{0.4pt}
+<<>>=
+more_animals <- animals[c(1, 2, 3, 2, 1, 4)]
+more_animals
+@  
   \rule{\textwidth}{0.4pt}
 \end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+		\frametitle{Vector conditional subsetting}
+Another common way of subsetting is by using a logical vector: TRUE will select the element with the same index, while FALSE will not:
+	\rule{\textwidth}{0.4pt}
+<<>>=
+weight_g <- c(21, 34, 39, 54, 55)
+weight_g[c(TRUE, FALSE, TRUE, TRUE, FALSE)]
+@  
+  \rule{\textwidth}{0.4pt}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Vector conditional subsetting}
+	If we want all the elements bigger than 50.\\
+		\rule{\textwidth}{0.4pt}
+<<>>=
+weight_g > 50
+@  
+  \rule{\textwidth}{0.4pt}
+	This will return logicals with TRUE for the indices that meet the condition
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Vector conditional subsetting}
+	we can use this to select only the values above 50
+		\rule{\textwidth}{0.4pt}
+<<>>=
+weight_g[weight_g > 50]
+@  
+  \rule{\textwidth}{0.4pt}
+	This will return logicals with TRUE for the indices that meet the condition
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Vector conditional subsetting}
+	You can combine multiple tests using & (both conditions are true, AND) or \| (at least one of the conditions is true, OR):
+		\rule{\textwidth}{0.4pt}
+<<>>=
+weight_g[weight_g < 30 | weight_g > 50]
+weight_g[weight_g >= 30 & weight_g == 21]
+@  
+  \rule{\textwidth}{0.4pt}
+	This will return logicals with TRUE for the indices that meet the condition
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Vector conditional subsetting}
+	A common task is to search for certain strings in a vector. One could use the "or" operator \| but this can become quickly tedious. The function \%in\% allows you to test if a value is found in a vector:
+		\rule{\textwidth}{0.4pt}
+<<>>=
+animals[animals == "cat" | animals == "rat"]
+animals %in% c("rat", "cat", "dog", "duck")
+animals[animals %in% c("rat", "cat", "dog", "duck")]
+@  
+  \rule{\textwidth}{0.4pt}
+	This will return logicals with TRUE for the indices that meet the condition
+\end{frame}
+
+
+
+
+
+
+
+
+
+
 
 %%%%%%% 
 \begin{frame}[fragile]
@@ -864,28 +720,13 @@ If we want our vector to contain 5 ones and then 5 zeros, we can do this with th
 	\centering Try it out
 	\pause
 		\rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> a <- seq(2,2000,by=2)
-> length(a)
-\end{Sinput}
-\begin{Soutput}
-[1] 1000
-\end{Soutput}
-\begin{Sinput}
-> a[345] + a[987]
-\end{Sinput}
-\begin{Soutput}
-[1] 2664
-\end{Soutput}
-\begin{Sinput}
-> # Short version
-> sum(seq(2,2000,by=2)[c(345,987)])
-\end{Sinput}
-\begin{Soutput}
-[1] 2664
-\end{Soutput}
-\end{Schunk}
+<<>>=
+a <- seq(2,2000,by=2)
+length(a)
+a[345] + a[987]
+# Short version
+sum(seq(2,2000,by=2)[c(345,987)])
+@  
   \rule{\textwidth}{0.4pt}
 \end{frame}
 
@@ -894,16 +735,11 @@ If we want our vector to contain 5 ones and then 5 zeros, we can do this with th
 	\frametitle{Vector}
 	When applying all standard arithmetic operations to vectors, \textbf{application is element-wise}.\\
 \rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> x <- 1:10
-> y <- x * 2
-> y
-\end{Sinput}
-\begin{Soutput}
- [1]  2  4  6  8 10 12 14 16 18 20
-\end{Soutput}
-\end{Schunk}
+<<>>=
+x <- 1:10
+y <- x * 2
+y
+@  
   \rule{\textwidth}{0.4pt}
 \end{frame}
 
@@ -913,33 +749,18 @@ If we want our vector to contain 5 ones and then 5 zeros, we can do this with th
 	\frametitle{Vector}
 	Adding two vectors\\
 \rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> z <- x^2
-> y + z
-\end{Sinput}
-\begin{Soutput}
- [1]   3   8  15  24  35  48  63  80  99 120
-\end{Soutput}
-\end{Schunk}
+<<>>=
+z <- x^2
+y + z
+@  
   \rule{\textwidth}{0.4pt}\\
   \vspace{20pt}
   If vectors are not the same length, the shorter one will be recycled\\
   \rule{\textwidth}{0.4pt}
-\begin{Schunk}
-\begin{Sinput}
-> x
-\end{Sinput}
-\begin{Soutput}
- [1]  1  2  3  4  5  6  7  8  9 10
-\end{Soutput}
-\begin{Sinput}
-> x + 1:2
-\end{Sinput}
-\begin{Soutput}
- [1]  2  4  4  6  6  8  8 10 10 12
-\end{Soutput}
-\end{Schunk}
+<<>>=
+x
+x + 1:2
+@  
   \rule{\textwidth}{0.4pt}
 \end{frame}
 
@@ -950,38 +771,22 @@ If we want our vector to contain 5 ones and then 5 zeros, we can do this with th
 	  \item All the vectors we have seen so far have contained numbers, but we can also store strings 
 \rule{\textwidth}{0.4pt}
 \footnotesize
-\begin{Schunk}
-\begin{Sinput}
-> gene.names <- c("Pax6","Beta-actin","FoxP2","Hox9")
-> gene.names
-\end{Sinput}
-\begin{Soutput}
-[1] "Pax6"       "Beta-actin" "FoxP2"      "Hox9"      
-\end{Soutput}
-\end{Schunk}
+<<>>=
+gene.names <- c("Pax6","Beta-actin","FoxP2","Hox9")
+gene.names
+@  
   \rule{\textwidth}{0.4pt}\\
   \vspace{20pt}
   \normalsize
 	  \item We can name elements of vectors using the \textit{names} function
 \rule{\textwidth}{0.4pt}
 \footnotesize
-\begin{Schunk}
-\begin{Sinput}
-> gene.expression <- c(0,3.2,1.2,-2)
-> gene.expression
-\end{Sinput}
-\begin{Soutput}
-[1]  0.0  3.2  1.2 -2.0
-\end{Soutput}
-\begin{Sinput}
-> names(gene.expression)<-gene.names
-> gene.expression
-\end{Sinput}
-\begin{Soutput}
-      Pax6 Beta-actin      FoxP2       Hox9 
-       0.0        3.2        1.2       -2.0 
-\end{Soutput}
-\end{Schunk}
+<<>>=
+gene.expression <- c(0,3.2,1.2,-2)
+gene.expression
+names(gene.expression)<-gene.names
+gene.expression
+@  
   \rule{\textwidth}{0.4pt}\\
   \normalsize
 	\end{itemize}
@@ -1040,32 +845,24 @@ If we want our vector to contain 5 ones and then 5 zeros, we can do this with th
 	  \item Creating vectors:
 \rule{\textwidth}{0.4pt}
 \footnotesize
-\begin{Schunk}
-\begin{Sinput}
-> genome.size<-c(3102,2731,169,100,12)
-> coding.genes<-c(20774,23139,13937,20532,6692)
-> species.name<-c("H. sapiens","M. musculus","D. melanogaster","C. elegans","S.
-+ cerevisiae")
-> names(genome.size)<-species.name
-> names(coding.genes)<-species.name
-\end{Sinput}
-\end{Schunk}
+<<>>=
+genome.size<-c(3102,2731,169,100,12)
+coding.genes<-c(20774,23139,13937,20532,6692)
+species.name<-c("H. sapiens","M. musculus","D. melanogaster","C. elegans","S.
+cerevisiae")
+names(genome.size)<-species.name
+names(coding.genes)<-species.name
+@  
   \rule{\textwidth}{0.4pt}\\
   \small
   \pause
     \item To calculate the number of coding bases, we need to use the same scale as we used for genome size: 1.5 kilobases is 0.0015 Megabases
 \rule{\textwidth}{0.4pt}
 \footnotesize
-\begin{Schunk}
-\begin{Sinput}
-> coding.bases<-coding.genes*0.0015
-> coding.bases
-\end{Sinput}
-\begin{Soutput}
-     H. sapiens     M. musculus D. melanogaster      C. elegans  S.\ncerevisiae 
-        31.1610         34.7085         20.9055         30.7980         10.0380 
-\end{Soutput}
-\end{Schunk}
+<<>>=
+coding.bases<-coding.genes*0.0015
+coding.bases
+@  
   \rule{\textwidth}{0.4pt}\\
 	\end{itemize}
 \end{frame}
@@ -1079,38 +876,20 @@ If we want our vector to contain 5 ones and then 5 zeros, we can do this with th
 	  \item To calculate the percentage of coding bases in each genome:
 \rule{\textwidth}{0.4pt}
 \footnotesize
-\begin{Schunk}
-\begin{Sinput}
-> coding.pc<-coding.bases/genome.size*100
-> coding.pc
-\end{Sinput}
-\begin{Soutput}
-     H. sapiens     M. musculus D. melanogaster      C. elegans  S.\ncerevisiae 
-       1.004545        1.270908       12.370118       30.798000       83.650000 
-\end{Soutput}
-\end{Schunk}
+<<>>=
+coding.pc<-coding.bases/genome.size*100
+coding.pc
+@  
   \rule{\textwidth}{0.4pt}\\
   \small
   \pause
     \item To compare human to yeast:
 \rule{\textwidth}{0.4pt}
 \footnotesize
-\begin{Schunk}
-\begin{Sinput}
-> coding.bases[1]/coding.bases[5]
-\end{Sinput}
-\begin{Soutput}
-H. sapiens 
-  3.104304 
-\end{Soutput}
-\begin{Sinput}
-> genome.size[1]/genome.size[5]
-\end{Sinput}
-\begin{Soutput}
-H. sapiens 
-     258.5 
-\end{Soutput}
-\end{Schunk}
+<<>>=
+coding.bases[1]/coding.bases[5]
+genome.size[1]/genome.size[5]
+@  
   \rule{\textwidth}{0.4pt}\\
 	\end{itemize}
 \end{frame}
@@ -1124,15 +903,10 @@ H. sapiens
 	  \item Note that if a new vector is created using a named vector, the names are usually carried across to the new vector. Sometimes this is what we want (as for \textbf{coding.pc}) but sometimes it is not (when we are comparing human to yeast). We can remove names by setting them to the special NULL value:
 \rule{\textwidth}{0.4pt}
 \footnotesize
-\begin{Schunk}
-\begin{Sinput}
-> names(coding.pc)<-NULL
-> coding.pc
-\end{Sinput}
-\begin{Soutput}
-[1]  1.004545  1.270908 12.370118 30.798000 83.650000
-\end{Soutput}
-\end{Schunk}
+<<>>=
+names(coding.pc)<-NULL
+coding.pc
+@  
   \rule{\textwidth}{0.4pt}\\
 	\end{itemize}
 \end{frame}
@@ -1315,6 +1089,15 @@ H. sapiens
 %%%%%%
 \begin{frame}[fragile]
 	\frametitle{Data frame}
+	\centering \large \underline{Variables are stored in both rows and columns}
+	\vspace{5pt}
+
+	\begin{center} \includegraphics{figures/hw_tidy5.png} \end{center}
+\end{frame} 
+
+%%%%%%
+\begin{frame}[fragile]
+	\frametitle{Data frame}
 	\begin{itemize}
 		\small
 	\item For example, we might want to analyse information about a \underline{set of patients}. To start with, let's say we have ten patients and for each one we know their \textbf{name, sex, age, weight and whether they give consent} for their data to be made public
@@ -1331,25 +1114,22 @@ H. sapiens
 	\frametitle{Data frame}
 	\centering \LARGE The patients data frame
 	\vspace{20pt}
+<<echo=F>>=
+age<-c(50, 21, 35, 45, 28, 31, 42, 33, 57, 62)
+weight<-c(70.8, 67.9, 75.3, 61.9, 72.4, 69.9, 63.5, 71.5, 73.2, 64.8)
+firstName<-c('Adam', 'Eve', 'John', 'Mary', 'Peter', 'Paul', 
+	     'Joanna','Matthew', 'David', 'Sally')
+secondName<-c('Jones', 'Parker', 'Evans', 'Davis', 'Baker', 
+	       'Daniels', 'Edwards', 'Smith', 'Roberts', 'Wilson')
+sex<-c('Male', 'Female', 'Male', 'Female', 'Male', 'Male', 'Female', 'Male', 'Male', 'Female')
+consent<-c(TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE)
+patients<-data.frame(firstName, secondName, paste(firstName,secondName),
+		     sex, age, weight, consent)
+@
 \tiny
-\begin{Schunk}
-\begin{Sinput}
-> patients
-\end{Sinput}
-\begin{Soutput}
-   firstName secondName paste.firstName..secondName.    sex age weight consent
-1       Adam      Jones                   Adam Jones   Male  50   70.8    TRUE
-2        Eve     Parker                   Eve Parker Female  21   67.9    TRUE
-3       John      Evans                   John Evans   Male  35   75.3   FALSE
-4       Mary      Davis                   Mary Davis Female  45   61.9    TRUE
-5      Peter      Baker                  Peter Baker   Male  28   72.4   FALSE
-6       Paul    Daniels                 Paul Daniels   Male  31   69.9   FALSE
-7     Joanna    Edwards               Joanna Edwards Female  42   63.5   FALSE
-8    Matthew      Smith                Matthew Smith   Male  33   71.5    TRUE
-9      David    Roberts                David Roberts   Male  57   73.2   FALSE
-10     Sally     Wilson                 Sally Wilson Female  62   64.8    TRUE
-\end{Soutput}
-\end{Schunk}
+<<>>=
+patients
+@
 \small
 \end{frame}
 
@@ -1361,12 +1141,10 @@ H. sapiens
 		\item \textbf{Each column is a vector}, like previous vectors we have seen, for example:
 \rule{\textwidth}{0.4pt}
 \scriptsize
-\begin{Schunk}
-\begin{Sinput}
-> age<-c(50, 21, 35, 45, 28, 31, 42, 33, 57, 62)
-> weight<-c(70.8, 67.9, 75.3, 61.9, 72.4, 69.9, 63.5, 71.5, 73.2, 64.8)
-\end{Sinput}
-\end{Schunk}
+<<>>=
+age<-c(50, 21, 35, 45, 28, 31, 42, 33, 57, 62)
+weight<-c(70.8, 67.9, 75.3, 61.9, 72.4, 69.9, 63.5, 71.5, 73.2, 64.8)
+@
 \rule{\textwidth}{0.4pt}\\
 \small
 \vspace{10pt}
@@ -1374,14 +1152,12 @@ H. sapiens
 		\item We can define the names using character vectors:
 \rule{\textwidth}{0.4pt}
 \scriptsize
-\begin{Schunk}
-\begin{Sinput}
-> firstName<-c('Adam', 'Eve', 'John', 'Mary', 'Peter', 'Paul', 
-+ 	     'Joanna','Matthew', 'David', 'Sally')
-> secondName<-c('Jones', 'Parker', 'Evans', 'Davis', 'Baker', 
-+ 	       'Daniels', 'Edwards', 'Smith', 'Roberts', 'Wilson')
-\end{Sinput}
-\end{Schunk}
+<<>>=
+firstName<-c('Adam', 'Eve', 'John', 'Mary', 'Peter', 'Paul', 
+	     'Joanna','Matthew', 'David', 'Sally')
+secondName<-c('Jones', 'Parker', 'Evans', 'Davis', 'Baker', 
+	       'Daniels', 'Edwards', 'Smith', 'Roberts', 'Wilson')
+@
 \rule{\textwidth}{0.4pt}\\
 \small
 \vspace{10pt}
@@ -1389,11 +1165,9 @@ H. sapiens
 		\item We also have a new type of vector, the logical vector, which only contains the values TRUE and FALSE:
 \rule{\textwidth}{0.4pt}
 \scriptsize
-\begin{Schunk}
-\begin{Sinput}
-> consent<-c(TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE)
-\end{Sinput}
-\end{Schunk}
+<<>>=
+consent<-c(TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE)
+@
 \rule{\textwidth}{0.4pt}\\\end{itemize}
 \end{frame}
 
@@ -1407,14 +1181,9 @@ H. sapiens
 		\item If we try this, \texttt{R} will convert everything to characters:
 \rule{\textwidth}{0.4pt}
 \scriptsize
-\begin{Schunk}
-\begin{Sinput}
-> c(20, 'a string', TRUE)
-\end{Sinput}
-\begin{Soutput}
-[1] "20"       "a string" "TRUE"    
-\end{Soutput}
-\end{Schunk}
+<<>>=
+c(20, 'a string', TRUE)
+@
 \rule{\textwidth}{0.4pt}\\
 \small
 \vspace{10pt}
@@ -1423,32 +1192,12 @@ H. sapiens
 \footnotesize
 \setlength{\fancyvrbtopsep}{-1pt}
 \setlength{\fancyvrbpartopsep}{-1pt}
-\begin{Schunk}
-\begin{Sinput}
-> mode(firstName)
-\end{Sinput}
-\begin{Soutput}
-[1] "character"
-\end{Soutput}
-\begin{Sinput}
-> mode(age)
-\end{Sinput}
-\begin{Soutput}
-[1] "numeric"
-\end{Soutput}
-\begin{Sinput}
-> mode(weight)
-\end{Sinput}
-\begin{Soutput}
-[1] "numeric"
-\end{Soutput}
-\begin{Sinput}
-> mode(consent)
-\end{Sinput}
-\begin{Soutput}
-[1] "logical"
-\end{Soutput}
-\end{Schunk}
+<<>>=
+mode(firstName)
+mode(age)
+mode(weight)
+mode(consent)
+@
 \rule{\textwidth}{0.4pt}\\
 		\small
 \vspace{10pt}
@@ -1468,22 +1217,10 @@ H. sapiens
 \scriptsize
 \setlength{\fancyvrbtopsep}{-1pt}
 \setlength{\fancyvrbpartopsep}{-1pt}
-\begin{Schunk}
-\begin{Sinput}
-> sex
-\end{Sinput}
-\begin{Soutput}
- [1] "Male"   "Female" "Male"   "Female" "Male"   "Male"   "Female" "Male"  
- [9] "Male"   "Female"
-\end{Soutput}
-\begin{Sinput}
-> factor(sex)
-\end{Sinput}
-\begin{Soutput}
- [1] Male   Female Male   Female Male   Male   Female Male   Male   Female
-Levels: Female Male
-\end{Soutput}
-\end{Schunk}
+<<>>=
+sex
+factor(sex)
+@
 \rule{\textwidth}{0.4pt}\\
 \small
 \vspace{10pt}
@@ -1503,40 +1240,20 @@ Levels: Female Male
 		\item We can construct a data frame from other objects
 \rule{\textwidth}{0.4pt}
 \tiny
-\begin{Schunk}
-\begin{Sinput}
-> patients<-data.frame(firstName, secondName, paste(firstName,secondName),
-+ 		     sex, age, weight, consent)
-> patients
-\end{Sinput}
-\begin{Soutput}
-   firstName secondName paste.firstName..secondName.    sex age weight consent
-1       Adam      Jones                   Adam Jones   Male  50   70.8    TRUE
-2        Eve     Parker                   Eve Parker Female  21   67.9    TRUE
-3       John      Evans                   John Evans   Male  35   75.3   FALSE
-4       Mary      Davis                   Mary Davis Female  45   61.9    TRUE
-5      Peter      Baker                  Peter Baker   Male  28   72.4   FALSE
-6       Paul    Daniels                 Paul Daniels   Male  31   69.9   FALSE
-7     Joanna    Edwards               Joanna Edwards Female  42   63.5   FALSE
-8    Matthew      Smith                Matthew Smith   Male  33   71.5    TRUE
-9      David    Roberts                David Roberts   Male  57   73.2   FALSE
-10     Sally     Wilson                 Sally Wilson Female  62   64.8    TRUE
-\end{Soutput}
-\end{Schunk}
+<<>>=
+patients<-data.frame(firstName, secondName, paste(firstName,secondName),
+		     sex, age, weight, consent)
+patients
+@
 \rule{\textwidth}{0.4pt}\\
 \small
 		\item The paste function joins character vectors together
 		\item We can access particular variables using the dollar operator
 \rule{\textwidth}{0.4pt}
 \tiny
-\begin{Schunk}
-\begin{Sinput}
-> patients$age
-\end{Sinput}
-\begin{Soutput}
- [1] 50 21 35 45 28 31 42 33 57 62
-\end{Soutput}
-\end{Schunk}
+<<>>=
+patients$age
+@
 \rule{\textwidth}{0.4pt}\\
 \small
 	\end{itemize}
@@ -1552,35 +1269,79 @@ Levels: Female Male
 		\item We can name the variables after we have created a data frame using the \textbf{names} function, and we can use the same function to see the names
 \rule{\textwidth}{0.4pt}
 \tiny
-\begin{Schunk}
-\begin{Sinput}
-> names(patients)<-c('First_Name', 'Second_Name', 'Full_Name', 'Sex',
-+ 		   'Age', 'Weight', 'Consent')
-> names(patients)
-\end{Sinput}
-\begin{Soutput}
-[1] "First_Name"  "Second_Name" "Full_Name"   "Sex"         "Age"        
-[6] "Weight"      "Consent"    
-\end{Soutput}
-\end{Schunk}
+<<>>=
+names(patients)<-c('First_Name', 'Second_Name', 'Full_Name', 'Sex',
+		   'Age', 'Weight', 'Consent')
+names(patients)
+@
 \rule{\textwidth}{0.4pt}\\
 \vspace{10pt}
 \small
 		\item Or we can name the variables when we define the data frame
 \rule{\textwidth}{0.4pt}
 \tiny
-\begin{Schunk}
-\begin{Sinput}
-> patients<-data.frame(First_Name=firstName, Second_Name=secondName,
-+ 		     Full_Name=paste(firstName,secondName), Sex=sex,
-+ 		     Age=age, Weight=weight, Consent=consent)
-> names(patients)
-\end{Sinput}
-\begin{Soutput}
-[1] "First_Name"  "Second_Name" "Full_Name"   "Sex"         "Age"        
-[6] "Weight"      "Consent"    
-\end{Soutput}
-\end{Schunk}
+<<>>=
+patients<-data.frame(First_Name=firstName, Second_Name=secondName,
+		     Full_Name=paste(firstName,secondName), Sex=sex,
+		     Age=age, Weight=weight, Consent=consent)
+names(patients)
+@
+\rule{\textwidth}{0.4pt}\\
+\small
+	\end{itemize}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Data structures}
+	\centering \LARGE Matrices
+	\begin{itemize}
+		\small
+	\item Data frames are \texttt{R} speciality, but \texttt{R} also handles matrices
+\rule{\textwidth}{0.4pt}
+\tiny
+<<>>=
+e <- matrix(1:10, nrow=5, ncol=2)
+e
+@
+\vspace{20pt}
+<<>>=
+f <-  matrix(1:10, nrow=2, ncol=5)
+f
+@
+\rule{\textwidth}{0.4pt}\\
+\small
+	\end{itemize}
+\end{frame}
+
+
+
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Data structures}
+	\centering \LARGE Lists
+	\begin{itemize}
+		\small
+		\item We have seen that vectors can only hold data of one type. 
+		\item \underline{How can we store data of multiple types?} 
+		\item \underline{Or vectors of different lengths in one object?}
+		\item We can use lists; a list can contain \textbf{objects of any type}
+\rule{\textwidth}{0.4pt}
+\tiny
+<<>>=
+a <- 1:10
+b <- matrix(runif(100),ncol=10,nrow=10)
+c <- data.frame(a, month.name[1:10])
+myList<-list( ls.obj.1=a, ls.obj.2=b,ls.obj.3=c )
+summary(myList)
+@
+\vspace{20pt}
+\setlength{\fancyvrbtopsep}{-1pt}
+\setlength{\fancyvrbpartopsep}{-1pt}
+<<>>=
+names(myList)
+@
+
 \rule{\textwidth}{0.4pt}\\
 \small
 	\end{itemize}
@@ -1590,76 +1351,32 @@ Levels: Female Male
 %%%%%%% 
 \begin{frame}[fragile]
 	\frametitle{Data structures}
-	\centering \LARGE Inspecting data.frame Objects
-	\begin{itemize}
-		\normalsize
-		\item Size:
-			\begin{itemize}
-					\scriptsize
-				\item {\ttfamily dim(patients)} - returns a vector with the number of rows in the first element, and the number of columns as the second element (the dimensions of the object)
-				\item {\ttfamily nrow(patients)} - returns the number of rows
-				\item {\ttfamily ncol(patients)} - returns the number of columns
-			\end{itemize}
-		\normalsize
-		\item Content:
-			\begin{itemize}
-					\scriptsize
-				\item {\ttfamily head(patients)} - shows the first 6 rows
-				\item {\ttfamily nrow(patients)} - - shows the last 6 rows
-			\end{itemize}
-		\normalsize
-		\item Names:
-			\begin{itemize}
-					\scriptsize
-				\item {\ttfamily names(patients)} - returns the column names (synonym of colnames() for  data.frame objects)
-				\item {\ttfamily rownames(patients)} - returns the row names
-			\end{itemize}
-	\normalsize
-	\item Summary:
-		\begin{itemize}
-					\scriptsize
-				\item {\ttfamily str(patients)} - structure of the object and information about the class, length and content of each column
-				\item {\ttfamily summary(patients)} - summary statistics for each column
-			\end{itemize}
-	\end{itemize}
-\end{frame}
-
-%%%%%%% 
-\begin{frame}[fragile]
-	\frametitle{Data structures}
-	\centering \LARGE Indexing data frames 
+	\centering \LARGE Indexing data frames and matrices
 	\begin{itemize}
 		\small
 		\item You can index multidimensional data structures like:\\ \Large \textbf{object [ rows , columns ]}
-	\end{itemize}
-	\normalsize \raggedright
-	\pause
+		\small
+		\item If you don't provide an index for either rows or columns, all of the rows or columns will be returned
 \rule{\textwidth}{0.4pt}
-	Different ways of specifying these coordinates lead to results with different classes:
-	\begin{itemize}
-			\normalsize
-		\item patients[1, 1] {\scriptsize \# first element in the first column of the data frame (as a vector)}
-		\item patients[1, 6]   {\scriptsize \# first element in the 6th column (as a vector)}
-		\item patients[1:3, 7] {\scriptsize \# first three elements in the 7th column (as a vector)}
-		\item patients[c(1,3), 7] {\scriptsize \# first and third elements in the 7th column (as a vector)}
+\tiny
+\setlength{\fancyvrbtopsep}{-1pt}
+\setlength{\fancyvrbpartopsep}{-1pt}
+<<>>=
+patients[1,2]
+@
+\vspace{20pt}
+\setlength{\fancyvrbtopsep}{-1pt}
+\setlength{\fancyvrbpartopsep}{-1pt}
+<<>>=
+patients[1,]
+@
+\vspace{20pt}
+<<>>=
+patients[patients$Age>50, ]
+@
+\rule{\textwidth}{0.4pt}\\
+\small
 	\end{itemize}
-\end{frame}
-
-%%%%%%% 
-\begin{frame}[fragile]
-	\frametitle{Data structures}
-	\centering \LARGE Indexing data frames\\
-	\normalsize \raggedright
-		Different ways of specifying these coordinates lead to results with different classes:
-	\begin{itemize}
-		\item patients[, 1] {\scriptsize \# first column in the data frame (as a vector)}
-		\item patients[3, ] {\scriptsize \# the 3rd element for all columns (as a data.frame)}
-\pause
-		\item patients[1] \pause  {\scriptsize \# first column in the data frame (as a data.frame)}
-	\end{itemize}
-\rule{\textwidth}{0.4pt}
-
-	\textbf{ Question:} Is it possible subset a row as vector?
 \end{frame}
 
 %%%%%%% 
@@ -1674,20 +1391,10 @@ Levels: Female Male
 \scriptsize
 \setlength{\fancyvrbtopsep}{-1pt}
 \setlength{\fancyvrbpartopsep}{-1pt}
-\begin{Schunk}
-\begin{Sinput}
-> patients$Age
-\end{Sinput}
-\begin{Soutput}
- [1] 50 21 35 45 28 31 42 33 57 62
-\end{Soutput}
-\begin{Sinput}
-> patients$Age < 30
-\end{Sinput}
-\begin{Soutput}
- [1] FALSE  TRUE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE
-\end{Soutput}
-\end{Schunk}
+<<>>=
+patients$Age
+patients$Age < 30
+@
 
 \rule{\textwidth}{0.4pt}\\
 \small
@@ -1707,46 +1414,16 @@ Levels: Female Male
 \scriptsize
 \setlength{\fancyvrbtopsep}{-1pt}
 \setlength{\fancyvrbpartopsep}{-1pt}
-\begin{Schunk}
-\begin{Sinput}
-> s <- letters[1:5]
-> s
-\end{Sinput}
-\begin{Soutput}
-[1] "a" "b" "c" "d" "e"
-\end{Soutput}
-\begin{Sinput}
-> s[c(TRUE, FALSE, TRUE, FALSE, FALSE)]
-\end{Sinput}
-\begin{Soutput}
-[1] "a" "c"
-\end{Soutput}
-\begin{Sinput}
-> a<-1:5
-> a<3
-\end{Sinput}
-\begin{Soutput}
-[1]  TRUE  TRUE FALSE FALSE FALSE
-\end{Soutput}
-\begin{Sinput}
-> s[a<3]
-\end{Sinput}
-\begin{Soutput}
-[1] "a" "b"
-\end{Soutput}
-\begin{Sinput}
-> s[a>1 & a<3]
-\end{Sinput}
-\begin{Soutput}
-[1] "b"
-\end{Soutput}
-\begin{Sinput}
-> s[a==2]
-\end{Sinput}
-\begin{Soutput}
-[1] "b"
-\end{Soutput}
-\end{Schunk}
+<<>>=
+s <- letters[1:5]
+s
+s[c(TRUE, FALSE, TRUE, FALSE, FALSE)]
+a<-1:5
+a<3
+s[a<3]
+s[a>1 & a<3]
+s[a==2]
+@
 
 \rule{\textwidth}{0.4pt}\\
 \small
@@ -1816,30 +1493,15 @@ Levels: Female Male
 \tiny
 \setlength{\fancyvrbtopsep}{-1pt}
 \setlength{\fancyvrbpartopsep}{-1pt}
-\begin{Schunk}
-\begin{Sinput}
-> n <- 1:10
-> sex <- rep(c('male', 'female'), 5)
-> age <- c(23, 22, 21, 22, 24, 30, 23, 29, 19, 29)
-> weight <- c(72, 90, 120, 80, 75, 65, 91, 58, 78, 50)
-> height <- c(171, 185, 210, 170, 189, 150, 168, 165, 188, 143)
-> df <- data.frame(n = n, sex = sex, age = age, weight = weight, height = height)
-> df
-\end{Sinput}
-\begin{Soutput}
-    n    sex age weight height
-1   1   male  23     72    171
-2   2 female  22     90    185
-3   3   male  21    120    210
-4   4 female  22     80    170
-5   5   male  24     75    189
-6   6 female  30     65    150
-7   7   male  23     91    168
-8   8 female  29     58    165
-9   9   male  19     78    188
-10 10 female  29     50    143
-\end{Soutput}
-\end{Schunk}
+<<>>=
+n <- 1:10
+sex <- rep(c('male', 'female'), 5)
+age <- c(23, 22, 21, 22, 24, 30, 23, 29, 19, 29)
+weight <- c(72, 90, 120, 80, 75, 65, 91, 58, 78, 50)
+height <- c(171, 185, 210, 170, 189, 150, 168, 165, 188, 143)
+df <- data.frame(n = n, sex = sex, age = age, weight = weight, height = height)
+df
+@
 
 \rule{\textwidth}{0.4pt}\\
 \small
@@ -1859,14 +1521,9 @@ Levels: Female Male
 \tiny
 \setlength{\fancyvrbtopsep}{-1pt}
 \setlength{\fancyvrbpartopsep}{-1pt}
-\begin{Schunk}
-\begin{Sinput}
-> mean(df$age)
-\end{Sinput}
-\begin{Soutput}
-[1] 24.2
-\end{Soutput}
-\end{Schunk}
+<<>>=
+mean(df$age)
+@
 \rule{\textwidth}{0.4pt}\\
 \small
 \pause
@@ -1876,55 +1533,20 @@ Levels: Female Male
 \tiny
 \setlength{\fancyvrbtopsep}{-1pt}
 \setlength{\fancyvrbpartopsep}{-1pt}
-\begin{Schunk}
-\begin{Sinput}
-> ind <- df$sex == 'female'
-> ind
-\end{Sinput}
-\begin{Soutput}
- [1] FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE FALSE  TRUE
-\end{Soutput}
-\begin{Sinput}
-> tmp <- df[ind,]
-> tmp
-\end{Sinput}
-\begin{Soutput}
-    n    sex age weight height
-2   2 female  22     90    185
-4   4 female  22     80    170
-6   6 female  30     65    150
-8   8 female  29     58    165
-10 10 female  29     50    143
-\end{Soutput}
-\begin{Sinput}
-> max(tmp$weight)
-\end{Sinput}
-\begin{Soutput}
-[1] 90
-\end{Soutput}
-\end{Schunk}
+<<>>=
+ind <- df$sex == 'female'
+ind
+tmp <- df[ind,]
+tmp
+max(tmp$weight)
+@
 \vspace{5pt}
 \pause
-\begin{Schunk}
-\begin{Sinput}
-> max(df[df$sex == 'female',]$weight)
-\end{Sinput}
-\begin{Soutput}
-[1] 90
-\end{Soutput}
-\begin{Sinput}
-> max(df[df$sex == 'female',4])
-\end{Sinput}
-\begin{Soutput}
-[1] 90
-\end{Soutput}
-\begin{Sinput}
-> max(subset(df, sex == 'female')$weight)
-\end{Sinput}
-\begin{Soutput}
-[1] 90
-\end{Soutput}
-\end{Schunk}
+<<>>=
+max(df[df$sex == 'female',]$weight)
+max(df[df$sex == 'female',4])
+max(subset(df, sex == 'female')$weight)
+@
 \rule{\textwidth}{0.4pt}\\
 \small
 	\end{itemize}
@@ -1942,14 +1564,9 @@ Levels: Female Male
 \tiny
 \setlength{\fancyvrbtopsep}{-1pt}
 \setlength{\fancyvrbpartopsep}{-1pt}
-\begin{Schunk}
-\begin{Sinput}
-> min(df[df$sex == 'male',]$weight)
-\end{Sinput}
-\begin{Soutput}
-[1] 72
-\end{Soutput}
-\end{Schunk}
+<<>>=
+min(df[df$sex == 'male',]$weight)
+@
 \rule{\textwidth}{0.4pt}\\
 \small
 \pause
@@ -1959,17 +1576,9 @@ Levels: Female Male
 \tiny
 \setlength{\fancyvrbtopsep}{-1pt}
 \setlength{\fancyvrbpartopsep}{-1pt}
-\begin{Schunk}
-\begin{Sinput}
-> df[(df$sex == 'male' & df$height > 180),]
-\end{Sinput}
-\begin{Soutput}
-  n  sex age weight height
-3 3 male  21    120    210
-5 5 male  24     75    189
-9 9 male  19     78    188
-\end{Soutput}
-\end{Schunk}
+<<>>=
+df[(df$sex == 'male' & df$height > 180),]
+@
 \rule{\textwidth}{0.4pt}\\
 \small
 \pause
@@ -1979,14 +1588,9 @@ Levels: Female Male
 \tiny
 \setlength{\fancyvrbtopsep}{-1pt}
 \setlength{\fancyvrbpartopsep}{-1pt}
-\begin{Schunk}
-\begin{Sinput}
-> mean(df[(df$sex == 'male' & df$height > 180),]$age)
-\end{Sinput}
-\begin{Soutput}
-[1] 21.33333
-\end{Soutput}
-\end{Schunk}
+<<>>=
+mean(df[(df$sex == 'male' & df$height > 180),]$age)
+@
 \rule{\textwidth}{0.4pt}\\
 \small
 	\end{itemize}
@@ -2004,16 +1608,10 @@ Levels: Female Male
 \tiny
 \setlength{\fancyvrbtopsep}{-1pt}
 \setlength{\fancyvrbpartopsep}{-1pt}
-\begin{Schunk}
-\begin{Sinput}
-> df1 <- df[df$sex == 'female',]
-> df1[order(df1$age,df1$weight),][1,]
-\end{Sinput}
-\begin{Soutput}
-  n    sex age weight height
-4 4 female  22     80    170
-\end{Soutput}
-\end{Schunk}
+<<>>=
+df1 <- df[df$sex == 'female',]
+df1[order(df1$age,df1$weight),][1,]
+@
 \rule{\textwidth}{0.4pt}\\
 \small
 \pause
@@ -2023,29 +1621,12 @@ Levels: Female Male
 \tiny
 \setlength{\fancyvrbtopsep}{-1pt}
 \setlength{\fancyvrbpartopsep}{-1pt}
-\begin{Schunk}
-\begin{Sinput}
-> df2 <- df$weight / df$height^2
-> df2
-\end{Sinput}
-\begin{Soutput}
- [1] 0.002462296 0.002629657 0.002721088 0.002768166 0.002099605 0.002888889
- [7] 0.003224206 0.002130395 0.002206881 0.002445107
-\end{Soutput}
-\begin{Sinput}
-> which.min(df2)
-\end{Sinput}
-\begin{Soutput}
-[1] 5
-\end{Soutput}
-\begin{Sinput}
-> df[which.min(df2),]
-\end{Sinput}
-\begin{Soutput}
-  n  sex age weight height
-5 5 male  24     75    189
-\end{Soutput}
-\end{Schunk}
+<<>>=
+df2 <- df$weight / df$height^2
+df2
+which.min(df2)
+df[which.min(df2),]
+@
 \rule{\textwidth}{0.4pt}\\
 \small
 	\end{itemize}
