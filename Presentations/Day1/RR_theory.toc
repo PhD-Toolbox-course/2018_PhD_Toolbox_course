@@ -1,6 +1,0 @@
-\beamer@endinputifotherversion {3.36pt}
-\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
-\beamer@sectionintoc {2}{Reproducible research Reasons}{11}{0}{2}
-\beamer@sectionintoc {3}{Reproducible research Rules}{18}{0}{3}
-\beamer@sectionintoc {4}{Reproducible research Tools}{39}{0}{4}
-\beamer@sectionintoc {5}{Conclusion}{47}{0}{5}
