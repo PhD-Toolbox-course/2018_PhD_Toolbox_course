@@ -1,6 +1,6 @@
 \beamer@endinputifotherversion {3.36pt}
 \beamer@sectionintoc {1}{Introduction}{4}{0}{1}
-\beamer@sectionintoc {2}{Basic concepts in R}{16}{0}{2}
-\beamer@subsectionintoc {2}{1}{Vector}{30}{0}{2}
-\beamer@subsectionintoc {2}{2}{R packages}{70}{0}{2}
-\beamer@subsectionintoc {2}{3}{Data structures}{78}{0}{2}
+\beamer@sectionintoc {2}{Basic concepts in R}{17}{0}{2}
+\beamer@subsectionintoc {2}{1}{Vector}{31}{0}{2}
+\beamer@subsectionintoc {2}{2}{R packages}{71}{0}{2}
+\beamer@subsectionintoc {2}{3}{Data structures}{79}{0}{2}

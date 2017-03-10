@@ -89,6 +89,8 @@ University of Cambridge \\
 		\item Fill free to \textbf{interrupt me} every time you need
 	\end{enumerate}
 \end{frame}
+
+
 %-------------------
 % INTRODUCTION
 %-------------------
@@ -124,12 +126,12 @@ University of Cambridge \\
         \Large The \texttt{R} Project for Statistical Computing\\
 	\begin{itemize}
 		\small
-		\item R version 3.3.1 (released 2016-06-21)
-		\item Currently, the CRAN {\tiny(Comprehensive R Archive Network)} package repository features 8609 available packages
+		\item R version 3.3.3 (released 2017-03-06)
+		\item Currently, the CRAN {\tiny(Comprehensive R Archive Network)} package repository features 10241 available packages
 			\begin{itemize}
 				\item \tiny \url{https://cran.r-project.org/web/packages/available_packages_by_name.html}
 			\end{itemize}
-		\item Currently, the Bioconductor repository features 1211 available packages
+		\item Currently, the Bioconductor repository features 1296 available packages
 			\begin{itemize}
 				\item \tiny \url{http://www.bioconductor.org}
 			\end{itemize}
@@ -138,6 +140,23 @@ University of Cambridge \\
 			\begin{itemize}
 				\item \tiny \url{www.rstudio.com}
 			\end{itemize}
+	\end{itemize}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}
+	\frametitle{What R is?}
+        \Large Examples of \texttt{R} project\\
+	\begin{itemize}
+		\normalsize
+	\item Plot \tiny \url{https://figshare.com/articles/Slovenia_s_Gross_Domestic_Expenditure_on_R_amp_D_By_Sector_and_Field_2007_2013_/1564745}
+		\normalsize
+		\item Report \tiny \url{https://www.bioconductor.org/packages/release/bioc/vignettes/MSnbase/inst/doc/MSnbase-demo.pdf}
+		\normalsize
+		\item Flexdashboard \tiny \url{https://beta.rstudioconnect.com/llaire/htmlwidgets-ggplotly-geoms/htmlwidgets-ggplotly-geoms.html\#geom_point}
+		\normalsize
+		\item Application \tiny \url{http://shiny.rstudio.com/gallery/retirement-simulation.html}
+		\normalsize
 	\end{itemize}
 \end{frame}
 

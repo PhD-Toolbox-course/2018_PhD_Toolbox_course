@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.1)  9 MAR 2017 14:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.12.1)  10 MAR 2017 12:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1327,175 +1327,172 @@ Overfull \vbox (44.5352pt too high) detected at line 71
 ] [3
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 96.
+LaTeX Font Info:    Try loading font information for U+msa on input line 98.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 96.
+LaTeX Font Info:    Try loading font information for U+msb on input line 98.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <10.95> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 96.
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 98.
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <6> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 96.
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 98.
  [4
 
 ]
-LaTeX Font Info:    Try loading font information for T1+aett on input line 111.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 113.
 
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-LaTeX Font Info:    Try loading font information for TS1+aess on input line 111
+LaTeX Font Info:    Try loading font information for TS1+aess on input line 113
 .
-LaTeX Font Info:    No file TS1aess.fd. on input line 111.
+LaTeX Font Info:    No file TS1aess.fd. on input line 113.
 
 
 LaTeX Font Warning: Font shape `TS1/aess/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textbullet' on input line 111.
+(Font)              for symbol `textbullet' on input line 113.
 
 [5
 
 ]
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <10> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 120.
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 122.
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <7> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 120.
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 122.
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <5> not available
-(Font)              Font shape `T1/aess/m/sl' tried instead on input line 120.
+(Font)              Font shape `T1/aess/m/sl' tried instead on input line 122.
  <figures/R-project.png, id=80, 1040.88875pt x 749.80125pt>
 File: figures/R-project.png Graphic file (type png)
 
 <use figures/R-project.png>
-Package pdftex.def Info: figures/R-project.png used on input line 120.
+Package pdftex.def Info: figures/R-project.png used on input line 122.
 (pdftex.def)             Requested size: 260.22154pt x 187.44984pt.
 
-Overfull \vbox (19.50636pt too high) detected at line 120
+Overfull \vbox (19.50636pt too high) detected at line 122
  []
 
 [6
 
  <./figures/R-project.png>] [7
 
+] [8
+
 ]
 \openout4 = `R_intro.vrb'.
 
- (./R_intro.vrb) [8
+ (./R_intro.vrb) [9
 
 ]
-<figures/Rstudio_overview.png, id=107, 1424.32124pt x 863.225pt>
+<figures/Rstudio_overview.png, id=119, 1424.32124pt x 863.225pt>
 File: figures/Rstudio_overview.png Graphic file (type png)
 
 <use figures/Rstudio_overview.png>
-Package pdftex.def Info: figures/Rstudio_overview.png used on input line 171.
+Package pdftex.def Info: figures/Rstudio_overview.png used on input line 190.
 (pdftex.def)             Requested size: 1994.0362pt x 1208.50679pt.
- [9
+ [10
 
  <./figures/Rstudio_overview.png>]
-<figures/RStudio_console.png, id=114, 791.95876pt x 408.52625pt>
+<figures/RStudio_console.png, id=126, 791.95876pt x 408.52625pt>
 File: figures/RStudio_console.png Graphic file (type png)
 
 <use figures/RStudio_console.png>
-Package pdftex.def Info: figures/RStudio_console.png used on input line 180.
+Package pdftex.def Info: figures/RStudio_console.png used on input line 199.
 (pdftex.def)             Requested size: 312.9803pt x 161.45026pt.
 
-Overfull \hbox (5.69043pt too wide) in paragraph at lines 180--180
+Overfull \hbox (5.69043pt too wide) in paragraph at lines 199--199
  [][] 
  []
 
 
-Overfull \vbox (1.05736pt too high) detected at line 180
- []
-
-[10
-
- <./figures/RStudio_console.png>]
-<figures/RStudio_script.png, id=121, 634.37pt x 403.5075pt>
-File: figures/RStudio_script.png Graphic file (type png)
-
-<use figures/RStudio_script.png>
-Package pdftex.def Info: figures/RStudio_script.png used on input line 189.
-(pdftex.def)             Requested size: 284.52756pt x 180.98563pt.
-
-Overfull \vbox (22.71696pt too high) detected at line 189
+Overfull \vbox (1.05736pt too high) detected at line 199
  []
 
 [11
 
- <./figures/RStudio_script.png>]
-<figures/RStudio_environment.png, id=128, 639.38875pt x 420.57124pt>
-File: figures/RStudio_environment.png Graphic file (type png)
+ <./figures/RStudio_console.png>]
+<figures/RStudio_script.png, id=133, 634.37pt x 403.5075pt>
+File: figures/RStudio_script.png Graphic file (type png)
 
-<use figures/RStudio_environment.png>
-Package pdftex.def Info: figures/RStudio_environment.png used on input line 198
-.
-(pdftex.def)             Requested size: 284.52756pt x 187.15681pt.
+<use figures/RStudio_script.png>
+Package pdftex.def Info: figures/RStudio_script.png used on input line 208.
+(pdftex.def)             Requested size: 284.52756pt x 180.98563pt.
 
-Overfull \vbox (24.88815pt too high) detected at line 198
+Overfull \vbox (22.71696pt too high) detected at line 208
  []
 
 [12
 
+ <./figures/RStudio_script.png>]
+<figures/RStudio_environment.png, id=140, 639.38875pt x 420.57124pt>
+File: figures/RStudio_environment.png Graphic file (type png)
+
+<use figures/RStudio_environment.png>
+Package pdftex.def Info: figures/RStudio_environment.png used on input line 217
+.
+(pdftex.def)             Requested size: 284.52756pt x 187.15681pt.
+
+Overfull \vbox (24.88815pt too high) detected at line 217
+ []
+
+[13
+
  <./figures/RStudio_environment.png>]
-<figures/RStudio_plot.png, id=135, 787.94376pt x 414.54875pt>
+<figures/RStudio_plot.png, id=148, 787.94376pt x 414.54875pt>
 File: figures/RStudio_plot.png Graphic file (type png)
 
 <use figures/RStudio_plot.png>
-Package pdftex.def Info: figures/RStudio_plot.png used on input line 207.
+Package pdftex.def Info: figures/RStudio_plot.png used on input line 226.
 (pdftex.def)             Requested size: 284.52756pt x 149.69287pt.
- [13
+ [14
 
  <./figures/RStudio_plot.png>]
-<figures/RStudio_help.png, id=143, 790.955pt x 418.56375pt>
+<figures/RStudio_help.png, id=155, 790.955pt x 418.56375pt>
 File: figures/RStudio_help.png Graphic file (type png)
 
 <use figures/RStudio_help.png>
-Package pdftex.def Info: figures/RStudio_help.png used on input line 216.
+Package pdftex.def Info: figures/RStudio_help.png used on input line 235.
 (pdftex.def)             Requested size: 284.52756pt x 150.56786pt.
- [14
+ [15
 
  <./figures/RStudio_help.png>]
-<figures/RStudio_option.png, id=150, 477.785pt x 484.81125pt>
+<figures/RStudio_option.png, id=162, 477.785pt x 484.81125pt>
 File: figures/RStudio_option.png Graphic file (type png)
 
 <use figures/RStudio_option.png>
-Package pdftex.def Info: figures/RStudio_option.png used on input line 225.
+Package pdftex.def Info: figures/RStudio_option.png used on input line 244.
 (pdftex.def)             Requested size: 199.16928pt x 202.09541pt.
 
-Overfull \vbox (31.60257pt too high) detected at line 225
+Overfull \vbox (31.60257pt too high) detected at line 244
  []
 
-[15
+[16
 
- <./figures/RStudio_option.png>] [16
+ <./figures/RStudio_option.png>] [17
 
 ]
 \openout4 = `R_intro.vrb'.
 
  (./R_intro.vrb
-<figures/R_syntax.png, id=163, 609.27625pt x 518.93875pt>
+<figures/R_syntax.png, id=176, 609.27625pt x 518.93875pt>
 File: figures/R_syntax.png Graphic file (type png)
 
 <use figures/R_syntax.png>
 Package pdftex.def Info: figures/R_syntax.png used on input line 3.
 (pdftex.def)             Requested size: 152.31868pt x 129.73436pt.
 )
-Overfull \vbox (9.61835pt too high) detected at line 240
+Overfull \vbox (9.61835pt too high) detected at line 259
  []
 
-[17
+[18
 
  <./figures/R_syntax.png>]
-\openout4 = `R_intro.vrb'.
-
- (./R_intro.vrb) [18
-
-]
 \openout4 = `R_intro.vrb'.
 
  (./R_intro.vrb) [19
@@ -1503,34 +1500,34 @@ Overfull \vbox (9.61835pt too high) detected at line 240
 ]
 \openout4 = `R_intro.vrb'.
 
+ (./R_intro.vrb) [20
 
-(./R_intro.vrb) [20
+]
+\openout4 = `R_intro.vrb'.
+
+
+(./R_intro.vrb) [21
 
 ]
 \openout4 = `R_intro.vrb'.
 
  (./R_intro.vrb)
-Overfull \vbox (1.72621pt too high) detected at line 334
- []
-
-[21
-
-] (./R_intro.vrb)
-Overfull \vbox (1.72621pt too high) detected at line 334
+Overfull \vbox (1.72621pt too high) detected at line 353
  []
 
 [22
 
 ] (./R_intro.vrb)
-Overfull \vbox (1.72621pt too high) detected at line 334
+Overfull \vbox (1.72621pt too high) detected at line 353
  []
 
 [23
 
-]
-\openout4 = `R_intro.vrb'.
+] (./R_intro.vrb)
+Overfull \vbox (1.72621pt too high) detected at line 353
+ []
 
- (./R_intro.vrb) [24
+[24
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -1540,16 +1537,16 @@ Overfull \vbox (1.72621pt too high) detected at line 334
 ]
 \openout4 = `R_intro.vrb'.
 
- (./R_intro.vrb)
-Overfull \vbox (19.03627pt too high) detected at line 420
- []
-
-[26
+ (./R_intro.vrb) [26
 
 ]
 \openout4 = `R_intro.vrb'.
 
- (./R_intro.vrb) [27
+ (./R_intro.vrb)
+Overfull \vbox (19.03627pt too high) detected at line 439
+ []
+
+[27
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -1561,157 +1558,162 @@ Overfull \vbox (19.03627pt too high) detected at line 420
 
  (./R_intro.vrb) [29
 
-] [30
+]
+\openout4 = `R_intro.vrb'.
+
+ (./R_intro.vrb) [30
+
+] [31
 
 ]
 \openout4 = `R_intro.vrb'.
 
 
-(./R_intro.vrb) [31
-
-]
-\openout4 = `R_intro.vrb'.
-
- (./R_intro.vrb) [32
+(./R_intro.vrb) [32
 
 ]
 \openout4 = `R_intro.vrb'.
 
  (./R_intro.vrb) [33
 
-] (./R_intro.vrb)
-[34
-
 ]
 \openout4 = `R_intro.vrb'.
 
- (./R_intro.vrb) [35
+ (./R_intro.vrb) [34
+
+] (./R_intro.vrb)
+[35
 
 ]
 \openout4 = `R_intro.vrb'.
 
  (./R_intro.vrb) [36
 
-] (./R_intro.vrb) [37
+]
+\openout4 = `R_intro.vrb'.
+
+ (./R_intro.vrb) [37
+
+] (./R_intro.vrb) [38
 
 ]
 \openout4 = `R_intro.vrb'.
 
 
-(./R_intro.vrb) [38
+(./R_intro.vrb) [39
 
-] (./R_intro.vrb) [39
+] (./R_intro.vrb) [40
 
 ]
 \openout4 = `R_intro.vrb'.
 
- (./R_intro.vrb) [40
+ (./R_intro.vrb) [41
 
 ] (./R_intro.vrb)
-[41
+[42
 
 ]
 \openout4 = `R_intro.vrb'.
 
- (./R_intro.vrb) [42
+ (./R_intro.vrb) [43
 
-] (./R_intro.vrb) [43
+] (./R_intro.vrb) [44
 
 ]
 \openout4 = `R_intro.vrb'.
 
  (./R_intro.vrb)
-Overfull \vbox (2.44633pt too high) detected at line 668
- []
-
-[44
-
-] (./R_intro.vrb)
-Overfull \vbox (2.44633pt too high) detected at line 668
+Overfull \vbox (2.44633pt too high) detected at line 687
  []
 
 [45
 
-]
-\openout4 = `R_intro.vrb'.
-
- (./R_intro.vrb) [46
-
-]
-\openout4 = `R_intro.vrb'.
-
- (./R_intro.vrb)
-Overfull \vbox (2.44633pt too high) detected at line 717
+] (./R_intro.vrb)
+Overfull \vbox (2.44633pt too high) detected at line 687
  []
 
-[47
+[46
 
 ]
 \openout4 = `R_intro.vrb'.
 
- (./R_intro.vrb) [48
-
-] (./R_intro.vrb) [49
-
-]
-\openout4 = `R_intro.vrb'.
-
- (./R_intro.vrb) [50
-
-]
-(./R_intro.vrb) [51
-
-]
-\openout4 = `R_intro.vrb'.
-
- (./R_intro.vrb) [52
-
-] (./R_intro.vrb) [53
+ (./R_intro.vrb) [47
 
 ]
 \openout4 = `R_intro.vrb'.
 
  (./R_intro.vrb)
-[54
+Overfull \vbox (2.44633pt too high) detected at line 736
+ []
 
-] (./R_intro.vrb) [55
+[48
 
 ]
 \openout4 = `R_intro.vrb'.
 
- (./R_intro.vrb) [56
+ (./R_intro.vrb) [49
 
-] (./R_intro.vrb) [57
+] (./R_intro.vrb) [50
+
+]
+\openout4 = `R_intro.vrb'.
+
+ (./R_intro.vrb) [51
+
+]
+(./R_intro.vrb) [52
+
+]
+\openout4 = `R_intro.vrb'.
+
+ (./R_intro.vrb) [53
+
+] (./R_intro.vrb) [54
+
+]
+\openout4 = `R_intro.vrb'.
+
+ (./R_intro.vrb)
+[55
+
+] (./R_intro.vrb) [56
+
+]
+\openout4 = `R_intro.vrb'.
+
+ (./R_intro.vrb) [57
+
+] (./R_intro.vrb) [58
 
 ]
 \openout4 = `R_intro.vrb'.
 
 
 (./R_intro.vrb)
-Overfull \vbox (5.51128pt too high) detected at line 863
- []
-
-[58
-
-] (./R_intro.vrb)
-Overfull \vbox (5.51128pt too high) detected at line 863
+Overfull \vbox (5.51128pt too high) detected at line 882
  []
 
 [59
 
+] (./R_intro.vrb)
+Overfull \vbox (5.51128pt too high) detected at line 882
+ []
+
+[60
+
 ]
 \openout4 = `R_intro.vrb'.
 
- (./R_intro.vrb) [60
+ (./R_intro.vrb) [61
 
 ]
 \openout4 = `R_intro.vrb'.
 
  (./R_intro.vrb)
-Overfull \vbox (12.34636pt too high) detected at line 917
+Overfull \vbox (12.34636pt too high) detected at line 936
  []
 
-[61
+[62
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -1736,12 +1738,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 38--38
 []  
  []
 
-) [62
-
-]
-\openout4 = `R_intro.vrb'.
-
- (./R_intro.vrb) [63
+) [63
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -1751,57 +1748,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 38--38
 ]
 \openout4 = `R_intro.vrb'.
 
- (./R_intro.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--9
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 18--18
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 21--25
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 34--34
-[]  
- []
-
-)
-Overfull \vbox (11.45107pt too high) detected at line 1044
- []
-
-[65
-
-] (./R_intro.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--9
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 18--18
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 21--25
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 34--34
-[]  
- []
-
-)
-Overfull \vbox (11.45107pt too high) detected at line 1044
- []
-
-[66
+ (./R_intro.vrb) [65
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -1822,13 +1769,46 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 21--25
  []
 
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 40--40
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 34--34
 []  
  []
 
-) [67
+)
+Overfull \vbox (11.45107pt too high) detected at line 1063
+ []
+
+[66
 
 ] (./R_intro.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--9
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 18--18
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 21--25
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 34--34
+[]  
+ []
+
+)
+Overfull \vbox (11.45107pt too high) detected at line 1063
+ []
+
+[67
+
+]
+\openout4 = `R_intro.vrb'.
+
+ (./R_intro.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--9
 []  
  []
@@ -1850,6 +1830,28 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 40--40
 
 ) [68
 
+] (./R_intro.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--9
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 18--18
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 21--25
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 40--40
+[]  
+ []
+
+) [69
+
 ]
 \openout4 = `R_intro.vrb'.
 
@@ -1863,47 +1865,42 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 17--17
 []  
  []
 
-) [69
+) [70
 
-] [70
+] [71
 
 ]
 \openout4 = `R_intro.vrb'.
 
  (./R_intro.vrb)
-Overfull \vbox (1.72621pt too high) detected at line 1140
- []
-
-[71
-
-] (./R_intro.vrb)
-Overfull \vbox (1.72621pt too high) detected at line 1140
+Overfull \vbox (1.72621pt too high) detected at line 1159
  []
 
 [72
 
 ] (./R_intro.vrb)
-Overfull \vbox (1.72621pt too high) detected at line 1140
+Overfull \vbox (1.72621pt too high) detected at line 1159
  []
 
 [73
 
 ] (./R_intro.vrb)
-Overfull \vbox (1.72621pt too high) detected at line 1140
+Overfull \vbox (1.72621pt too high) detected at line 1159
  []
 
 [74
 
 ] (./R_intro.vrb)
-Overfull \vbox (1.72621pt too high) detected at line 1140
+Overfull \vbox (1.72621pt too high) detected at line 1159
  []
 
 [75
 
-]
-\openout4 = `R_intro.vrb'.
+] (./R_intro.vrb)
+Overfull \vbox (1.72621pt too high) detected at line 1159
+ []
 
- (./R_intro.vrb) [76
+[76
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -1911,32 +1908,37 @@ Overfull \vbox (1.72621pt too high) detected at line 1140
  (./R_intro.vrb) [77
 
 ]
+\openout4 = `R_intro.vrb'.
+
+ (./R_intro.vrb) [78
+
+]
 
 LaTeX Font Warning: Font shape `T1/aess/m/sc' undefined
-(Font)              using `T1/aess/m/n' instead on input line 1179.
+(Font)              using `T1/aess/m/n' instead on input line 1198.
 
-[78
+[79
 
 ]
 \openout4 = `R_intro.vrb'.
 
- (./R_intro.vrb) [79
+ (./R_intro.vrb) [80
 
 ]
 \openout4 = `R_intro.vrb'.
 
  (./R_intro.vrb
-<figures/hw_tidy1.png, id=494, 561.09625pt x 308.15125pt>
+<figures/hw_tidy1.png, id=506, 561.09625pt x 308.15125pt>
 File: figures/hw_tidy1.png Graphic file (type png)
 
 <use figures/hw_tidy1.png>
 Package pdftex.def Info: figures/hw_tidy1.png used on input line 10.
 (pdftex.def)             Requested size: 140.27371pt x 77.03761pt.
 )
-Overfull \vbox (14.71878pt too high) detected at line 1206
+Overfull \vbox (14.71878pt too high) detected at line 1225
  []
 
-[80
+[81
 
  <./figures/hw_tidy1.png>] (./R_intro.vrb
 File: figures/hw_tidy1.png Graphic file (type png)
@@ -1944,10 +1946,10 @@ File: figures/hw_tidy1.png Graphic file (type png)
 Package pdftex.def Info: figures/hw_tidy1.png used on input line 10.
 (pdftex.def)             Requested size: 140.27371pt x 77.03761pt.
 )
-Overfull \vbox (14.71878pt too high) detected at line 1206
+Overfull \vbox (14.71878pt too high) detected at line 1225
  []
 
-[81
+[82
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -1958,18 +1960,7 @@ File: figures/hw_tidy1.png Graphic file (type png)
 Package pdftex.def Info: figures/hw_tidy1.png used on input line 12.
 (pdftex.def)             Requested size: 140.27371pt x 77.03761pt.
 )
-Overfull \vbox (28.5187pt too high) detected at line 1223
- []
-
-[82
-
-] (./R_intro.vrb
-File: figures/hw_tidy1.png Graphic file (type png)
- <use figures/hw_tidy1.png>
-Package pdftex.def Info: figures/hw_tidy1.png used on input line 12.
-(pdftex.def)             Requested size: 140.27371pt x 77.03761pt.
-)
-Overfull \vbox (28.5187pt too high) detected at line 1223
+Overfull \vbox (28.5187pt too high) detected at line 1242
  []
 
 [83
@@ -1980,7 +1971,7 @@ File: figures/hw_tidy1.png Graphic file (type png)
 Package pdftex.def Info: figures/hw_tidy1.png used on input line 12.
 (pdftex.def)             Requested size: 140.27371pt x 77.03761pt.
 )
-Overfull \vbox (28.5187pt too high) detected at line 1223
+Overfull \vbox (28.5187pt too high) detected at line 1242
  []
 
 [84
@@ -1991,39 +1982,50 @@ File: figures/hw_tidy1.png Graphic file (type png)
 Package pdftex.def Info: figures/hw_tidy1.png used on input line 12.
 (pdftex.def)             Requested size: 140.27371pt x 77.03761pt.
 )
-Overfull \vbox (28.5187pt too high) detected at line 1223
+Overfull \vbox (28.5187pt too high) detected at line 1242
  []
 
 [85
 
+] (./R_intro.vrb
+File: figures/hw_tidy1.png Graphic file (type png)
+ <use figures/hw_tidy1.png>
+Package pdftex.def Info: figures/hw_tidy1.png used on input line 12.
+(pdftex.def)             Requested size: 140.27371pt x 77.03761pt.
+)
+Overfull \vbox (28.5187pt too high) detected at line 1242
+ []
+
+[86
+
 ]
 \openout4 = `R_intro.vrb'.
 
- (./R_intro.vrb <figures/hw_tidy2.png, id=527, 783.92876pt x 243.91125pt>
+ (./R_intro.vrb <figures/hw_tidy2.png, id=539, 783.92876pt x 243.91125pt>
 File: figures/hw_tidy2.png Graphic file (type png)
 
 <use figures/hw_tidy2.png>
 Package pdftex.def Info: figures/hw_tidy2.png used on input line 12.
 (pdftex.def)             Requested size: 195.9817pt x 60.97766pt.
 )
-Overfull \vbox (11.39449pt too high) detected at line 1240
+Overfull \vbox (11.39449pt too high) detected at line 1259
  []
 
-[86
+[87
 
  <./figures/hw_tidy2.png>]
 \openout4 = `R_intro.vrb'.
 
- (./R_intro.vrb) [87
+ (./R_intro.vrb) [88
 
-] (./R_intro.vrb) [88
+] (./R_intro.vrb) [89
 
 ]
-(./R_intro.vrb) [89
-
-] (./R_intro.vrb) [90
+(./R_intro.vrb) [90
 
 ] (./R_intro.vrb) [91
+
+] (./R_intro.vrb) [92
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -2032,66 +2034,66 @@ Overfull \vbox (11.39449pt too high) detected at line 1240
 LaTeX Font Info:    Font shape `T1/aess/m/it' in size <12> not available
 (Font)              Font shape `T1/aess/m/sl' tried instead on input line 2.
 
-<figures/hw_tidy3-1.png, id=560, 808.01875pt x 359.3425pt>
+<figures/hw_tidy3-1.png, id=573, 808.01875pt x 359.3425pt>
 File: figures/hw_tidy3-1.png Graphic file (type png)
 
 <use figures/hw_tidy3-1.png>
 Package pdftex.def Info: figures/hw_tidy3-1.png used on input line 5.
 (pdftex.def)             Requested size: 3636.07553pt x 1617.03726pt.
-) [92
+) [93
 
  <./figures/hw_tidy3-1.png>]
 \openout4 = `R_intro.vrb'.
 
  (./R_intro.vrb
-<figures/hw_tidy3-2.png, id=567, 400.49625pt x 298.11375pt>
+<figures/hw_tidy3-2.png, id=580, 400.49625pt x 298.11375pt>
 File: figures/hw_tidy3-2.png Graphic file (type png)
 
 <use figures/hw_tidy3-2.png>
 Package pdftex.def Info: figures/hw_tidy3-2.png used on input line 5.
 (pdftex.def)             Requested size: 100.12381pt x 74.52824pt.
 )
-Overfull \vbox (13.71573pt too high) detected at line 1276
+Overfull \vbox (13.71573pt too high) detected at line 1295
  []
 
-[93
+[94
 
  <./figures/hw_tidy3-2.png>]
 \openout4 = `R_intro.vrb'.
 
  (./R_intro.vrb
-<figures/hw_tidy4.png, id=575, 698.61pt x 434.62375pt>
+<figures/hw_tidy4.png, id=587, 698.61pt x 434.62375pt>
 File: figures/hw_tidy4.png Graphic file (type png)
 
 <use figures/hw_tidy4.png>
 Package pdftex.def Info: figures/hw_tidy4.png used on input line 5.
 (pdftex.def)             Requested size: 245.83282pt x 152.9363pt.
-) [94
+) [95
 
  <./figures/hw_tidy4.png>]
 \openout4 = `R_intro.vrb'.
 
  (./R_intro.vrb
-<figures/hw_tidy5.png, id=582, 769.87625pt x 308.15125pt>
+<figures/hw_tidy5.png, id=594, 769.87625pt x 308.15125pt>
 File: figures/hw_tidy5.png Graphic file (type png)
 
 <use figures/hw_tidy5.png>
 Package pdftex.def Info: figures/hw_tidy5.png used on input line 5.
 (pdftex.def)             Requested size: 245.83282pt x 98.39882pt.
-) [95
+) [96
 
  <./figures/hw_tidy5.png>]
 \openout4 = `R_intro.vrb'.
 
  (./R_intro.vrb)
-[96
+[97
 
-] (./R_intro.vrb) [97
+] (./R_intro.vrb) [98
 
 ]
 \openout4 = `R_intro.vrb'.
 
- (./R_intro.vrb) [98
+ (./R_intro.vrb) [99
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -2124,38 +2126,6 @@ File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `TS1/aett/m/sl' in size <8> not available
 (Font)              Font shape `TS1/cmtt/m/sl' tried instead on input line 22.
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 28--28
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 32--36
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 40--40
-[]  
- []
-
-) [99
-
-] (./R_intro.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 4--8
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 13--13
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 17--21
-[]  
- []
-
 
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 28--28
 []  
@@ -2205,6 +2175,38 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 40--40
 
 ) [101
 
+] (./R_intro.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 4--8
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 13--13
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 17--21
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 28--28
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 32--36
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 40--40
+[]  
+ []
+
+) [102
+
 ]
 \openout4 = `R_intro.vrb'.
 
@@ -2229,10 +2231,10 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 50--50
  []
 
 )
-Overfull \vbox (18.25107pt too high) detected at line 1438
+Overfull \vbox (18.25107pt too high) detected at line 1457
  []
 
-[102
+[103
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -2253,10 +2255,10 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 27--27
  []
 
 )
-Overfull \vbox (2.01616pt too high) detected at line 1476
+Overfull \vbox (2.01616pt too high) detected at line 1495
  []
 
-[103
+[104
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -2281,7 +2283,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--42
 []  
  []
 
-) [104
+) [105
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -2308,7 +2310,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 38--38
 []  
  []
 
-) [105
+) [106
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -2323,7 +2325,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 34--34
 []  
  []
 
-) [106
+) [107
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -2338,7 +2340,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 38--38
 [][]  
  []
 
-) [107
+) [108
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -2353,7 +2355,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 44--44
 []  
  []
 
-) [108
+) [109
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -2368,7 +2370,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 26--26
 [][]  
  []
 
-) [109
+) [110
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -2384,15 +2386,10 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 51--51
  []
 
 )
-Overfull \vbox (2.57608pt too high) detected at line 1797
+Overfull \vbox (2.57608pt too high) detected at line 1816
  []
 
-[110
-
-]
-\openout4 = `R_intro.vrb'.
-
- (./R_intro.vrb) [111
+[111
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -2402,11 +2399,16 @@ Overfull \vbox (2.57608pt too high) detected at line 1797
 ]
 \openout4 = `R_intro.vrb'.
 
+ (./R_intro.vrb) [113
+
+]
+\openout4 = `R_intro.vrb'.
+
  (./R_intro.vrb)
-Overfull \vbox (17.31618pt too high) detected at line 1848
+Overfull \vbox (17.31618pt too high) detected at line 1867
  []
 
-[113
+[114
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -2421,7 +2423,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 35--35
 [][]  
  []
 
-) [114
+) [115
 
 ]
 \openout4 = `R_intro.vrb'.
@@ -2447,33 +2449,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
  []
 
 )
-Overfull \vbox (30.3509pt too high) detected at line 1974
- []
-
-[115
-
-] (./R_intro.vrb
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
-[]  
- []
-
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
-[]  
- []
-
-)
-Overfull \vbox (30.3509pt too high) detected at line 1974
+Overfull \vbox (30.3509pt too high) detected at line 1993
  []
 
 [116
@@ -2499,7 +2475,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
  []
 
 )
-Overfull \vbox (30.3509pt too high) detected at line 1974
+Overfull \vbox (30.3509pt too high) detected at line 1993
  []
 
 [117
@@ -2525,7 +2501,7 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
  []
 
 )
-Overfull \vbox (30.3509pt too high) detected at line 1974
+Overfull \vbox (30.3509pt too high) detected at line 1993
  []
 
 [118
@@ -2551,15 +2527,12 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
  []
 
 )
-Overfull \vbox (30.3509pt too high) detected at line 1974
+Overfull \vbox (30.3509pt too high) detected at line 1993
  []
 
 [119
 
-]
-\openout4 = `R_intro.vrb'.
-
- (./R_intro.vrb
+] (./R_intro.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
 []  
  []
@@ -2575,23 +2548,20 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
  []
 
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 77--77
 []  
  []
 
-
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
-[]  
+)
+Overfull \vbox (30.3509pt too high) detected at line 1993
  []
 
+[120
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
-[]  
- []
+]
+\openout4 = `R_intro.vrb'.
 
-) [120
-
-] (./R_intro.vrb
+ (./R_intro.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
 []  
  []
@@ -2751,32 +2721,42 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
 
 ) [125
 
-]
-\openout4 = `R_intro.vrb'.
-
- (./R_intro.vrb
+] (./R_intro.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
 []  
  []
 
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 21--21
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 19--19
 []  
  []
 
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 24--26
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 22--24
 []  
  []
 
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 53--53
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 39--39
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 42--44
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 56--56
 []  
  []
 
 ) [126
 
-] (./R_intro.vrb
+]
+\openout4 = `R_intro.vrb'.
+
+ (./R_intro.vrb
 Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
 []  
  []
@@ -2842,6 +2822,28 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 53--53
 
 ) [129
 
+] (./R_intro.vrb
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 5--7
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 21--21
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 24--26
+[]  
+ []
+
+
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 53--53
+[]  
+ []
+
+) [130
+
 ]
 \tf@nav=\write8
 \openout8 = `R_intro.nav'.
@@ -2852,25 +2854,25 @@ Overfull \hbox (21.90005pt too wide) in paragraph at lines 53--53
 \tf@snm=\write10
 \openout10 = `R_intro.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2099.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2099.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2118.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2118.
  (./R_intro.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2099.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2099.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2118.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2118.
 
 Package rerunfilecheck Info: File `R_intro.out' has not changed.
-(rerunfilecheck)             Checksum: B64ABFB70A41822D3475187904EA5A4C;282.
+(rerunfilecheck)             Checksum: 1899C358FE76E84B2F9FD0E61B69474F;282.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2099.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2118.
  ) 
 Here is how much of TeX's memory you used:
- 25311 strings out of 493014
- 492234 string characters out of 6133351
+ 25315 strings out of 493014
+ 492273 string characters out of 6133351
  557818 words of memory out of 5000000
- 27675 multiletter control sequences out of 15000+600000
+ 27677 multiletter control sequences out of 15000+600000
  74425 words of font info for 163 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  74i,13n,103p,1731b,726s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2894,10 +2896,10 @@ exlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/public/cm-super/sfst0800.pfb>
-Output written on R_intro.pdf (129 pages, 1257646 bytes).
+Output written on R_intro.pdf (130 pages, 1259822 bytes).
 PDF statistics:
- 891 PDF objects out of 1000 (max. 8388607)
- 697 compressed objects within 7 object streams
- 264 named destinations out of 1000 (max. 500000)
+ 905 PDF objects out of 1000 (max. 8388607)
+ 709 compressed objects within 8 object streams
+ 266 named destinations out of 1000 (max. 500000)
  162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
