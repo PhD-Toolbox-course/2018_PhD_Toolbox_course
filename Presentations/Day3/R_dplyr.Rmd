@@ -1,0 +1,133 @@
+---
+title: "Manipulating data with dplyr"
+author: "Marco Chiapello, PhD"
+subtitle: "Based on R-ecology lesson - Data carpentry"
+date: "March 29, 2017"
+output: 
+  beamer_presentation:
+    toc: true
+    theme: "Boadilla"
+    colortheme: "beaver"
+    fonttheme: "structuresmallcapsserif"
+---
+
+# What is dplyr?
+
+
+* **dplyr** is a package for making data manipulation easier
+	*  Packages in R are basically sets of additional functions that let you do more stuff
+\pause
+* dplyr provides **easy** **tools** for the most common **data** **manipulation** tasks
+\pause
+* dplyr addresses this by porting much of the computation to C++
+\pause
+* An additional feature is the ability to work directly with data stored in an **external** **database**
+
+
+
+# What is dplyr?
+
+**Before start to dig into dplyr functions we learn how to import data into R**
+
+* To download the data, run the following:
+
+\small
+```{r eval=FALSE}
+download.file("https://ndownloader.figshare.com/files/2292169",
+			  "portal_data_joined.csv")
+```
+
+* You are now ready to load the data:
+
+\small
+```{r eval=FALSE}
+surveys <- read.csv('portal_data_joined.csv')
+```
+
+\pause
+
+* Converts data to tbl class. tbl’s are easier to examine than
+  data frames. R displays only the data that fits onscreen
+
+\small
+```{r eval=FALSE}
+surveys <- tbl_df(surveys)
+```
+
+# What is dplyr?
+
+We're going to learn some of the *most common dplyr functions:*
+
+* **select**
+
+* **filter**
+
+* **arrange**
+
+* **mutate**
+
+* **group\_by**
+
+* **summarize**
+
+
+# Select
+
+![](figures/select.png)
+
+* To select columns of a data frame, use select()
+	*  The **first** **argument** to this function is the **data** **frame**
+	*  The **subsequent** **arguments** are the **columns** **to** **keep**
+
+
+\small
+```{r eval=FALSE}
+select(surveys, plot_id, species_id, weight)
+```
+
+\pause
+
+* select is much more powerful than just select the interest columns
+	*  You can remove one column
+
+\small
+```{r eval=FALSE}
+select(surveys, -weight)
+```
+
+\pause
+
+	*  Select columns whose name contains a character string
+
+\small
+```{r eval=FALSE}
+select(surveys, contains("ec"))
+```
+
+
+# Select
+
+
+* Select columns whose name starts with a character string
+
+\small
+```{r eval=FALSE}
+select(surveys, starts_with("s"))
+```
+
+\pause
+
+* Select all columns between Sepal.Length and Petal.Width (inclusive).
+
+\small
+```{r eval=FALSE}
+select(surveys, plot_id:weight)
+```
+
+\pause
+
+* Select every column
+\small
+```{r eval=FALSE}
+select(surveys, weight, everything())
+```

@@ -21,7 +21,7 @@ output:
 
 ## Breakfast
 
-\begin{flushright} \Huge ciao mamma \end{flushright}
+**ciao** mamma 
 
 PIPPO
 
