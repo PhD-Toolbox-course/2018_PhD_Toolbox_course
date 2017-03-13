@@ -370,18 +370,236 @@ surveys %>%
 \tiny tally() is the action applied to the groups created by group_by() and counts the total number of records for each category
 
 
-# Arrange ==TODO==
+# Arrange 
 
+* Last but not least the verb to sort your data.frame
+
+\small
+```{r eval=FALSE}
+select(surveys, plot_id, species_id, weight) %>%
+	arrange(desc(weight))
+```
 
 # Challenge 1 ==TODO==
 
-How many individuals were caught in each plot_type surveyed?
-Use group_by() and summarize() to find the mean, min, and max hindfoot length for each species (using species_id).
-What was the heaviest animal measured in each year? Return the columns year,  genus, species_id, and weight.
-You saw above how to count the number of individuals of each sex using a combination of group_by() and tally(). How could you get the same result using group_by() and summarize()? Hint: see ?n.
+1. How many individuals were caught in each `plot_type` surveyed?
 
-# Challange 2 ==TODO==
+1. Use `group_by()` and `summarize()` to find the mean, min, and max hindfoot
+length for each species (using `species_id`).
 
-the same of yesterday
+1. What was the heaviest animal measured in each year? Return the columns `year`,
+`genus`, `species_id`, and `weight`.
+
+1. You saw above how to count the number of individuals of each `sex` using a
+combination of `group_by()` and `tally()`. How could you get the same result
+using `group_by()` and `summarize()`? Hint: see `?n`.
 
 
+# Challenge 1
+
+1. How many individuals were caught in each `plot_type` surveyed?
+
+\small
+```{r eval=FALSE}
+## Answer 1
+surveys %>%
+    group_by(plot_type) %>%
+    tally
+```
+
+\pause
+`
+2. Use `group_by()` and `summarize()` to find the mean, min, and max hindfoot
+length for each species (using `species_id`).
+
+\small
+```{r eval=FALSE}
+## Answer 2
+surveys %>%
+    filter(!is.na(hindfoot_length)) %>%
+    group_by(species_id) %>%
+    summarize(
+        mean_hindfoot_length = mean(hindfoot_length),
+        min_hindfoot_length = min(hindfoot_length),
+        max_hindfoot_length = max(hindfoot_length)
+    )
+```
+
+
+# Challenge 1
+
+3. What was the heaviest animal measured in each year? Return the columns `year`,
+`genus`, `species_id`, and `weight`.
+
+\small
+```{r eval=FALSE}
+## Answer 3
+surveys %>%
+    filter(!is.na(weight)) %>%
+    group_by(year) %>%
+    filter(weight == max(weight)) %>%
+    select(year, genus, species, weight) %>%
+    arrange(year)
+```
+
+\pause
+`
+4. Get the same result using `group_by()` and `summarize()`?
+
+\small
+```{r eval=FALSE}
+## Answer 4
+surveys %>%
+  group_by(sex) %>%
+  summarize(n = n())
+```
+
+# Challange 2
+
+Recall yesterday challenge and try to solve it using dplyr
+
+* Which is the average age?
+
+* Which is the maximum female weight?
+
+* Which is the minimum male weight?
+
+* How many are the male over 180cm?
+
+* Which is their average age?
+
+* Who is the younger and lighter female?
+
+* Who is the person with the minimum BMI [weight/height^2]?
+
+
+# Challenge 2
+
+Re-create the data.frame
+\small
+```{r eval=FALSE}
+n <- 1:10
+sex <- rep(c('male', 'female'), 5)
+age <- c(23, 22, 21, 22, 24, 30, 23, 29, 19, 29)
+weight <- c(72, 90, 120, 80, 75, 65, 91, 58, 78, 50)
+height <- c(171, 185, 210, 170, 189, 150, 168, 165, 188, 143)
+df <- data.frame(n = n, sex = sex, age = age, weight = weight,
+				 height = height)
+df
+```
+
+# Challenge 2
+
+* Which is the average age?
+\small
+```{r eval=FALSE}
+df %>% mutate(mean_age = mean(age))
+```
+
+\pause
+
+* Which is the maximum female weight?
+\small
+```{r eval=FALSE}
+df %>% filter(sex == "female") %>%
+	filter(weight == max(weight))
+
+df %>% filter(sex == "female") %>%
+	top_n(1, weight)
+```
+
+\pause
+
+* Which is the minimum male weight?
+\small
+```{r eval=FALSE}
+df %>% filter(sex == "male") %>%
+	filter(weight == min(weight))
+```
+
+# Challenge 2
+
+* How many are the male over 180cm?
+\small
+```{r eval=FALSE}
+df %>% filter(sex == "male") %>% filter(height > 180) %>%
+	count()
+```
+
+\pause
+
+* Which is their average age?
+\small
+```{r eval=FALSE}
+df %>% filter(sex == "male") %>% filter(height > 180) %>%
+	summarise(mean(age))
+```
+
+\pause
+
+* Who is the younger and lighter female?
+\small
+```{r eval=FALSE}
+df %>% filter(sex == "female") %>%
+	filter(age == min(age)) %>%
+	filter(weight == min(weight))
+```
+
+# Challenge 2
+
+* Who is the person with the minimum BMI [weight/height^2]?
+\small
+```{r eval=FALSE}
+df %>% mutate(BMI = weight/height^2) %>%
+	filter(BMI == min(BMI))
+```
+
+# Exporting data
+
+* Now that you have learned how to use dplyr to **extract** **information** from or
+summarize your raw data, you may want to **export** **these** **new** **datasets** to share
+them with your collaborators
+
+* Similar to the read.csv() function used for reading CSVs into R, there is a write.csv() function that generates CSV files from data frames
+
+* Before using write.csv(), we are going to create a new folder, `data_output`
+
+	*  We don’t want to write generated datasets in **the same directory as our raw data**
+
+
+
+# Exporting data
+
+* In preparation for our next lesson on plotting, we are going to prepare a cleaned up version of the dataset that doesn’t include any missing data
+
+\small
+```{r eval=FALSE}
+surveys_complete <- surveys %>%
+  filter(species_id != "",         # remove missing species_id
+         !is.na(weight),           # remove missing weight
+         !is.na(hindfoot_length),  # remove missing hindfoot_length
+         sex != "")                # remove missing sex
+
+## Extract the most common species_id
+species_counts <- surveys_complete %>%
+  group_by(species_id) %>%
+  tally %>%
+  filter(n >= 50)
+
+## Only keep the most common species
+surveys_complete <- surveys_complete %>%
+  filter(species_id %in% species_counts$species_id)
+```
+
+# Exporting data
+
+* To make sure that everyone has the same dataset, check that surveys_complete has 30463 rows and 13 columns by typing `dim(surveys_complete)`
+
+* Now that our dataset is ready, we can save it as a CSV file in our data_output folder
+
+\small
+```{r eval=FALSE}
+write.csv(surveys_complete,
+		  file = "data_output/surveys_complete.csv",
+          row.names=FALSE)
+```
