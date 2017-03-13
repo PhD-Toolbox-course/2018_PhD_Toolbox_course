@@ -1,0 +1,16 @@
+---
+title: "Data visualization with ggplot"
+author: "Marco Chiapello, PhD"
+subtitle: "Based on R-ecology lesson - Data carpentry"
+date: "March 29, 2017"
+output: 
+  beamer_presentation:
+    toc: true
+    theme: "Boadilla"
+    colortheme: "beaver"
+    fonttheme: "structuresmallcapsserif"
+---
+
+# Importance of data visualization
+
+Ascomb's quartet
