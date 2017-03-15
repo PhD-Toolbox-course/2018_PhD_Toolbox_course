@@ -13,4 +13,74 @@ output:
 
 # Importance of data visualization
 
-Ascomb's quartet
+**Ascomb's quartet**
+
+Use the file example "scraping.R" in Resource directory
+
+
+# What is ggplot2
+
+* ggplot2 is a plotting system for R, based on the **grammar** **of** **graphics**
+
+* ggplot2 makes **simple** **to** **create** **complex** **plots** from data in a dataframe
+
+* help creating **publication** **quality** **plots** with a **minimal** **amount** **of** **settings** and tweaking
+
+* ggplot graphics are built step by step by **adding** **new** **elements**
+
+
+# Plotting with ggplot2
+
+To build a ggplot we need to:
+
+* **bind** **the** **plot** to a specific data frame using the data argument
+
+\small
+```{r eval=FALSE}
+surveys_complete <- read.csv("surveys_complete.csv")
+ggplot(data = surveys_complete)
+```
+
+\pause
+
+* \normalsize define **aesthetics** (aes), by selecting the variables to be plotted
+
+\small
+```{r eval=FALSE}
+ggplot(data = surveys_complete,
+	   aes(x = weight, y = hindfoot_length))
+```
+
+
+# Plotting with ggplot2
+
+* add **geoms** – graphical representation of the data in the plot 
+
+\small
+```{r eval=FALSE}
+ggplot(data = surveys_complete,
+	aes(x = weight, y = hindfoot_length)) +
+  geom_point()
+```
+
+\pause 
+
+* \normalsize The **+** in the ggplot2 package is particularly useful because it allows you to modify existing ggplot objects
+
+
+# Plotting with ggplot2
+
+* Set up plot “templates” and conveniently explore different types of plots
+
+\small
+```{r eval=FALSE}
+# Create
+surveys_plot <- ggplot(data = surveys_complete,
+					   aes(x = weight, y = hindfoot_length))
+
+# Draw the plot
+surveys_plot + geom_point()
+surveys_plot + geom_line()
+surveys_plot + geom_count()
+surveys_plot + geom_rug()
+```
