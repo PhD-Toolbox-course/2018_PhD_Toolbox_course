@@ -7,7 +7,11 @@ Some Markdown text with <span style="color:red">some text</span>.
 
 #VSLIDE
 
-1
+- Java
+- JavaScript <!-- .element: class="fragment" -->
+- Kotlin     <!-- .element: class="fragment" -->
+- Go         <!-- .element: class="fragment" -->
+- Scala      <!-- .element: class="fragment" -->
 
 #VSLIDE
 
