@@ -58,3 +58,10 @@
 * The complete **history of commits** for a particular project and their metadata make up a **repository**
 
 * Repositories can be kept in **sync across different computers** facilitating collaboration among different people
+
++++
+
+<h2>Key Points</h2>
+
+* Version control is like an unlimited ‘undo’.
+* Version control also allows many people to work in parallel.
