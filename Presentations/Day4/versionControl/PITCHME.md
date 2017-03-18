@@ -39,3 +39,14 @@
 
 ---
 
+* For example, you can make independent sets of changes based on the same document.
+
+![image3](http://swcarpentry.github.io/git-novice/fig/versions.svg)
+
+---
+
+You can decide which changes keep on the same base document
+
+![image4](http://swcarpentry.github.io/git-novice/fig/merge.svg)
+
+---
