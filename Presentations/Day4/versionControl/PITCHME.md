@@ -20,3 +20,6 @@ You never have to worry about irreparably breaking your code base
 
 * Some **word processors** let us deal with this a little better, such as Microsoft Word’s **Track** **Changes** or Google Docs’ **version** **history**.
 
+---
+
+![image2](http://swcarpentry.github.io/git-novice/fig/play-changes.svg)
