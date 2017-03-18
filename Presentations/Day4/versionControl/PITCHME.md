@@ -2,7 +2,7 @@
 <center><h1>VERSION CONTROL</h1></center>
 
 <center><h4>Based on http://swcarpentry.github.io/git-novice/</h4></center>
-<center><h4>https://www.atlassian.com/git/tutorials/</h4></center>
+<center><h4>Based on: https://www.atlassian.com/git/tutorials/</h4></center>
 ---
 
 <h2>What is Version Control</h2>
@@ -95,6 +95,6 @@
 
 * On GitHub you can create pubblic repositories
 
-* There are other services were you can also create private repo for free: 
+* There are other services where you can also create private repo for free: 
   * [BitBucket](https://bitbucket.org/)
   * [GitLab](https://about.gitlab.com/)
