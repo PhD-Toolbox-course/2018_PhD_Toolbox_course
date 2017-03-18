@@ -4,12 +4,11 @@
 <center><h4>Based on http://swcarpentry.github.io/git-novice/</h4></center>
 ---
 
+<h2>What is Version Control</h2>
+
 * The whole idea behind any **version control** system is to **store “safe” copies** of a project 
-<br>
-<br>
-<br>
+
 * You never have to worry about irreparably breaking your code base
-</left>
 
 ---
 
@@ -61,7 +60,28 @@
 
 +++
 
-<h2>Key Points</h2>
+<h3>Key Points</h3>
 
-* Version control is like an unlimited ‘undo’.
-* Version control also allows many people to work in parallel.
+* Version control is like an unlimited ‘undo’
+* Version control also allows many people to work in parallel
+
+---
+
+<h2>What is Git</h2>
+
+* Git is the most widely used modern version control system in the world
+
+* Git is a mature, actively maintained open source project originally developed by Linus Torvalds
+
+* Git focuses on the file content itself
+
+* Git repository are secured with a cryptographically secure hashing algorithm called SHA1
+
+---
+
+* Git is the most broadly adopted tool of its kind (it is a de facto standard
+)
+
+* One common criticism of Git is that it can be difficult to learn
+
+* Learning to use that power can take some time, however once it has been learned, that power can be used by the team to increase their development speed
