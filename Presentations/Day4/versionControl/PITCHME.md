@@ -39,14 +39,22 @@
 
 ---
 
-* For example, you can make independent sets of changes based on the same document.
+* For example, you can make independent sets of changes based on the same document. Or one of your collaborators can do these changes.
 
 ![image3](http://swcarpentry.github.io/git-novice/fig/versions.svg)
 
 ---
 
-You can decide which changes keep on the same base document
+* Then you can decide which changes keep on the same base document
 
 ![image4](http://swcarpentry.github.io/git-novice/fig/merge.svg)
 
 ---
+
+* A **version control system** is a **tool that keeps track of these changes** and helps us version and merge our files.
+
+* It allows you to decide which changes make up the next version, called a **commit**, and keeps useful **metadata** about them
+
+* The complete **history of commits** for a particular project and their metadata make up a **repository**
+
+* Repositories can be kept in **sync across different computers** facilitating collaboration among different people
