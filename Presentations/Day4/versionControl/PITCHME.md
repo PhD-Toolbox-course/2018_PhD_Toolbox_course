@@ -3,13 +3,13 @@
 
 <center><h4>Based on http://swcarpentry.github.io/git-novice/</h4></center>
 ---
-<div align="center">
+<left>
 The whole idea behind any **version control** system is to **store “safe” copies** of a project 
 <br>
 <br>
 <br>
 You never have to worry about irreparably breaking your code base
-</div>
+</left>
 
 ---
 
