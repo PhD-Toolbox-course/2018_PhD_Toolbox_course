@@ -38,4 +38,4 @@ Etherpad for the course: https://public.etherpad-mozilla.org/p/PhD_Toolbox_2017
 
 ----
 
-> Please bring your data if you like. You can use it during the free exercises
+> Please bring your data if you like. You can use them during the free exercises

@@ -484,7 +484,7 @@ timeseries_plot + geom_line() + facet_wrap(~ species_id) +
 
 # Customization
 
-* If you like the changes you created to the default theme
+* If you like the changes you created, you can save them as an object to easily apply them
 
 \small
 ```{r eval=FALSE}
@@ -500,3 +500,40 @@ ggplot(surveys_complete, aes(x = species_id, y = hindfoot_length)) +
 ```
 \normalsize
 
+
+# Challenge
+
+* With all of this information in hand, please **try** **to** **improve** **one** **of** **the** **plots** **we** **generated**, creating a beautiful graph of your own
+
+
+# Save plot
+
+* After creating your plot, you can save it to a file in your favourite format
+
+\small
+```{r eval=FALSE}
+my_plot <- ggplot(data = yearly_sex_counts, aes(x = year, y = n,
+									  color = sex, group = sex)) +
+    geom_line() +
+    facet_wrap(~ species_id) +
+    labs(title = 'Observed species in time',
+        x = 'Year of observation',
+        y = 'Number of species') +
+    theme_bw() +
+    theme(axis.text.x = element_text(colour="grey20", size=12,
+									 angle=90, hjust=.5, vjust=.5),
+          axis.text.y = element_text(colour="grey20", size=12),
+          text=element_text(size=16, family="Arial"))
+
+ggsave("name_of_file.png", my_plot, width=15, height=10)
+```
+\normalsize
+
+
+# Challenge
+
+* Use **your** **own** **data** or
+
+* **Download** **the** **data** from [https://figshare.com/articles/Ecology_experimental_design/1244589]
+
+* Play with the data an **plot** **them** **as** **beautiful** **as** **you** **like**
