@@ -12,4 +12,11 @@ You never have to worry about irreparably breaking your code base
 
 ---
 
-![](./figures/phd101212s.png)
+![image1](/figures/phd101212s.png)
+
+---
+
+* We’ve all been in this situation before: it \underline{seems ridiculous to have multiple nearly-identical versions} of the same document.
+
+* Some **word processors** let us deal with this a little better, such as Microsoft Word’s **Track** **Changes** or Google Docs’ **version** **history**.
+
