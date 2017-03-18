@@ -12,4 +12,4 @@ You never have to worry about irreparably breaking your code base
 
 ---
 
-![](figures/phd101212s.png)
+![](./figures/phd101212s.png)
