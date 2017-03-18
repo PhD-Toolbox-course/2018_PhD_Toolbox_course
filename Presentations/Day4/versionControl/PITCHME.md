@@ -12,7 +12,7 @@ You never have to worry about irreparably breaking your code base
 
 ---
 
-![image1](http://www.phdcomics.com/comics/archive/phd101212s.gif =100x)
+![image1](figures/phd101212s.png =100x)
 
 ---
 
