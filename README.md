@@ -29,8 +29,8 @@
 
 
    - Day4
-	   - 10:30-12:30: 	Version control
-	   - 12:30-14:30: 	Reproducible research
+	   - 10:30-12:30: 	Reproducible research
+	   - 12:30-14:30: 	Version control
 
 ----
 
