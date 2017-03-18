@@ -6,9 +6,16 @@
 <div align="center">
 The whole idea behind any **version control** system is to **store “safe” copies** of a project 
 <br>
-You never have to worry about irreparably breaking your code base
 <br>
+<br>
+You never have to worry about irreparably breaking your code base
+</div>
+
+---
+
 Nothing that is committed to version control is ever lost, unless you work really, really hard at it.
+<br>
+<br>
 <br>
 All old versions of files are saved, it’s always possible to go back in time to see exactly who wrote what on a particular day, or what version of a program was used to generate a particular set of results.
 ---
