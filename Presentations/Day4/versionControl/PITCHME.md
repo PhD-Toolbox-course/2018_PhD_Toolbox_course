@@ -2,6 +2,7 @@
 <center><h1>VERSION CONTROL</h1></center>
 
 <center><h4>Based on http://swcarpentry.github.io/git-novice/</h4></center>
+<center><h4>https://www.atlassian.com/git/tutorials/</h4></center>
 ---
 
 <h2>What is Version Control</h2>
@@ -85,3 +86,15 @@
 * One common criticism of Git is that it can be difficult to learn
 
 * Learning to use that power can take some time, however once it has been learned, that power can be used by the team to increase their development speed
+
+---
+
+<h2>Setting up a repository</h2>
+
+* We will start by creating a personal account on [GitHub](https://github.com/)
+
+* On GitHub you can create pubblic repositories
+
+* There are other services were you can also create private repo for free: 
+  * [BitBucket](https://bitbucket.org/)
+  * [GitLab](https://about.gitlab.com/)
