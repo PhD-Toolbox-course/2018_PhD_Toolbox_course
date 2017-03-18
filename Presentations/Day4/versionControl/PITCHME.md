@@ -12,7 +12,7 @@ You never have to worry about irreparably breaking your code base
 
 ---
 
-![image1](http://www.phdcomics.com/comics/archive.php?comicid=1531)
+![image1](http://www.phdcomics.com/comics/archive/phd101212s.gif)
 
 ---
 
