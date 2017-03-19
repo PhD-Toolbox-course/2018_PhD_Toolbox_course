@@ -20,15 +20,15 @@
 * All old versions of files are saved, it’s always **possible to go back in time** to see exactly who wrote what on a **particular day**, or what **version** of a program was used to generate a particular **set of results**.
 ---
 
-![image1](/figures/phd101212s.png)
+![image1](./figures/phd101212s.png)
 
 ---
 
-![image1](/figures/phd101212s_small.png)
+![image1](./figures/phd101212s_small.png)
 
 ---
 
-![image1](/figures/phd101212s_tiny.png)
+![image1](./figures/phd101212s_tiny.png)
 
 ---
 * We’ve all been in this situation before: it **seems ridiculous to have multiple nearly-identical versions** of the same document.
