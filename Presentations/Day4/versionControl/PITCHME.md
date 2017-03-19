@@ -6,7 +6,7 @@
 <br>
 <br>
 <br>
-<center>This lesson is a <span style="color:red">basic introduction</span> to version control</center>
+<center>This lesson is a basic introduction to version control</center>
 ---
 
 <h2>What is Version Control</h2>
@@ -110,4 +110,15 @@
 
 <h2>Save changes<h2>
 
+* We will **create** our first file on GitHub
 
+* We will **commit** it
+
++++
+
+<h1>[DEMO](https://help.github.com/articles/create-a-repo/)</h1>
+<h3>Create first commit</h3>
+
+--- 
+
+<h2>
