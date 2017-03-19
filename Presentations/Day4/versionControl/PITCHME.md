@@ -91,6 +91,11 @@
 
 * Learning to use that power can **take some time**, however once it has been learned, that power can be used by the team to increase their development speed
 
++++
+
+<img src="http://inchoo.net/wp-content/uploads/2011/01/git-transport.png
+" width="600">
+
 ---
 
 <h2>Using Git from RStudio</h2>
@@ -104,9 +109,9 @@
 +++
 
 <h1>DEMO</h1>
-<h3>Create RStudio project with version control</h3>
+<h4>Create RStudio project with version control</h4>
 
----
++++
 
 1. Open RStudio preferences
 1. Go to tab Git/SVN
