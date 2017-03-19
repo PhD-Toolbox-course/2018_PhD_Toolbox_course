@@ -1,8 +1,8 @@
 
-<center><h1>VERSION CONTROL</h1></center>
+<center><h2>VERSION CONTROL</h2></center>
 
-<center><h4>Based on http://swcarpentry.github.io/git-novice/</h4></center>
-<center><h4>Based on: https://www.atlassian.com/git/tutorials/</h4></center>
+<center><h5>Based on http://swcarpentry.github.io/git-novice/</h5></center>
+<center><h5>Based on: https://www.atlassian.com/git/tutorials/</h5></center>
 ---
 
 <h2>What is Version Control</h2>
@@ -20,7 +20,7 @@
 * All old versions of files are saved, it’s always possible to go back in time to see exactly who wrote what on a particular day, or what version of a program was used to generate a particular set of results.
 ---
 
-![image1](http://www.phdcomics.com/comics/archive/phd101212s.gif)
+![image1](figures/phd101212s.png)
 
 ---
 
@@ -70,28 +70,27 @@
 
 <h2>What is Git</h2>
 
-* Git is the most widely used modern version control system in the world
+* Git is the **most widely used** modern version control system in the world
 
-* Git is a mature, actively maintained open source project originally developed by Linus Torvalds
+* Git is a mature, actively maintained **open source project** originally developed by Linus Torvalds
 
-* Git focuses on the file content itself
+* Git **focuses on the file content** itself
 
-* Git repository are secured with a cryptographically secure hashing algorithm called SHA1
+* Git repository are **secured** with a cryptographically secure hashing algorithm called SHA1
 
 ---
 
-* Git is the most broadly adopted tool of its kind (it is a de facto standard
-)
+* Git is the most broadly adopted tool of its kind (it is a **de facto standard**)
 
-* One common criticism of Git is that it can be difficult to learn
+* One common criticism of Git is that it can be **difficult to learn**
 
-* Learning to use that power can take some time, however once it has been learned, that power can be used by the team to increase their development speed
+* Learning to use that power can **take some time**, however once it has been learned, that power can be used by the team to increase their development speed
 
 ---
 
 <h2>Setting up a repository</h2>
 
-* We will start by creating a personal account on [GitHub](https://github.com/)
+* We will start by **creating a personal account** on [GitHub](https://github.com/)
 
 * On GitHub you can create pubblic repositories
 
@@ -101,8 +100,12 @@
 
 +++
 
-<h1>DEMO</h1>
+<h1>[DEMO](https://help.github.com/articles/create-a-repo/)</h1>
 <h3>Create GitHub account</h3>
 
+
 ---
+
+
+
 
