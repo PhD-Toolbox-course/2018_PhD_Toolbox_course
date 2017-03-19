@@ -135,20 +135,12 @@
 
 +++
 
-<h1>[DEMO](https://help.github.com/articles/create-a-repo/)</h1>
+<h2>[DEMO](https://help.github.com/articles/create-a-repo/)</h2>
 <h3>Create GitHub account</h3>
-
----
-
-<h2>Save changes<h2>
-
-* We will **create** our first file on GitHub
-
-* We will **commit** it
 
 +++
 
-<h1>[DEMO](https://help.github.com/articles/create-a-repo/)</h1>
+<h2>[DEMO](https://help.github.com/articles/create-a-repo/)</h2>
 <h3>Create first commit</h3>
 
 ---
@@ -161,7 +153,7 @@
 
 +++
 
-<center><h1>Demo</h1></center>
+<center><h2>Demo</h2></center>
 
 1. Execute the New Project command (from the Project menu)
 1. Choose to create a new project from Version Control
@@ -181,13 +173,13 @@
 
 +++
 
-<center><h1>Demo</h1></center>
+<center><h2>Demo</h2></center>
 <center>Commit</center>
 
 <img src="http://swcarpentry.github.io/git-novice/fig/RStudio_screenshot_commit.png" width="600">
-http://swcarpentry.github.io/git-novice/fig/RStudio_screenshot_review.png
+
 +++
-<center><h1>Demo</h1></center>
+<center><h2>Demo</h2></center>
 <center>Commit</center>
 
 <img src="http://swcarpentry.github.io/git-novice/fig/RStudio_screenshot_review.png" width="600">
@@ -195,14 +187,14 @@ http://swcarpentry.github.io/git-novice/fig/RStudio_screenshot_review.png
 
 +++
 
-<center><h1>Demo</h1></center>
+<center><h2>Demo</h2></center>
 <center>History</center>
 
 <img src="http://swcarpentry.github.io/git-novice/fig/RStudio_screenshot_history.png" width="600">
 
 +++
 
-<center><h1>Demo</h1></center>
+<center><h2>Demo</h2></center>
 <center>Differences</center>
 
 <img src="" width="600">
@@ -210,7 +202,7 @@ http://swcarpentry.github.io/git-novice/fig/RStudio_screenshot_review.png
 
 +++
 
-<center><h1>Demo</h1></center>
+<center><h2>Demo</h2></center>
 <center>Back in time</center>
 
 <img src="http://swcarpentry.github.io/git-novice/fig/RStudio_screenshot_viewhistory.png" width="600">
@@ -218,30 +210,53 @@ http://swcarpentry.github.io/git-novice/fig/RStudio_screenshot_review.png
 
 ---
 
-Advance command with shell (if time allowed)
+<center><h2>Advance command with shell</h2></center> 
+(if time allowed)
 
 * Create a develop branch
 * Merge branches
 
 +++
 
+<center><h2>Demo</h2></center>
 Create a develop branch
 
+    git branch develop
+
+    git checkout develop
+
+
 +++
 
+<center><h2>Demo</h2></center>
 Merge branches
 
+    git merge master
+
 ---
-How to sent us your final exercise?
+
+<center><h2>How to sent us your final exercise?</h2></center>
+
+1. Fork the [course repository](https://github.com/mchiapello/2017_PhD_Toolbox_course/)
+1. Add you script in you repo
+1. Creating a pull request
 
 +++
 
-Fork a repo
+<center><h2>Demo</h2></center>
+<center>Fork a repo</center>
+
+For instruction follow the link
+
 https://help.github.com/articles/fork-a-repo/
 
 +++
 
-Creating a pull request from a fork
+<center><h2>Demo</h2></center>
+<center>Creating a pull request from a fork</center>
+
+For instruction follow the link
+
 https://help.github.com/articles/creating-a-pull-request-from-a-fork/
 
 ---
