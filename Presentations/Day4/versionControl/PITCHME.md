@@ -23,9 +23,9 @@
 <img src="http://www.phdcomics.com/comics/archive/phd101212s.gif" width="500">
 
 ---
-* We’ve all been in this situation before: it **seems ridiculous to have multiple nearly-identical versions** of the same document.
+* We’ve all been in this situation before: it **seems ridiculous to have multiple nearly-identical versions** of the same document. <!-- .element: class="fragment" -->
 
-* Some **word processors** let us deal with this a little better, such as Microsoft Word’s **Track** **Changes** or Google Docs’ **version** **history**.
+* Some **word processors** let us deal with this a little better, such as Microsoft Word’s **Track** **Changes** or Google Docs’ **version** **history**. <!-- .element: class="fragment" -->
 
 * BUT if you use LibreOffice Writer or Microsoft Word, **what happens if you accept changes made using the Track Changes option? Do you have a history of those changes?**
 ---
@@ -50,11 +50,11 @@
 
 ---
 
-* A **version control system** is a **tool that keeps track of these changes** and helps us version and merge our files.
+* A **version control system** is a **tool that keeps track of these changes** and helps us version and merge our files. <!-- .element: class="fragment" -->
 
-* It allows you to decide which changes make up the next version, called a **commit**, and keeps useful **metadata** about them
+* It allows you to decide which changes make up the next version, called a **commit**, and keeps useful **metadata** about them <!-- .element: class="fragment" -->
 
-* The complete **history of commits** for a particular project and their metadata make up a **repository**
+* The complete **history of commits** for a particular project and their metadata make up a **repository** <!-- .element: class="fragment" -->
 
 * Repositories can be kept in **sync across different computers** facilitating collaboration among different people
 
@@ -69,7 +69,7 @@
 
 <h2>What is Git</h2>
 
-* Git is the **most widely used** modern version control system in the world
+* Git is the **most widely used** modern version control system in the world 
 
 * Git is a mature, actively maintained **open source project** originally developed by Linus Torvalds
 
