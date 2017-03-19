@@ -6,7 +6,7 @@
 <br>
 <br>
 <br>
-<center>This lesson is a basic introduction to version control</center>
+<center>This lesson is a basic introduction to version control with RStudio</center>
 
 ---
 
@@ -123,8 +123,7 @@
 
 ---
 
-
-<h2>Setting up a repository</h2>
+<h2>Setting up a GitHub repository</h2>
 
 * We will start by **creating a personal account** on [GitHub](https://github.com/)
 
@@ -152,8 +151,75 @@
 <h1>[DEMO](https://help.github.com/articles/create-a-repo/)</h1>
 <h3>Create first commit</h3>
 
---- 
+---
 
-<h2>Track changes</h2>
+Creating a new project based on a remote Git
 
-* 
+If you have an existing remote Git or Subversion repository that you want to use as the basis for an RStudio project you should:
+
++++
+
+Demo
+
+Execute the New Project command (from the Project menu)
+Choose to create a new project from Version Control
+Choose Git or Subversion as appropriate
+Provide the repository URL (and other appropriate options) and then click Create Project
+The remote repository will be cloned into the specified directory and RStudio's version control features will then be available for that directory.
+
+---
+
+How to use Git in RStudio
+
+1. Commit
+2. History
+3. Differences
+4. Go back in time
+
++++
+
+Commit
+
++++
+
+History
+
++++
+
+Differences
+
++++
+
+Back in time
+
+---
+
+Advance command with shell (if time allowed)
+
+* Create a develop branch
+* Merge branches
+
++++
+
+Create a develop branch
+
++++
+
+Merge branches
+
+---
+How to sent us your final exercise?
+
++++
+
+Fork a repo
+https://help.github.com/articles/fork-a-repo/
+
++++
+
+Creating a pull request from a fork
+https://help.github.com/articles/creating-a-pull-request-from-a-fork/
+
+---
+
+END
