@@ -7,6 +7,19 @@
 <br>
 <br>
 <center>This lesson is a basic introduction to version control</center>
+
+---
+
+<img src="http://www.phdcomics.com/comics/archive/phd101212s.gif" width="450">
+
+---
+
+* We’ve all been in this situation before: it **seems ridiculous to have multiple nearly-identical versions** of the same document 
+
+* Some **word processors** let us deal with this a little better, such as Microsoft Word’s **Track** **Changes** or Google Docs’ **version** **history** 
+
+* BUT if you use LibreOffice Writer or Microsoft Word, **what happens if you accept changes made using the Track Changes option? Do you have a history of those changes?**
+
 ---
 
 <h2>What is Version Control</h2>
@@ -18,37 +31,26 @@
 ---
 
 * **Nothing that is committed to version control is ever lost**, unless you work really, really hard at it.
-<br>
-<br>
-<br>
+
 * All old versions of files are saved, it’s always **possible to go back in time** to see exactly who wrote what on a **particular day**, or what **version** of a program was used to generate a particular **set of results**.
----
 
-<img src="http://www.phdcomics.com/comics/archive/phd101212s.gif" width="500">
-
----
-* We’ve all been in this situation before: it **seems ridiculous to have multiple nearly-identical versions** of the same document 
-
-* Some **word processors** let us deal with this a little better, such as Microsoft Word’s **Track** **Changes** or Google Docs’ **version** **history** 
-
-* BUT if you use LibreOffice Writer or Microsoft Word, **what happens if you accept changes made using the Track Changes option? Do you have a history of those changes?**
 ---
 
 * Version control systems start with a base version of the document 
 
 ![image2](http://swcarpentry.github.io/git-novice/fig/play-changes.svg)
 
-* Save just the changes you made at each step of the way
+* **Save just the changes you made at each step** of the way
 
 ---
 
-* For example, you can make independent sets of changes based on the same document. Or one of your collaborators can do these changes.
+* For example, you can make **independent sets of changes** based on the same document. Or one of your collaborators can do those changes.
 
 ![image3](http://swcarpentry.github.io/git-novice/fig/versions.svg)
 
 ---
 
-* Then you can decide which changes keep on the same base document
+* Then you can **decide which changes keep** on the same base document
 
 ![image4](http://swcarpentry.github.io/git-novice/fig/merge.svg)
 
@@ -66,8 +68,8 @@
 
 <h3>Key Points</h3>
 
-* Version control is like an unlimited ‘undo’
-* Version control also allows many people to work in parallel
+* Version control is like an **unlimited ‘undo’**
+* Version control also **allows many people to work in parallel**
 
 ---
 
@@ -90,6 +92,29 @@
 * Learning to use that power can **take some time**, however once it has been learned, that power can be used by the team to increase their development speed
 
 ---
+
+<h2>Using Git from RStudio</h2>
+
+* Since is so **useful keep track of change** during script development, **RStudio has built-in integration with Git**
+
+* RStudio has a **nice interface** for most common operations
+
+* There are some Git features that you still need to **use the command-**line for
+
++++
+
+<h1>DEMO</h1>
+<h3>Create RStudio project with version control</h3>
+
+---
+
+1. Open RStudio preferences
+1. Go to tab Git/SVN
+1. Enable version control interface for RStudio projcts
+1. Restart RStudio
+
+---
+
 
 <h2>Setting up a repository</h2>
 
@@ -121,4 +146,6 @@
 
 --- 
 
-<h2>
+<h2>Track changes</h2>
+
+* 
