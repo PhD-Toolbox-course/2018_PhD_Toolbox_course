@@ -12,9 +12,16 @@ output:
 
 # Importance of data visualization
 
-**Ascomb's quartet**
+\begin{center}
 
-Use the file example "scraping.R" in Resource directory
+\textsc{SUMMARY STATISTICS VS DATA VISUALIZATION}
+
+\textbf{Ascomb's quartet}
+
+\tiny Use the file example "scraping.R" in Resource directory
+
+\end{center}
+
 
 
 # Plotting systems
@@ -33,7 +40,8 @@ Use the file example "scraping.R" in Resource directory
 # What is ggplot2
 
 * ggplot2 is a plotting system for R, based on the **grammar** **of** **graphics**
-
+    *  It  is a tool that enables us to concisely describe the components
+	  of a graphic \tiny [http://vita.had.co.nz/papers/layered-grammar.pdf]
 * ggplot2 makes **simple** **to** **create** **complex** **plots** from data in a dataframe
 
 * help creating **publication** **quality** **plots** with a **minimal** **amount** **of** **settings** and tweaking
@@ -277,6 +285,8 @@ ggplot(data = surveys_complete, aes(x = species_id, y = weight)) +
 
 * Let’s calculate **number** **of** **counts** **per** **year** for each species
     *  To do that we need to **group** **data** first and count records within each group
+
+\pause
 
 \small
 ```{r eval=FALSE}
