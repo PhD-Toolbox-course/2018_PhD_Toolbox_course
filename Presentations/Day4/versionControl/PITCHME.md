@@ -1,7 +1,7 @@
 
 <center><h2>VERSION CONTROL</h2></center>
 
-<center><h5>Based on http://swcarpentry.github.io/git-novice/</h5></center>
+<center><h5>Based on: http://swcarpentry.github.io/git-novice/</h5></center>
 <center><h5>Based on: https://www.atlassian.com/git/tutorials/</h5></center>
 ---
 
@@ -13,17 +13,24 @@
 
 ---
 
-* Nothing that is committed to version control is ever lost, unless you work really, really hard at it.
+* **Nothing that is committed to version control is ever lost**, unless you work really, really hard at it.
 <br>
 <br>
 <br>
-* All old versions of files are saved, it’s always possible to go back in time to see exactly who wrote what on a particular day, or what version of a program was used to generate a particular set of results.
+* All old versions of files are saved, it’s always **possible to go back in time** to see exactly who wrote what on a **particular day**, or what **version** of a program was used to generate a particular **set of results**.
 ---
 
 ![image1](figures/phd101212s.png)
 
 ---
 
+![image1](figures/phd101212s_small.png)
+
+---
+
+![image1](figures/phd101212s_tiny.png)
+
+---
 * We’ve all been in this situation before: it **seems ridiculous to have multiple nearly-identical versions** of the same document.
 
 * Some **word processors** let us deal with this a little better, such as Microsoft Word’s **Track** **Changes** or Google Docs’ **version** **history**.
