@@ -542,8 +542,8 @@ ggsave("name_of_file.png", my_plot, width=15, height=10)
 
 # Challenge
 
-* Use **your** **own** **data** or
-
 * **Download** **the** **data** from [https://figshare.com/articles/Ecology_experimental_design/1244589]
 
 * Play with the data an **plot** **them** **as** **beautiful** **as** **you** **like**
+
+* You can use your own data to do the same
