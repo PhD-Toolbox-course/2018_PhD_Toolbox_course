@@ -6,20 +6,21 @@ lego_movie <- read_html("https://en.wikipedia.org/wiki/Anscombe's_quartet")
 
 # Extract data
 rating <- lego_movie %>% html_table(header = TRUE)
-ascomb <- (rating[[2]][2:dim(rating[[2]])[1],])
+ascomb <- (rating[[2]][2:dim(rating[[2]])[1], ])
 
 # Rename data
-names(ascomb) <- paste0(rep(c("x", "y"),4), rep(1:4, each = 2))
+names(ascomb) <- paste0(rep(c("x", "y"), 4), rep(1:4, each = 2))
 
 # trasform data into data.frame
 df <- data.frame(sapply(ascomb, as.numeric))
 
 # Summary statistics
-summary(df)
+summary(df)[,c(1, 3, 5, 7)]
+summary(df)[,c(2, 4, 6, 8)]
 
 # Mean and variance
-round(apply(df, 2, mean), 2)
-round(apply(df, 2, var), 3)
+round(apply(df, 2, mean), 2)[c(1,3,5,7)]
+round(apply(df, 2, var), 3)[c(2,5,6,8)]
 
 # Data correlation
 cor(df$x1, df$y1)
