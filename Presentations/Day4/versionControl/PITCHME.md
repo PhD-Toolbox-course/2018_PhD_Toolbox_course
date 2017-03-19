@@ -111,7 +111,7 @@
 
 +++
 
-<h1>DEMO</h1>
+<h2>DEMO</h2>
 <h4>Create RStudio project with version control</h4>
 
 +++
@@ -138,14 +138,18 @@
 <h2>[DEMO](https://help.github.com/articles/create-a-repo/)</h2>
 <h3>Create GitHub account</h3>
 
+Click on DEMO to see the description
+
 +++
 
 <h2>[DEMO](https://help.github.com/articles/create-a-repo/)</h2>
 <h3>Create first commit</h3>
 
+Click on DEMO to see the description
+
 ---
 
-<center><h1>Creating a new project based on a remote Git</h1></center>
+<center><h3>Creating a new project based on a remote Git</h3></center>
 
 * We have now an existing remote Git repository
 
@@ -164,12 +168,11 @@
 
 ---
 
-<center><h1>How to use Git in RStudio</h1></center>
+<center><h3>How to use Git in RStudio</h3></center>
 
 1. Commit
-2. History
-3. Differences
-4. Go back in time
+1. History
+1. Go back in time
 
 +++
 
@@ -191,14 +194,6 @@
 <center>History</center>
 
 <img src="http://swcarpentry.github.io/git-novice/fig/RStudio_screenshot_history.png" width="600">
-
-+++
-
-<center><h2>Demo</h2></center>
-<center>Differences</center>
-
-<img src="" width="600">
-
 
 +++
 
@@ -238,7 +233,7 @@ Merge branches
 <center><h2>How to sent us your final exercise?</h2></center>
 
 1. Fork the [course repository](https://github.com/mchiapello/2017_PhD_Toolbox_course/)
-1. Add you script in you repo
+1. Add your script in your repo (you can upload it when finished)
 1. Creating a pull request
 
 +++
@@ -261,4 +256,4 @@ https://help.github.com/articles/creating-a-pull-request-from-a-fork/
 
 ---
 
-END
+<center><h1>END</h1></center>
