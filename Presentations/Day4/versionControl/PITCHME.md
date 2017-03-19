@@ -96,6 +96,9 @@
 <img src="http://inchoo.net/wp-content/uploads/2011/01/git-transport.png
 " width="600">
 
++++
+
+<img src="http://2.bp.blogspot.com/--Oj7Ocw5ddA/UQavWR8_1oI/AAAAAAAAI-M/g1hbsrRRbJ4/s1600/git-log-default-output.png" width="600">
 ---
 
 <h2>Using Git from RStudio</h2>
