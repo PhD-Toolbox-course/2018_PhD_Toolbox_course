@@ -3,6 +3,10 @@
 
 <center><h5>Based on: http://swcarpentry.github.io/git-novice/</h5></center>
 <center><h5>Based on: https://www.atlassian.com/git/tutorials/</h5></center>
+<br>
+<br>
+<br>
+<center>This lesson is a basic introduction to version control</center>
 ---
 
 <h2>What is Version Control</h2>
@@ -23,9 +27,9 @@
 <img src="http://www.phdcomics.com/comics/archive/phd101212s.gif" width="500">
 
 ---
-* We’ve all been in this situation before: it **seems ridiculous to have multiple nearly-identical versions** of the same document. <!-- .element: class="fragment" -->
+* We’ve all been in this situation before: it **seems ridiculous to have multiple nearly-identical versions** of the same document 
 
-* Some **word processors** let us deal with this a little better, such as Microsoft Word’s **Track** **Changes** or Google Docs’ **version** **history**. <!-- .element: class="fragment" -->
+* Some **word processors** let us deal with this a little better, such as Microsoft Word’s **Track** **Changes** or Google Docs’ **version** **history** 
 
 * BUT if you use LibreOffice Writer or Microsoft Word, **what happens if you accept changes made using the Track Changes option? Do you have a history of those changes?**
 ---
@@ -50,11 +54,11 @@
 
 ---
 
-* A **version control system** is a **tool that keeps track of these changes** and helps us version and merge our files. <!-- .element: class="fragment" -->
+* A **version control system** is a **tool that keeps track of these changes** and helps us version and merge our files. 
 
-* It allows you to decide which changes make up the next version, called a **commit**, and keeps useful **metadata** about them <!-- .element: class="fragment" -->
+* It allows you to decide which changes make up the next version, called a **commit**, and keeps useful **metadata** about them 
 
-* The complete **history of commits** for a particular project and their metadata make up a **repository** <!-- .element: class="fragment" -->
+* The complete **history of commits** for a particular project and their metadata make up a **repository** 
 
 * Repositories can be kept in **sync across different computers** facilitating collaboration among different people
 
@@ -102,9 +106,8 @@
 <h1>[DEMO](https://help.github.com/articles/create-a-repo/)</h1>
 <h3>Create GitHub account</h3>
 
-
 ---
 
-
+<h2>Save changes<h2>
 
 
