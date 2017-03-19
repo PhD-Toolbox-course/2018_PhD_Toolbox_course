@@ -20,7 +20,7 @@
 * All old versions of files are saved, it’s always **possible to go back in time** to see exactly who wrote what on a **particular day**, or what **version** of a program was used to generate a particular **set of results**.
 ---
 
-<img src="http://www.phdcomics.com/comics/archive/phd101212s.gif" width="400">
+<img src="http://www.phdcomics.com/comics/archive/phd101212s.gif" width="500">
 
 ---
 * We’ve all been in this situation before: it **seems ridiculous to have multiple nearly-identical versions** of the same document.
