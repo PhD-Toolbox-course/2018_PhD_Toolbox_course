@@ -153,23 +153,26 @@
 
 ---
 
-Creating a new project based on a remote Git
+<center><h1>Creating a new project based on a remote Git</h1></center>
 
-If you have an existing remote Git or Subversion repository that you want to use as the basis for an RStudio project you should:
+* We have now an existing remote Git repository
+
+* We want to use it as the basis for an RStudio project you should
 
 +++
 
-Demo
+<center><h1>Demo</h1></center>
 
-Execute the New Project command (from the Project menu)
-Choose to create a new project from Version Control
-Choose Git or Subversion as appropriate
-Provide the repository URL (and other appropriate options) and then click Create Project
-The remote repository will be cloned into the specified directory and RStudio's version control features will then be available for that directory.
+1. Execute the New Project command (from the Project menu)
+1. Choose to create a new project from Version Control
+1. Choose remote Git repo
+1. Provide the repository URL and then click Create Project
+1. The remote repository will be cloned into the specified directory
+1. RStudio's version control features will then be available for that directory.
 
 ---
 
-How to use Git in RStudio
+<center><h1>How to use Git in RStudio</h1></center>
 
 1. Commit
 2. History
@@ -178,19 +181,40 @@ How to use Git in RStudio
 
 +++
 
-Commit
+<center><h1>Demo</h1></center>
+<center>Commit</center>
+
+<img src="http://swcarpentry.github.io/git-novice/fig/RStudio_screenshot_commit.png" width="600">
+http://swcarpentry.github.io/git-novice/fig/RStudio_screenshot_review.png
++++
+<center><h1>Demo</h1></center>
+<center>Commit</center>
+
+<img src="http://swcarpentry.github.io/git-novice/fig/RStudio_screenshot_review.png" width="600">
+
 
 +++
 
-History
+<center><h1>Demo</h1></center>
+<center>History</center>
+
+<img src="http://swcarpentry.github.io/git-novice/fig/RStudio_screenshot_history.png" width="600">
 
 +++
 
-Differences
+<center><h1>Demo</h1></center>
+<center>Differences</center>
+
+<img src="" width="600">
+
 
 +++
 
-Back in time
+<center><h1>Demo</h1></center>
+<center>Back in time</center>
+
+<img src="http://swcarpentry.github.io/git-novice/fig/RStudio_screenshot_viewhistory.png" width="600">
+
 
 ---
 
