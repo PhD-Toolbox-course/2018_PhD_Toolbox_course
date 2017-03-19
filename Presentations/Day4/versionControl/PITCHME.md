@@ -6,7 +6,7 @@
 <br>
 <br>
 <br>
-<center>This lesson is a basic introduction to version control</center>
+<center>This lesson is a <span style="color:red">basic introduction</span> to version control</center>
 ---
 
 <h2>What is Version Control</h2>
