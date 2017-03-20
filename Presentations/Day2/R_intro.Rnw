@@ -1587,6 +1587,15 @@ df[which.min(df2),]
 	\end{itemize}
 \end{frame}
 
-
+%%%%%%% 
+\begin{frame}[fragile]
+	\frametitle{Practical}
+	\centering \LARGE Exercise
+	\begin{itemize}
+		\item install.packages("swirl")
+		\item library("swirl")
+		\item swirl()
+	\end{itemize}
+\end{frame}
 
 \end{document}
