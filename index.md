@@ -27,9 +27,7 @@ We will cover  the follow topics:
 
 - Day2
 
-	-  [Introduction to R](https://github.com/mchiapello/2017_PhD_Toolbox_course/raw/master/Presentations/Day2/R_intro.pdf)
-
-	-  [R data.frames](https://github.com/mchiapello/2017_PhD_Toolbox_course/raw/master/Presentations/Day2/R_intro.pdf)
+	-  [Introduction to R and R data.frames](https://github.com/mchiapello/2017_PhD_Toolbox_course/raw/master/Presentations/Day2/R_intro.pdf)
 
 - Day3
 
