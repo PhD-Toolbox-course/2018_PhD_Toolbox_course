@@ -8,8 +8,8 @@
 <center>
 <h2><p>BASIC MODULE</p>
 <p>Unix, R and reproducible research</p></h2>
-**Instructors**
-Stefano Ghignone - Marco Chiapello
+<h3>Instructors</h3>
+<p>Stefano Ghignone - Marco Chiapello</p>
 </center>
 
 ---
