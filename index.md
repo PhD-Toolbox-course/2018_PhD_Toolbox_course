@@ -21,7 +21,7 @@ We will cover  the follow topics:
 
 - Day1
 
-	-  Reproducible research
+	-  [Reproducible research](https://github.com/mchiapello/2017_PhD_Toolbox_course/blob/master/Presentations/Day1/RR_theory.pdf)
 
 	-  UNIX
 
@@ -48,9 +48,9 @@ We will cover  the follow topics:
 
 We will only use open-source software and all the course's slides and materials will be publicly available on GitHub.
 
-### Wiki page
+### [Wiki page](https://github.com/mchiapello/2017_PhD_Toolbox_course/wiki)
 
-On GitHub there is a WIKI page with specific information for each day.
+On GitHub there is a [WIKI page](https://github.com/mchiapello/2017_PhD_Toolbox_course/wiki) with specific information for each day.
 
 On the WIKI page you can also find useful links and extra contents.
 
