@@ -249,6 +249,25 @@ University of Cambridge \\
 	\centering \includegraphics[scale=1.4]{figures/Rstudio_overview.png}
 \end{frame}
 
+%%%%%%% 
+\begin{frame}
+	\frametitle{RStudio presentation}
+	{\textbf Second challange}: Set up you personal folder
+	\centering \includegraphics[scale=1.4]{../Day1/figures/folder_str.png}
+\end{frame}
+
+%%%%%%% 
+\begin{frame}
+	\frametitle{RStudio presentation}
+	{\textbf Third challange} (walkthrough): Set up your first R project
+	\begin{itemize}
+		\item Set up your work directory
+		\item Create a Rproject
+		\item Save project
+		\item Re-open the project
+	\end{itemize}
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
