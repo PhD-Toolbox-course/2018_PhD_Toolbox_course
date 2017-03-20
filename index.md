@@ -1,10 +1,11 @@
 <center><h1>Università degli Studi di Torino</h1>
-March 27-30, 2017
-
-9:00 - 18:00
+<p>March 27-30, 2017</p>
+<p>9:00 - 18:00</p>
 </center>
 
 ---
+
+<h2>BASIC MODULE: Unix, R and reproducible research</h2>
 
 **Instructors**: Stefano Ghignone, Marco Chiapello
 
@@ -16,19 +17,29 @@ March 27-30, 2017
 
 We will cover  the follow topics:
 
-- UNIX
+- Day1
 
-- Introduction to R
+	-  Reproducible research
 
-- R data.frames
+	-  UNIX
 
-- Aggregating and analyzing data with dplyr
+- Day2
 
-- Data visualization with ggplot2
+	-  Introduction to R
 
-- Reproducible·research·with·R
+	-  R data.frames
 
-- Version control
+- Day3
+
+	-  Aggregating and analyzing data with dplyr
+
+	-  Data visualization with ggplot2
+
+- Day4
+
+	-  Reproducible·research·with·R
+
+	-  Version control
 
 
 ### Open-source
