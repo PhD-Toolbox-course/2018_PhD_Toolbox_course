@@ -546,4 +546,3 @@ ggsave("name_of_file.png", my_plot, width=15, height=10)
 
 * Play with the data an **plot** **them** **as** **beautiful** **as** **you** **like**
 
-* You can use your own data to do the same
