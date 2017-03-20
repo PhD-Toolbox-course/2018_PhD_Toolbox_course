@@ -38,7 +38,7 @@ University of Cambridge \\
 \medskip
 \textit{mc983@cam.ac.uk} 
 }
-\date{06-07/07/2016} 
+\date{28/03/2017} 
 
 %\AtBeginSection[]
 %{
@@ -389,13 +389,13 @@ y
 	\frametitle{Variables}
 	- We can assign use the variables to perform calculation
 	\rule{\textwidth}{0.4pt}
-<<variables1>>=
+<<variables2>>=
 x + y
 @
  \rule{\textwidth}{0.4pt}
  - We can assign the change the content of the variable
  \rule{\textwidth}{0.4pt}
-<<variable1>>=
+<<variable11>>=
 x
 x <- x - y
 x
