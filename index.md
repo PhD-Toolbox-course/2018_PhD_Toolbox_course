@@ -21,27 +21,27 @@ We will cover  the follow topics:
 
 - Day1
 
-	-  [Reproducible research](https://github.com/mchiapello/2017_PhD_Toolbox_course/blob/master/Presentations/Day1/RR_theory.pdf)
+	-  [Reproducible research](https://github.com/mchiapello/2017_PhD_Toolbox_course/raw/master/Presentations/Day1/RR_theory.pdf)
 
-	-  UNIX
+	-  [UNIX]()
 
 - Day2
 
-	-  Introduction to R
+	-  [Introduction to R](https://github.com/mchiapello/2017_PhD_Toolbox_course/raw/master/Presentations/Day2/R_intro.pdf)
 
-	-  R data.frames
+	-  [R data.frames](https://github.com/mchiapello/2017_PhD_Toolbox_course/raw/master/Presentations/Day2/R_intro.pdf)
 
 - Day3
 
-	-  Aggregating and analyzing data with dplyr
+	-  [Aggregating and analyzing data with dplyr](https://github.com/mchiapello/2017_PhD_Toolbox_course/raw/master/Presentations/Day3/R_dplyr.pdf)
 
-	-  Data visualization with ggplot2
+	-  [Data visualization with ggplot2](https://github.com/mchiapello/2017_PhD_Toolbox_course/raw/master/Presentations/Day3/R_ggplot2.pdf)
 
 - Day4
 
-	-  Reproducible·research·with·R
+	-  [Reproducible·research·with·R](https://github.com/mchiapello/2017_PhD_Toolbox_course/raw/master/Presentations/Day4/reproducibleResearch/RR_practical.pdf)
 
-	-  Version control
+	-  [Version control](https://gitpitch.com/mchiapello/2017_PhD_Toolbox_course/master?grs=github&t=white&p=Presentations%2FDay4%2FversionControl%2F)
 
 
 ### Open-source
