@@ -5,10 +5,12 @@
 
 ---
 
-<center><h2><p>BASIC MODULE</p>
-<p>Unix, R and reproducible research</p></h2></center>
-
-**Instructors**: Stefano Ghignone, Marco Chiapello
+<center>
+<h2><p>BASIC MODULE</p>
+<p>Unix, R and reproducible research</p></h2>
+**Instructors**
+Stefano Ghignone - Marco Chiapello
+</center>
 
 ---
 
