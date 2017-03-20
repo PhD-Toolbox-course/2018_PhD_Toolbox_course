@@ -48,7 +48,7 @@ We will cover  the follow topics:
 
 We will only use open-source software and all the course's slides and materials will be publicly available on GitHub.
 
-### [Wiki page](https://github.com/mchiapello/2017_PhD_Toolbox_course/wiki)
+### Wiki page
 
 On GitHub there is a [WIKI page](https://github.com/mchiapello/2017_PhD_Toolbox_course/wiki) with specific information for each day.
 
@@ -68,7 +68,6 @@ However, if you want to use your own laptop, you will need working copies of the
 
 <center><h2><p>Questions and interaction</p></h2></center>
 
-We will use **Etherpad** for chatting, taking notes, and sharing URLs and bits of code.
-Etherpad: https://public.etherpad-mozilla.org/p/PhD_Toolbox_2017. 
+We will use Etherpad](https://public.etherpad-mozilla.org/p/PhD_Toolbox_2017) for chatting, taking notes, and sharing URLs and bits of code.
 
 We will use **sticky notes** to assess the completion of the exercises or for asking questions. Sticky notes will be also used to evaluate each chunk of the course. This is a good way for the teachers to improve and help the students.
