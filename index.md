@@ -5,13 +5,15 @@
 
 ---
 
-<h2>BASIC MODULE: Unix, R and reproducible research</h2>
+<center><h2><p>BASIC MODULE</p>
+<p>Unix, R and reproducible research</p></h2></center>
 
 **Instructors**: Stefano Ghignone, Marco Chiapello
 
 ---
 
-## General Information
+<center><h2><p>General Information</p></h2></center>
+
 
 **PhD toolbox workshop** is for any phD student who has data they want to analyze, and no prior computational experience is required. This hands-on workshop teaches basic concepts, skills and tools for working more effectively with data.
 
@@ -54,7 +56,7 @@ On the WIKI page you can also find useful links and extra contents.
 
 ---
 
-## Computer equipment
+<center><h2><p>Computer equipment</p></h2></center>
 
 All of the software required for this Data Carpentry workshop will be installed on the computers at our training venue.
 
@@ -64,7 +66,7 @@ However, if you want to use your own laptop, you will need working copies of the
 
 ---
 
-## Questions and interaction
+<center><h2><p>Questions and interaction</p></h2></center>
 
 We will use **Etherpad** for chatting, taking notes, and sharing URLs and bits of code.
 Etherpad: https://public.etherpad-mozilla.org/p/PhD_Toolbox_2017. 
