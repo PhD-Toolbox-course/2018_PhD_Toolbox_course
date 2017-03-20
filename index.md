@@ -1,12 +1,11 @@
-<center><h2>Università degli Studi di Torino</h2></center>
-
+<center><h1>Università degli Studi di Torino</h1>
 March 27-30, 2017
-
 9:00 - 18:00
+</center>
 
 ---
 
-Instructors: Stefano Ghignone, Marco Chiapello
+**Instructors**: Stefano Ghignone, Marco Chiapello
 
 ---
 
