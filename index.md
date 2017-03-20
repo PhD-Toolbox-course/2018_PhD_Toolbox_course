@@ -1,4 +1,4 @@
-Università degli Studi di Torino
+<center><h2>Università degli Studi di Torino</h2></center>
 
 March 27-30, 2017
 
