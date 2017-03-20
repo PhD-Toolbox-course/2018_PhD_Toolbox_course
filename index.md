@@ -1,5 +1,6 @@
 <center><h1>Università degli Studi di Torino</h1>
 March 27-30, 2017
+
 9:00 - 18:00
 </center>
 
@@ -9,25 +10,37 @@ March 27-30, 2017
 
 ---
 
-##General Information
+## General Information
 
-PhD toolbox workshop is for any phD student who has data they want to analyze, and no prior computational experience is required. This hands-on workshop teaches basic concepts, skills and tools for working more effectively with data.
+**PhD toolbox workshop** is for any phD student who has data they want to analyze, and no prior computational experience is required. This hands-on workshop teaches basic concepts, skills and tools for working more effectively with data.
 
-We will cover Course introduction and UNIX, UNIX, Introduction to R, R data.frames, Aggregating and analyzing data with dplyr, Data visualization with ggplot2, Version control and Reproducible research with R. Participants could bring their laptops. By the end of the workshop learners should be able to more effectively manage and analyze data and be able to apply the tools and approaches directly to their ongoing research.
+We will cover  the follow topics:
 
-Who: The course is aimed at phD students.
+- UNIX
 
-Where: Aula 4, V. Accademia Albertina 13. Get directions with OpenStreetMap or Google Maps.
+- Introduction to R
 
-Requirements: There are not special requirements.
+- R data.frames
 
-Contact: Please mail Andrea Genre for more information.
+- Aggregating and analyzing data with dplyr
+
+- Data visualization with ggplot2
+
+- Reproducible·research·with·R
+
+- Version control
 
 ---
 
-Survey
+Participants could bring their laptops. By the end of the workshop learners should be able to more effectively manage and analyze data and be able to apply the tools and approaches directly to their ongoing research.
 
-Please be sure to complete these surveys after the workshop.
+Who: The course is aimed at phD students.
+
+Where: Aula 4, V. Accademia Albertina 13.
+
+Requirements: There are not special requirements.
+
+Contact: Please mail Andrea Genre (andrea.genre@unito.it) for more information.
 
 ---
 
@@ -40,4 +53,4 @@ Setup
 
 All of the software required for this Data Carpentry workshop will be installed on the computers at our training venue.
 
-However, if you want to use your own laptop, you will need working copies of the described software. Please make sure to install everything (or at least to download the installers) before the start of your workshop. We encourage participants to bring their own laptops to insure the proper setup of tools for an efficient workflow once you leave the workshop.
+However, if you want to use your own laptop, you will need working copies of the described software (R, RStudio, Git). Please make sure to install everything (or at least to download the installers) before the start of your workshop. We encourage participants to bring their own laptops to insure the proper setup of tools for an efficient workflow once you leave the workshop.
