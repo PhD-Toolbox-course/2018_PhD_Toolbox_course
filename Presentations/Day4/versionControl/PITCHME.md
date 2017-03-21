@@ -166,7 +166,8 @@ Click on DEMO to see the description
 1. Choose remote Git repo <!-- .element: class="fragment" -->
 1. Provide the repository URL and then click Create Project <!-- .element: class="fragment" -->
 1. The remote repository will be cloned into the specified directory <!-- .element: class="fragment" -->
-1. RStudio's version control features will then be available for that directory
+1. RStudio's version control features will then be available for that directory <!-- .element: class="fragment" -->
+
 
 ---
 
