@@ -89,7 +89,9 @@
 
 * One common criticism of Git is that it can be **difficult to learn**
 
-* Learning to use that power can **take some time**, however once it has been learned, that power can be used by the team to increase their development speed
+* Learning to use that power can **take sometime**, however once it has been learned, that power can be used by the team to increase their development speed
+
+* [Where to begin](https://try.github.io/levels/1/challenges/1)
 
 +++
 
@@ -153,18 +155,18 @@ Click on DEMO to see the description
 
 * We have now an existing remote Git repository
 
-* We want to use it as the basis for an RStudio project you should
+* We want to use it as the base for a RStudio project
 
 +++
 
 <center><h2>Demo</h2></center>
 
-1. Execute the New Project command (from the Project menu)
-1. Choose to create a new project from Version Control
-1. Choose remote Git repo
-1. Provide the repository URL and then click Create Project
-1. The remote repository will be cloned into the specified directory
-1. RStudio's version control features will then be available for that directory.
+1. Execute the New Project command (from the Project menu) <!-- .element: class="fragment" -->
+1. Choose to create a new project from Version Control <!-- .element: class="fragment" -->
+1. Choose remote Git repo <!-- .element: class="fragment" -->
+1. Provide the repository URL and then click Create Project <!-- .element: class="fragment" -->
+1. The remote repository will be cloned into the specified directory <!-- .element: class="fragment" -->
+1. RStudio's version control features will then be available for that directory
 
 ---
 
@@ -233,7 +235,7 @@ Merge branches
 <center><h2>How to sent us your final exercise?</h2></center>
 
 1. Fork the [course repository](https://github.com/mchiapello/2017_PhD_Toolbox_course/)
-1. Add your script in your repo (you can upload it when finished)
+1. Add your script in your repo, in studentExercises folder
 1. Creating a pull request
 
 +++
