@@ -7,22 +7,21 @@ setwd("~/")
 (mainDir <- getwd())
 subDirParent <- "Projects"
 #Customize the following line with your Project Name
-subDirProjectName <- paste0(date,"_Your_Project_Cool_Name")
+subDirProjectName <- paste0(date,"_deleteme")
 
-#DATA PATH
-dir.create(file.path(mainDir, subDirParent, subDirProjectName, "data", "raw"), recursive= TRUE, showWarnings = TRUE)
-dir.create(file.path(mainDir, subDirParent, subDirProjectName, "data", "clean"), recursive= TRUE, showWarnings = TRUE)
-#DOC PATH
-dir.create(file.path(mainDir,subDirParent,subDirProjectName,"doc","paper"), recursive= TRUE, showWarnings = TRUE)
-#CODE PATH
-dir.create(file.path(mainDir,subDirParent,subDirProjectName,"code"), recursive= TRUE, showWarnings = TRUE)
-#SCRATCH/tmp PATH
-dir.create(file.path(mainDir,subDirParent,subDirProjectName,"tmp"), recursive= TRUE, showWarnings = TRUE)
-#RESULTS PATH
-dir.create(file.path(mainDir,subDirParent,subDirProjectName,"results", "figures"), recursive= TRUE, showWarnings = TRUE)
-dir.create(file.path(mainDir,subDirParent,subDirProjectName,"results", "pictures"), recursive= TRUE, showWarnings = TRUE)
+# Create folder structure
+level <- data.frame(level1 = c("data", "data", "doc", "results", "results", "tmp", "code"),
+					level2 = c("clean", "raw", "paper", "figures", "pictures", "", "")
+				   )
 
+# Create folders on system
+for (i in 1:7) {
+	dir.create(file.path(mainDir, subDirParent, subDirProjectName, level[i, 1], level[i, 2]), recursive= TRUE, showWarnings = FALSE)
+}
+
+# Setup WD on Project folder
 setwd(file.path(mainDir, subDirParent))
 system(paste("tree",subDirProjectName))
 
+# Setup WD on new created folder
 setwd(file.path(mainDir, subDirParent, subDirProjectName))
