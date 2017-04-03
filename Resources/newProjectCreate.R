@@ -7,7 +7,7 @@ setwd("~/")
 (mainDir <- getwd())
 subDirParent <- "Projects"
 #Customize the following line with your Project Name
-subDirProjectName <- paste0(date,"_Qiime_MaarjAM")
+subDirProjectName <- paste0(date,"_Your_Project_Cool_Name")
 
 #DATA PATH
 dir.create(file.path(mainDir, subDirParent, subDirProjectName, "data", "raw"), recursive= TRUE, showWarnings = TRUE)
