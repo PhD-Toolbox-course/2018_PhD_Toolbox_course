@@ -1,7 +1,5 @@
+# Set up today's date
 date <- Sys.Date()
-
-# check if tree program is installed, to prodice final schema printout
-Sys.which("tree") != "" 
 
 # Set WD
 setwd("~/")
@@ -13,7 +11,7 @@ mainDir <- getwd()
 subDirParent <- "Projects"
 
 # Customize the following line with your Project Name
-subDirProjectName <- paste0(date,"_Your_Project_Cool_Name")
+subDirProjectName <- paste0(date,"_delete1")
 
 # Create folder structure
 level <- data.frame(level1 = c("data", "data", "doc", "results", "results", "tmp", "code"),
@@ -28,8 +26,13 @@ for (i in 1:nrow(level)) {
 # Setup WD on Project folder
 setwd(file.path(mainDir, subDirParent))
 
-# Check folder structure
-system(paste("tree", subDirProjectName))
+# check if tree program is installed, to prodice final schema printout
+if (Sys.which("tree") != ""){
+	# Check folder structure
+	system(paste("tree", subDirProjectName))
+} else {
+	system(paste0("ls -lR ", subDirProjectName))
+}
 
 # Setup WD on new created folder
 setwd(file.path(mainDir, subDirParent, subDirProjectName))
