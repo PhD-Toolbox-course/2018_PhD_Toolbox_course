@@ -1,0 +1,69 @@
+---
+title: "Pollen viability"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is a short report about my PhD research on artificial pollination of hazelnuts. First step of my work was to find a reliable and fast approach to check pollen viability. I focused on a classical double-dye approach visualized in two different epifluorescent channels. What I discovered is that, even if this techniques is older than my age, it's still not optimized..
+
+In this example I present data about the effect of PBS in the staining medium. PBS is often used in this kind of staining, as a buffer to increase osmotic pressure of the staining medium and also as a washing buffer used immediatly after staining. However, I discovered that this kind buffer is actually killing pollen.
+
+Images were automatically analysed with a proper software with a very straightforward method (developed by us)
+
+
+
+```{r cars, include=FALSE}
+
+library(readxl)
+
+fda2pi20 <- read_excel("~/Dottorato Lorenzo/FDAPI in R/Data/Processed/fda2pi20.xlsx", col_types = c("numeric", "numeric", "numeric", "numeric", "numeric", "blank", "blank", "blank", "blank", "blank", "blank"))
+View(fda2pi20)
+
+fda2pi20_pbs <-  read_excel("~/Dottorato Lorenzo/FDAPI in R/Data/Processed/fda2pi20_pbs.xlsx", col_types = c("numeric", "numeric", "numeric", "numeric", "numeric", "blank", "blank", "blank", "blank", "blank", "blank"))
+View(fda2pi20_pbs)
+
+
+library(tidyverse)
+
+
+fda2pi20_gather <- fda2pi20 %>%
+  gather (Alive_Cell_Count, Dead_Cell_Count, -ImageNumber)%>%
+  rename(Count_type = Alive_Cell_Count, Pollen_Count = Dead_Cell_Count)
+
+fda2pi20_pbs_gather <- fda2pi20_pbs %>%
+  gather (Alive_Cell_Count, Dead_Cell_Count, -Image_Number)%>%
+  rename(Count_type = Alive_Cell_Count, Pollen_Count = Dead_Cell_Count)
+
+
+```
+
+## Effect of PBS on pollen viability
+
+I'm sorry these are only preliminary data. PBS strongly decreased pollen viability. Note that our software is able to consider diffent features to distinguish between dead and viable (and shrunken) pollen grains.
+
+```{r pressure, echo=FALSE}
+library(ggplot2)
+hist_plot <- ggplot(fda2pi20_gather, aes(x = Count_type, y = Pollen_Count, fill = Count_type, colour = Count_type))
+
+
+hist_plot + geom_bar(stat = "identity", size = 1, na.rm = TRUE, width = 0.5) + theme_classic() +
+  labs(title =  'Without PBS', 
+       x = 'Category',
+       y = 'Counts')
+
+
+hist_plot <- ggplot(fda2pi20_pbs_gather, aes(x = Count_type, y = Pollen_Count, fill = Count_type, colour = Count_type))
+
+
+hist_plot + geom_bar(stat = "identity", size = 1, na.rm = TRUE, width = 0.5) + theme_classic() +
+  labs(title =  'With PBS', 
+       x = 'Category',
+       y = 'Counts')
+```
+
+Lorenzo Ascari PhD
