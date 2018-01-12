@@ -1,5 +1,5 @@
 <center><h1>Università degli Studi di Torino</h1>
-<p>March 27-30, 2017</p>
+<p>January 29-31, 2018</p>
 <p>9:00 - 18:00</p>
 </center>
 
@@ -23,25 +23,25 @@ We will cover  the follow topics:
 
 - Day1
 
-	-  [Reproducible research](https://github.com/mchiapello/2017_PhD_Toolbox_course/raw/master/Presentations/Day1/RR_theory.pdf)
+	-  [Reproducible research](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/raw/master/Presentations/Day1/RR_theory.pdf)
 
-	-  [UNIX](https://github.com/mchiapello/2017_PhD_Toolbox_course/raw/master/Presentations/Day1/1.Ghignone.Unito.2017-unix.pdf)
+	-  [UNIX](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/raw/master/Presentations/Day1/1.Ghignone.Unito.2017-unix.pdf)
 
 - Day2
 
-	-  [Introduction to R and R data.frames](https://github.com/mchiapello/2017_PhD_Toolbox_course/raw/master/Presentations/Day2/R_intro.pdf)
+	-  [Introduction to R and R data.frames](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/raw/master/Presentations/Day2/R_intro.pdf)
 
 - Day3
 
-	-  [Aggregating and analyzing data with dplyr](https://github.com/mchiapello/2017_PhD_Toolbox_course/raw/master/Presentations/Day3/R_dplyr.pdf)
+	-  [Aggregating and analyzing data with dplyr](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/raw/master/Presentations/Day3/R_dplyr.pdf)
 
-	-  [Data visualization with ggplot2](https://github.com/mchiapello/2017_PhD_Toolbox_course/raw/master/Presentations/Day3/R_ggplot2.pdf)
+	-  [Data visualization with ggplot2](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/raw/master/Presentations/Day3/R_ggplot2.pdf)
 
 - Day4
 
-	-  [Reproducible·research·with·R](https://github.com/mchiapello/2017_PhD_Toolbox_course/raw/master/Presentations/Day4/reproducibleResearch/RR_practical.pdf)
+	-  [Reproducible·research·with·R](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/raw/master/Presentations/Day4/reproducibleResearch/RR_practical.pdf)
 
-	-  [Version control](https://gitpitch.com/mchiapello/2017_PhD_Toolbox_course/master?grs=github&t=white&p=Presentations%2FDay4%2FversionControl%2F)
+	-  [Version control](https://gitpitch.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/master?grs=github&t=white&p=Presentations%2FDay4%2FversionControl%2F)
 
 
 ### Open-source
@@ -50,7 +50,7 @@ We will only use open-source software and all the course's slides and materials 
 
 ### Wiki page
 
-On GitHub there is a [WIKI page](https://github.com/mchiapello/2017_PhD_Toolbox_course/wiki) with specific information for each day.
+On GitHub there is a [WIKI page](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/wiki) with specific information for each day.
 
 On the WIKI page you can also find useful links and extra contents.
 
@@ -68,6 +68,6 @@ However, if you want to use your own laptop, you will need working copies of the
 
 <center><h2><p>Questions and interaction</p></h2></center>
 
-We will use [Etherpad](https://public.etherpad-mozilla.org/p/PhD_Toolbox_2017) for chatting, taking notes, and sharing URLs and bits of code.
+We will use [Etherpad](https://public.etherpad-mozilla.org/p/PhD_Toolbox_2018) for chatting, taking notes, and sharing URLs and bits of code.
 
 We will use **sticky notes** to assess the completion of the exercises or for asking questions. Sticky notes will be also used to evaluate each chunk of the course. This is a good way for the teachers to improve and help the students.
