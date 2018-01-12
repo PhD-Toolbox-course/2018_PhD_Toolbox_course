@@ -1,8 +1,8 @@
-# PhD Toolbox 2017
+# PhD Toolbox 2018
 
 ### BASIC MODULE: Unix, R and reproducible research - 5 credits
 
-27-30 March 2017
+29-31 January 2018
 
 ----
 
@@ -19,22 +19,18 @@
    -  Day2
 	   - 9-12:30: 		R introduction
 	   - 12:30-13:30: 	Lunch break
-	   - 13:30-18: 		R data.frames
+	   - 13:30-18: 		R data.frames and tidyverse
 
 
    - Day3
-	   - 9-12:30: 		Aggregating and analyzing data with dplyr
+	   - 9-12:30: 		Data visualization with ggplot2
 	   - 12:30-13:30: 	Lunch break
-	   - 13:30-18: 		Data visualization with ggplot2
+	   - 13:30-18: 		Reproducible research
 
-
-   - Day4
-	   - 10:30-12:30: 	Reproducible research
-	   - 12:30-14:30: 	Introduction to version control
 
 ----
 
-Etherpad for the course: https://public.etherpad-mozilla.org/p/PhD_Toolbox_2017
+Etherpad for the course: https://public.etherpad-mozilla.org/p/PhD_Toolbox_2018
 
 ----
 
