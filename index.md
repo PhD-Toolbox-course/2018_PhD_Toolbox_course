@@ -31,16 +31,15 @@ We will cover  the follow topics:
 
 	-  [Introduction to R and R data.frames](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/raw/master/Presentations/Day2/R_intro.pdf)
 
-- Day3
-
 	-  [Aggregating and analyzing data with dplyr](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/raw/master/Presentations/Day3/R_dplyr.pdf)
+
+- Day3
 
 	-  [Data visualization with ggplot2](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/raw/master/Presentations/Day3/R_ggplot2.pdf)
 
-- Day4
-
 	-  [Reproducible·research·with·R](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/raw/master/Presentations/Day4/reproducibleResearch/RR_practical.pdf)
 
+- Optional
 	-  [Version control](https://gitpitch.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/master?grs=github&t=white&p=Presentations%2FDay4%2FversionControl%2F)
 
 
