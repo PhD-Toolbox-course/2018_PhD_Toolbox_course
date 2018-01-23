@@ -27,6 +27,8 @@
 	   - 12:30-13:30: 	Lunch break
 	   - 13:30-18: 		Reproducible research
 	   
+	   
+> Optional material: Version Control [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/mchiapello/2017_PhD_Toolbox_course/master?grs=github&t=white&p=Presentations%2FDay4%2FversionControl%2F)
 
 ----
 
