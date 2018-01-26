@@ -10,22 +10,17 @@
 
 
    - Day1 
-	   - 9-11: 		Course introduction
-	   - 11-12:30: 		UNIX
-	   - 12:30-13:30: 	Lunch break
-	   - 13:30-18: 		UNIX
-
+	   - 8-9:30 		Course introduction
+	   - 9:30-14 		UNIX
 
    -  Day2
-	   - 9-12:30: 		R introduction
-	   - 12:30-13:30: 	Lunch break
-	   - 13:30-18: 		R data.frames and tidyverse
+	   - 10-14 		R introduction / R data.frames and tidyverse
 
 
    - Day3
-	   - 9-12:30: 		Data visualization with ggplot2
-	   - 12:30-13:30: 	Lunch break
-	   - 13:30-18: 		Reproducible research
+	   - 9-12:30 		Data visualization with ggplot2
+	   - 12:30-13:30 	Lunch break
+	   - 13:30-18 		Reproducible research
 	   
 	   
 > Optional material: Version Control [![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/mchiapello/2017_PhD_Toolbox_course/master?grs=github&t=white&p=Presentations%2FDay4%2FversionControl%2F)
