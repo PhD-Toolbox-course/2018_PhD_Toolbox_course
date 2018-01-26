@@ -1,7 +1,5 @@
 <center><h1>Università degli Studi di Torino</h1>
 <p>January 29-31, 2018</p>
-<p>9:00 - 18:00</p>
-<p>(the time schedule also depends on classroom availability)</p>
 </center>
 
 ---
