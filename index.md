@@ -66,14 +66,14 @@ However, if you want to use your own laptop, you will need working copies of the
 
 <center><h2><p>Questions and interaction</p></h2></center>
 
-We will use [Etherpad](https://public.etherpad-mozilla.org/p/PhD_Toolbox_2018) for chatting, taking notes, and sharing URLs and bits of code.
+1. We will use [Etherpad](https://public.etherpad-mozilla.org/p/PhD_Toolbox_2018) for chatting, taking notes, and sharing URLs and bits of code.
 
-You have to create an account on GitHub:
-1. Go [here](https://github.com)
-1. Create a profile
-1. Write on the etherpad your name and your GitHub username
-1. The teacher will add you to the Student_2018 team!
-1. You will receive a confirmation email
-1. Click on the link in the email to see the conversation
+1.You have to create an account on GitHub:
+  1. Go [here](https://github.com)
+  1. Create a profile
+  1. Write on the etherpad your name and your GitHub username
+  1. The teacher will add you to the Student_2018 team!
+  1. You will receive a confirmation email
+  1. Click on the link in the email to see the conversation
 
-We will use **sticky notes** to assess the completion of the exercises or for asking questions. Sticky notes will be also used to evaluate each chunk of the course. This is a good way for the teachers to improve and help the students.
+1. We will use **sticky notes** to assess the completion of the exercises or for asking questions. Sticky notes will be also used to evaluate each chunk of the course. This is a good way for the teachers to improve and help the students.
