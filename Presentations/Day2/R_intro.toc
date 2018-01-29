@@ -1,5 +1,0 @@
-\beamer@sectionintoc {1}{Introduction}{4}{0}{1}
-\beamer@sectionintoc {2}{Basic concepts in R}{20}{0}{2}
-\beamer@subsectionintoc {2}{1}{Vector}{34}{0}{2}
-\beamer@subsectionintoc {2}{2}{R packages}{74}{0}{2}
-\beamer@subsectionintoc {2}{3}{Data structures}{82}{0}{2}

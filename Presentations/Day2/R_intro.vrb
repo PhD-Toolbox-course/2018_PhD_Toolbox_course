@@ -1,7 +1,0 @@
-\frametitle{Practical}
-	\centering \LARGE Exercise
-	\begin{itemize}
-		\item install.packages("swirl")
-		\item library("swirl")
-		\item swirl()
-	\end{itemize}
