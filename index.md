@@ -36,7 +36,7 @@ We will cover  the follow topics:
 
 	-  [Data visualization with ggplot2](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/raw/master/Presentations/Day3/R_ggplot2.pdf)
 
-	-  [Reproducible research with R](https://github.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/raw/master/Presentations/Day4/reproducibleResearch/RR_practical.pdf)
+	-  [Reproducible research with R](https://github.com/PhD-Toolbox-course/2017_PhD_Toolbox_course/raw/master/Presentations/Day4/reproducibleResearch/RR_practical.pdf)
 
 - Optional
 	-  [Version control](https://gitpitch.com/PhD-Toolbox-course/2018_PhD_Toolbox_course/master?grs=github&t=white&p=Presentations%2FDay4%2FversionControl%2F)
