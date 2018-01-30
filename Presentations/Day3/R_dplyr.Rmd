@@ -2,7 +2,7 @@
 title: "Manipulating data with dplyr"
 author: "Marco Chiapello, PhD"
 subtitle: "Based on R-ecology lesson - Data carpentry"
-date: "March 29, 2017"
+date: "January 31, 2018"
 output: 
   beamer_presentation:
     toc: true
